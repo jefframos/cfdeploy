@@ -1,0 +1,149 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "bomb.ogg",
+          "srcs": [
+            "bomb.mp3",
+            "bomb.ogg"
+          ]
+        },
+        {
+          "name": "Choral-Long-Ah-Major-Chord-01.m4a",
+          "srcs": [
+            "Choral-Long-Ah-Major-Chord-01.m4a"
+          ]
+        },
+        {
+          "name": "Fart.wav",
+          "srcs": [
+            "Fart.mp3",
+            "Fart.ogg"
+          ]
+        },
+        {
+          "name": "Fire-Burst-Large-01.m4a",
+          "srcs": [
+            "Fire-Burst-Large-01.m4a"
+          ]
+        },
+        {
+          "name": "Fire-Burst-Small-01.m4a",
+          "srcs": [
+            "Fire-Burst-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "Float.wav",
+          "srcs": [
+            "Float.mp3",
+            "Float.ogg"
+          ]
+        },
+        {
+          "name": "Hover.wav",
+          "srcs": [
+            "Hover.mp3",
+            "Hover.ogg"
+          ]
+        },
+        {
+          "name": "Notification-02.wav",
+          "srcs": [
+            "Notification-02.mp3",
+            "Notification-02.ogg"
+          ]
+        },
+        {
+          "name": "Sad-Trombone.wav",
+          "srcs": [
+            "Sad-Trombone.mp3",
+            "Sad-Trombone.ogg"
+          ]
+        },
+        {
+          "name": "Synth-Appear-01.m4a",
+          "srcs": [
+            "Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "Tap-01.wav",
+          "srcs": [
+            "Tap-01.mp3",
+            "Tap-01.ogg"
+          ]
+        },
+        {
+          "name": "template/Appear.m4a",
+          "srcs": [
+            "template/Appear.m4a"
+          ]
+        },
+        {
+          "name": "template/Bubbles.wav",
+          "srcs": [
+            "template/Bubbles.mp3",
+            "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Hover.wav",
+          "srcs": [
+            "template/Hover.mp3",
+            "template/Hover.ogg"
+          ]
+        },
+        {
+          "name": "template/Pitched-Tapping-Glass.wav",
+          "srcs": [
+            "template/Pitched-Tapping-Glass.mp3",
+            "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Tap-01.wav",
+          "srcs": [
+            "template/Tap-01.mp3",
+            "template/Tap-01.ogg"
+          ]
+        },
+        {
+          "name": "template/Tap.wav",
+          "srcs": [
+            "template/Tap.mp3",
+            "template/Tap.ogg"
+          ]
+        },
+        {
+          "name": "template/Whoosh.wav",
+          "srcs": [
+            "template/Whoosh.mp3",
+            "template/Whoosh.ogg"
+          ]
+        },
+        {
+          "name": "Waves-Breaking-Distant-Seagulls-Loop-01.m4a",
+          "srcs": [
+            "Waves-Breaking-Distant-Seagulls-Loop-01.m4a"
+          ]
+        },
+        {
+          "name": "Whoosh.wav",
+          "srcs": [
+            "Whoosh.mp3",
+            "Whoosh.ogg"
+          ]
+        }
+      ]
+    }
+  ]
+}

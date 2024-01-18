@@ -1,0 +1,93 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "Game1_output.json",
+          "srcs": [
+            "Game1_output.json"
+          ]
+        },
+        {
+          "name": "Game2_output.json",
+          "srcs": [
+            "Game2_output.json"
+          ]
+        },
+        {
+          "name": "localization/localization_CS.json",
+          "srcs": [
+            "localization/localization_CS.json"
+          ]
+        },
+        {
+          "name": "localization/localization_DE.json",
+          "srcs": [
+            "localization/localization_DE.json"
+          ]
+        },
+        {
+          "name": "localization/localization_EN.json",
+          "srcs": [
+            "localization/localization_EN.json"
+          ]
+        },
+        {
+          "name": "localization/localization_ES.json",
+          "srcs": [
+            "localization/localization_ES.json"
+          ]
+        },
+        {
+          "name": "localization/localization_FR.json",
+          "srcs": [
+            "localization/localization_FR.json"
+          ]
+        },
+        {
+          "name": "localization/localization_IT.json",
+          "srcs": [
+            "localization/localization_IT.json"
+          ]
+        },
+        {
+          "name": "localization/localization_JA.json",
+          "srcs": [
+            "localization/localization_JA.json"
+          ]
+        },
+        {
+          "name": "localization/localization_KO.json",
+          "srcs": [
+            "localization/localization_KO.json"
+          ]
+        },
+        {
+          "name": "localization/localization_PT-BR.json",
+          "srcs": [
+            "localization/localization_PT-BR.json"
+          ]
+        },
+        {
+          "name": "localization/localization_RU.json",
+          "srcs": [
+            "localization/localization_RU.json"
+          ]
+        },
+        {
+          "name": "localization/localization_ZH-CN.json",
+          "srcs": [
+            "localization/localization_ZH-CN.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/characters/characters.json",
+          "srcs": [
+            "game/characters/characters@1x.json",
+            "game/characters/characters@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "a": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/chest/chest.json",
+          "srcs": [
+            "game/chest/chest@1x.json",
+            "game/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/Island/Island.json",
+          "srcs": [
+            "game/Island/Island@1x.json",
+            "game/Island/Island@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "a": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/sweeper/sweeper.json",
+          "srcs": [
+            "game/sweeper/sweeper@1x.json",
+            "game/sweeper/sweeper@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
