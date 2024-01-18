@@ -10,6 +10,12 @@
           ]
         },
         {
+          "name": "commit-hash.json",
+          "srcs": [
+            "commit-hash.json"
+          ]
+        },
+        {
           "name": "Game1_output.json",
           "srcs": [
             "Game1_output.json"
