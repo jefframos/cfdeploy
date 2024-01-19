@@ -48,6 +48,20 @@
           }
         },
         {
+          "name": "game/Island/Island.json",
+          "srcs": [
+            "game/Island/Island@1x.json",
+            "game/Island/Island@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "a": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/sweeper/sweeper.json",
           "srcs": [
             "game/sweeper/sweeper@1x.json",
