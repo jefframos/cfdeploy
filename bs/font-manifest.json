@@ -30,17 +30,6 @@
               "wf": true
             }
           }
-        },
-        {
-          "name": "webfonts/RubikBubbles-Regular.ttf",
-          "srcs": [
-            "webfonts/RubikBubbles-Regular.woff2"
-          ],
-          "data": {
-            "tags": {
-              "wf": true
-            }
-          }
         }
       ]
     }

@@ -1,0 +1,109 @@
+body {
+  font-family: 'poppins-bold';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  background-color: #1a1a1a;
+}
+
+.table-title {
+  background-color: rgb(0, 0, 0);
+  padding-left: 20px;
+}
+
+.table-container {
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+td {
+  padding: 10px;
+  width: 50%;
+}
+
+h2 {
+  width: 80%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.empty-space {
+  width: 80%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.tiled-image {
+  width: 80%;
+  background-size: auto;
+  background-repeat: repeat;
+  animation: moveTiledBackground 5s linear infinite;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Centered text styling */
+.centered-text {
+  font-size: 48px;
+}
+
+@keyframes moveTiledBackground {
+  from {
+    background-position: 0 0;
+    /* Initial background position */
+  }
+
+  to {
+    background-position: 66px 66px;
+    /* Move background position by 1 pixel */
+  }
+}
+
+/* Flex container styling */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex item styling */
+.flex-item {
+  vertical-align: middle;
+  margin: 10px;
+}
+
+/* Image styling */
+.flex-item img {
+  height: auto;
+  /* Ensure the image height adjusts based on its content */
+  max-height: 100%;
+  /* Set a maximum height to prevent the image from exceeding its container */
+  align-self: center;
+  /* Vertically center the image within its flex container */
+}
+
+.align-center img {
+  text-align: center;
+}
+
+.align-left img {
+  text-align: left;
+}
+
+.align-right img {
+  text-align: right;
+}
