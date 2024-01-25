@@ -4,6 +4,18 @@
       "name": "default",
       "assets": [
         {
+          "name": "bitmap/poppins-gold.png",
+          "srcs": [
+            "bitmap/poppins-gold.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-gold.xml",
+          "srcs": [
+            "bitmap/poppins-gold.xml"
+          ]
+        },
+        {
           "name": "styles.css",
           "srcs": [
             "styles.css"
