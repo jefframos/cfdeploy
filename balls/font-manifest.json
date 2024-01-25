@@ -1,0 +1,37 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "styles.css",
+          "srcs": [
+            "styles.css"
+          ]
+        },
+        {
+          "name": "webfonts/Poppins-Bold.ttf",
+          "srcs": [
+            "webfonts/Poppins-Bold.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        },
+        {
+          "name": "webfonts/Poppins-Regular.ttf",
+          "srcs": [
+            "webfonts/Poppins-Regular.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

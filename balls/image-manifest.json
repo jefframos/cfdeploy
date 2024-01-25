@@ -1,0 +1,77 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "ui/ui.json",
+          "srcs": [
+            "ui/ui@1x.json",
+            "ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/backing_assets/backing_assets.json",
+          "srcs": [
+            "game/backing_assets/backing_assets@1x.json",
+            "game/backing_assets/backing_assets@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/cats/cats.json",
+          "srcs": [
+            "game/cats/cats@1x.json",
+            "game/cats/cats@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/countdown/countdown.json",
+          "srcs": [
+            "game/countdown/countdown@1x.json",
+            "game/countdown/countdown@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "Hover.wav",
+          "srcs": [
+            "Hover.mp3",
+            "Hover.ogg"
+          ]
+        },
+        {
+          "name": "Notification-02.wav",
+          "srcs": [
+            "Notification-02.mp3",
+            "Notification-02.ogg"
+          ]
+        },
+        {
+          "name": "pop-1.mp3",
+          "srcs": [
+            "pop-1.mp3",
+            "pop-1.ogg"
+          ]
+        },
+        {
+          "name": "Synth-Appear-01.m4a",
+          "srcs": [
+            "Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "Tap-01.wav",
+          "srcs": [
+            "Tap-01.mp3",
+            "Tap-01.ogg"
+          ]
+        },
+        {
+          "name": "template/Appear.m4a",
+          "srcs": [
+            "template/Appear.m4a"
+          ]
+        },
+        {
+          "name": "template/Bubbles.wav",
+          "srcs": [
+            "template/Bubbles.mp3",
+            "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Hover.wav",
+          "srcs": [
+            "template/Hover.mp3",
+            "template/Hover.ogg"
+          ]
+        },
+        {
+          "name": "template/Pitched-Tapping-Glass.wav",
+          "srcs": [
+            "template/Pitched-Tapping-Glass.mp3",
+            "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Tap.wav",
+          "srcs": [
+            "template/Tap.mp3",
+            "template/Tap.ogg"
+          ]
+        },
+        {
+          "name": "template/Whoosh.wav",
+          "srcs": [
+            "template/Whoosh.mp3",
+            "template/Whoosh.ogg"
+          ]
+        }
+      ]
+    }
+  ]
+}

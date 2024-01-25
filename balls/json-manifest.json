@@ -1,0 +1,27 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "ballsData.json",
+          "srcs": [
+            "ballsData.json"
+          ]
+        },
+        {
+          "name": "commit-hash.json",
+          "srcs": [
+            "commit-hash.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
