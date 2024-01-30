@@ -4,10 +4,31 @@
       "name": "default",
       "assets": [
         {
-          "name": "bomb.ogg",
+          "name": "Cannon 1.mp3",
           "srcs": [
-            "bomb.mp3",
-            "bomb.ogg"
+            "Cannon 1.mp3",
+            "Cannon 1.ogg"
+          ]
+        },
+        {
+          "name": "Cannon 2.mp3",
+          "srcs": [
+            "Cannon 2.mp3",
+            "Cannon 2.ogg"
+          ]
+        },
+        {
+          "name": "Cannon 3.mp3",
+          "srcs": [
+            "Cannon 3.mp3",
+            "Cannon 3.ogg"
+          ]
+        },
+        {
+          "name": "checkbox interface.wav",
+          "srcs": [
+            "checkbox interface.mp3",
+            "checkbox interface.ogg"
           ]
         },
         {
@@ -71,6 +92,13 @@
           ]
         },
         {
+          "name": "Small Success.mp3",
+          "srcs": [
+            "Small Success.mp3",
+            "Small Success.ogg"
+          ]
+        },
+        {
           "name": "Synth-Appear-01.m4a",
           "srcs": [
             "Synth-Appear-01.m4a"
@@ -96,10 +124,45 @@
           ]
         },
         {
+          "name": "template/Applause Cheering.mp3",
+          "srcs": [
+            "template/Applause Cheering.mp3",
+            "template/Applause Cheering.ogg"
+          ]
+        },
+        {
           "name": "template/Bubbles.wav",
           "srcs": [
             "template/Bubbles.mp3",
             "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin1.wav",
+          "srcs": [
+            "template/Coin1.mp3",
+            "template/Coin1.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin2.mp3",
+          "srcs": [
+            "template/Coin2.mp3",
+            "template/Coin2.ogg"
+          ]
+        },
+        {
+          "name": "template/diamond-sparkle.mp3",
+          "srcs": [
+            "template/diamond-sparkle.mp3",
+            "template/diamond-sparkle.ogg"
+          ]
+        },
+        {
+          "name": "template/Game Negative SFX 3.mp3",
+          "srcs": [
+            "template/Game Negative SFX 3.mp3",
+            "template/Game Negative SFX 3.ogg"
           ]
         },
         {
@@ -110,10 +173,38 @@
           ]
         },
         {
+          "name": "template/Opening Chest 1.mp3",
+          "srcs": [
+            "template/Opening Chest 1.mp3",
+            "template/Opening Chest 1.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 2.mp3",
+          "srcs": [
+            "template/Opening Chest 2.mp3",
+            "template/Opening Chest 2.ogg"
+          ]
+        },
+        {
           "name": "template/Pitched-Tapping-Glass.wav",
           "srcs": [
             "template/Pitched-Tapping-Glass.mp3",
             "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Positive Open.wav",
+          "srcs": [
+            "template/Positive Open.mp3",
+            "template/Positive Open.ogg"
+          ]
+        },
+        {
+          "name": "template/ScoreUpdate.mp3",
+          "srcs": [
+            "template/ScoreUpdate.mp3",
+            "template/ScoreUpdate.ogg"
           ]
         },
         {
@@ -138,6 +229,13 @@
           ]
         },
         {
+          "name": "Victory.mp3",
+          "srcs": [
+            "Victory.mp3",
+            "Victory.ogg"
+          ]
+        },
+        {
           "name": "Waves-Breaking-Distant-Seagulls-Loop-01.m4a",
           "srcs": [
             "Waves-Breaking-Distant-Seagulls-Loop-01.m4a"
@@ -148,6 +246,13 @@
           "srcs": [
             "Whoosh.mp3",
             "Whoosh.ogg"
+          ]
+        },
+        {
+          "name": "Win Fanfare.mp3",
+          "srcs": [
+            "Win Fanfare.mp3",
+            "Win Fanfare.ogg"
           ]
         }
       ]
