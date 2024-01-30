@@ -43,6 +43,13 @@
           ]
         },
         {
+          "name": "Hit Alert.wav",
+          "srcs": [
+            "Hit Alert.mp3",
+            "Hit Alert.ogg"
+          ]
+        },
+        {
           "name": "Hover.wav",
           "srcs": [
             "Hover.mp3",
