@@ -99,6 +99,13 @@
           ]
         },
         {
+          "name": "Splash3.mp3",
+          "srcs": [
+            "Splash3.mp3",
+            "Splash3.ogg"
+          ]
+        },
+        {
           "name": "Synth-Appear-01.m4a",
           "srcs": [
             "Synth-Appear-01.m4a"
