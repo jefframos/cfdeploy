@@ -261,6 +261,13 @@
           ]
         },
         {
+          "name": "WildKittyTunes.mp3",
+          "srcs": [
+            "WildKittyTunes.mp3",
+            "WildKittyTunes.ogg"
+          ]
+        },
+        {
           "name": "Win Fanfare.mp3",
           "srcs": [
             "Win Fanfare.mp3",
