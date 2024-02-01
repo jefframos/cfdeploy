@@ -12,17 +12,42 @@
 	
 	
 
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="./favicon-48x48.png">
-<link rel="icon" type="image/png" sizes="64x64" href="./favicon-64x64.png">
-<link rel="icon" type="image/png" sizes="128x128" href="./favicon-128x128.png">
-<link rel="icon" type="image/png" sizes="256x256" href="./favicon-256x256.png">  <script type="module" crossorigin src="./assets/index.17bf5433.js"></script>
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="./favicon-48x48.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="./favicon-64x64.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="./favicon-128x128.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="./favicon-256x256.png">
+
+	<style>
+		#app {
+			position: relative;
+		}
+
+		#overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #1a1a1a;
+			/*Semi-transparent black*/
+			display: none;
+			flex-direction: column;
+			align-content: center;
+			align-items: center;
+			z-index: 99999999;
+			/* Ensure it's on top of the game */
+		}
+	</style>
+
+  <script type="module" crossorigin src="./assets/index.d23e2de6.js"></script>
   <link rel="stylesheet" href="./assets/index.910ead66.css">
 </head>
 
 <body style="margin:0;padding:0">
 	<div id="app"></div>
+	<div id="overlay"></div>
 	
 </body>
 

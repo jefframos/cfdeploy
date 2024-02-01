@@ -1,0 +1,184 @@
+[
+  {
+    "type": "title",
+    "text": "Title Title",
+    "spaceAfter": 20
+  },
+  {
+    "type": "emptySpace",
+    "height": 50,
+    "backgroundColor": "#f0f0f0"
+  },
+  {
+    "type": "tiledImage",
+    "src": "images/pattern.png",
+    "height": 200,
+    "backgroundColor": "#000",
+    "centeredContent": {
+      "text": "Title Title",
+      "src": "images/button_barrage_default.png",
+      "alt": "Centered Image",
+      "imageHeight": 100,
+      "textColor": "#ff0000"
+    }
+  },
+  {
+    "type": "title",
+    "text": "Subtitle",
+    "titleType": "h2",
+    "spaceAfter": 20
+  },
+  {
+    "type": "image",
+    "src": "images/button_barrage_default.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 150,
+    "spaceAfter": 20
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "This is some text with an "
+      },
+      {
+        "type": "icon",
+        "src": "images/button_marker_default.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "icon",
+        "src": "images/safe_marker.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "text",
+        "value": " in the middle."
+      },
+      {
+        "type": "image",
+        "src": "images/button_barrage_default.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "image",
+        "src": "images/button_barrage_default.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "image",
+        "src": "images/button_spy_default.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "image",
+        "src": "images/button_wind_default.png",
+        "imageHeight": 50
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Safe marker",
+        "image": "images/button_marker_default.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "textHorizontalAlign": "left",
+        "imageHorizontalAlign": "right"
+      },
+      {
+        "text": "Canon ball",
+        "image": "images/button_canonball_default.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "textHorizontalAlign": "left",
+        "imageHorizontalAlign": "right"
+      }
+    ],
+    "tableTitle": "Actions"
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Click this "
+      },
+      {
+        "type": "icon",
+        "src": "images/toggle_arrows.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "text",
+        "value": "to change the main action"
+      },
+      {
+        "type": "icon",
+        "src": "images/button_marker_default.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "icon",
+        "src": "images/button_canonball_default.png",
+        "imageHeight": 50
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Tis is the cross power up",
+        "image": "images/button_barrage_default.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Tis is the spy power up",
+        "image": "images/button_spy_default.png",
+        "maxImageHeight": 80,
+        "imagePosition": "right",
+        "imageHorizontalAlign": "left",
+        "textHorizontalAlign": "right",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Tis is the wind power up",
+        "image": "images/button_wind_default.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "Power-ups",
+    "spaceAfter": 50
+  },
+  {
+    "type": "title",
+    "text": "Prizes"
+  },
+  {
+    "type": "title",
+    "text": "This give you prizes",
+    "titleType": "h2",
+    "spaceAfter": 20
+  },
+  {
+    "type": "image",
+    "src": "images/treasure_island.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 150,
+    "spaceAfter": 20
+  }
+]

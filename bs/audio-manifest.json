@@ -208,6 +208,18 @@
           ]
         },
         {
+          "name": "template/Synth-Appear-01.m4a",
+          "srcs": [
+            "template/Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "template/Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
           "name": "template/Tap-01.wav",
           "srcs": [
             "template/Tap-01.mp3",
