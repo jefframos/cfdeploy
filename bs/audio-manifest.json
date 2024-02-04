@@ -57,13 +57,6 @@
           ]
         },
         {
-          "name": "Float.wav",
-          "srcs": [
-            "Float.mp3",
-            "Float.ogg"
-          ]
-        },
-        {
           "name": "Hit Alert.wav",
           "srcs": [
             "Hit Alert.mp3",

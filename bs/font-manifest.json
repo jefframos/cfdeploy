@@ -28,6 +28,18 @@
           ]
         },
         {
+          "name": "bitmap/poppins-golda.png",
+          "srcs": [
+            "bitmap/poppins-golda.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-golda.xml",
+          "srcs": [
+            "bitmap/poppins-golda.xml"
+          ]
+        },
+        {
           "name": "styles.css",
           "srcs": [
             "styles.css"
