@@ -1,81 +1,95 @@
 [
   {
-    "type": "title",
-    "text": "Title Title",
-    "spaceAfter": 20
-  },
-  {
     "type": "emptySpace",
     "height": 50,
-    "backgroundColor": "#f0f0f0"
+    "backgroundColor": "transparent"
   },
   {
     "type": "tiledImage",
     "src": "images/pattern.png",
-    "height": 200,
+    "height": 250,
     "backgroundColor": "#000",
     "centeredContent": {
-      "text": "Title Title",
-      "src": "images/button_barrage_default.png",
-      "alt": "Centered Image",
-      "imageHeight": 100,
-      "textColor": "#ff0000"
+      "src": "images/logo.png",
+      "imageHeight": 250,
+      "textColor": "#f0f0f0"
     }
   },
   {
     "type": "title",
-    "text": "Subtitle",
+    "text": "Gameplay",
     "titleType": "h2",
-    "spaceAfter": 20
-  },
-  {
-    "type": "image",
-    "src": "images/button_barrage_default.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 150,
     "spaceAfter": 20
   },
   {
     "type": "flexContainer",
     "content": [
       {
-        "type": "text",
-        "value": "This is some text with an "
-      },
-      {
         "type": "icon",
-        "src": "images/button_marker_default.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/safe_marker.png",
+        "src": "images/pirateship_r.png",
         "imageHeight": 50
       },
       {
         "type": "text",
-        "value": " in the middle."
-      },
+        "value": "Sink all the pirate ships by shooting squares on the board with the cannon"
+      }
+    ]
+  },
+  {
+    "type": "emptySpace",
+    "height": 20,
+    "backgroundColor": "transparent"
+  },
+  {
+    "type": "flexContainer",
+    "content": [
       {
-        "type": "image",
-        "src": "images/button_barrage_default.png",
+        "type": "icon",
+        "src": "images/Peg_1.png",
         "imageHeight": 50
       },
       {
-        "type": "image",
-        "src": "images/button_barrage_default.png",
+        "type": "icon",
+        "src": "images/Peg_2.png",
         "imageHeight": 50
       },
       {
-        "type": "image",
-        "src": "images/button_spy_default.png",
+        "type": "icon",
+        "src": "images/Peg_3.png",
         "imageHeight": 50
       },
       {
-        "type": "image",
-        "src": "images/button_wind_default.png",
+        "type": "text",
+        "value": "The numbers at the top and sides tall you how many ships are in that column/row"
+      }
+    ]
+  },
+  {
+    "type": "emptySpace",
+    "height": 20,
+    "backgroundColor": "transparent"
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "icon",
+        "src": "images/Peg_1.png",
         "imageHeight": 50
+      },
+      {
+        "type": "icon",
+        "src": "images/Peg_2.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "icon",
+        "src": "images/Peg_3.png",
+        "imageHeight": 50
+      },
+      {
+        "type": "text",
+        "value": "The numbers on the board tell you how many Pirate Ships are next to them"
       }
     ]
   },
@@ -83,7 +97,7 @@
     "type": "table",
     "entries": [
       {
-        "text": "Safe marker",
+        "text": "Safe marker lets you block a square on the grid",
         "image": "images/button_marker_default.png",
         "maxImageHeight": 80,
         "imagePosition": "left",
@@ -91,49 +105,7 @@
         "imageHorizontalAlign": "right"
       },
       {
-        "text": "Canon ball",
-        "image": "images/button_canonball_default.png",
-        "maxImageHeight": 80,
-        "imagePosition": "left",
-        "textHorizontalAlign": "left",
-        "imageHorizontalAlign": "right"
-      }
-    ],
-    "tableTitle": "Actions"
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "Click this "
-      },
-      {
-        "type": "icon",
-        "src": "images/toggle_arrows.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "text",
-        "value": "to change the main action"
-      },
-      {
-        "type": "icon",
-        "src": "images/button_marker_default.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/button_canonball_default.png",
-        "imageHeight": 50
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "entries": [
-      {
-        "text": "Tis is the cross power up",
+        "text": "The barage will blow up ships in the row and column it is used on",
         "image": "images/button_barrage_default.png",
         "maxImageHeight": 80,
         "imagePosition": "left",
@@ -142,16 +114,16 @@
         "textVerticalAlign": "middle"
       },
       {
-        "text": "Tis is the spy power up",
+        "text": "The spyglass reveals 5 random tiles without ships",
         "image": "images/button_spy_default.png",
         "maxImageHeight": 80,
-        "imagePosition": "right",
-        "imageHorizontalAlign": "left",
-        "textHorizontalAlign": "right",
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
         "textVerticalAlign": "middle"
       },
       {
-        "text": "Tis is the wind power up",
+        "text": "Wind will blow away all the clouds in a 3x3 area",
         "image": "images/button_wind_default.png",
         "maxImageHeight": 80,
         "imagePosition": "left",
@@ -162,23 +134,5 @@
     ],
     "tableTitle": "Power-ups",
     "spaceAfter": 50
-  },
-  {
-    "type": "title",
-    "text": "Prizes"
-  },
-  {
-    "type": "title",
-    "text": "This give you prizes",
-    "titleType": "h2",
-    "spaceAfter": 20
-  },
-  {
-    "type": "image",
-    "src": "images/treasure_island.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 150,
-    "spaceAfter": 20
   }
 ]
