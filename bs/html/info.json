@@ -16,82 +16,38 @@
     }
   },
   {
-    "type": "title",
-    "text": "Gameplay",
-    "titleType": "h2",
-    "spaceAfter": 20
-  },
-  {
-    "type": "flexContainer",
-    "content": [
+    "type": "table",
+    "entries": [
       {
-        "type": "icon",
-        "src": "images/pirateship_r.png",
-        "imageHeight": 50
+        "text": "Sink all the pirate ships by shooting squares on the board with the cannon",
+        "image": "images/pirateship_r.png",
+        "maxImageWidth": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
       },
       {
-        "type": "text",
-        "value": "Sink all the pirate ships by shooting squares on the board with the cannon"
+        "text": "The numbers at the top and sides tall you how many ships are in that column/row",
+        "image": "images/numbers.png",
+        "maxImageWidth": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "The numbers on the board tell you how many Pirate Ships are next to them",
+        "image": "images/grid.png",
+        "maxImageWidth": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
       }
-    ]
-  },
-  {
-    "type": "emptySpace",
-    "height": 20,
-    "backgroundColor": "transparent"
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "icon",
-        "src": "images/Peg_1.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/Peg_2.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/Peg_3.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "text",
-        "value": "The numbers at the top and sides tall you how many ships are in that column/row"
-      }
-    ]
-  },
-  {
-    "type": "emptySpace",
-    "height": 20,
-    "backgroundColor": "transparent"
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "icon",
-        "src": "images/Peg_1.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/Peg_2.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "icon",
-        "src": "images/Peg_3.png",
-        "imageHeight": 50
-      },
-      {
-        "type": "text",
-        "value": "The numbers on the board tell you how many Pirate Ships are next to them"
-      }
-    ]
+    ],
+    "tableTitle": "Gameplay",
+    "spaceAfter": 50
   },
   {
     "type": "table",
@@ -99,15 +55,16 @@
       {
         "text": "Safe marker lets you block a square on the grid",
         "image": "images/button_marker_default.png",
-        "maxImageHeight": 80,
+        "maxImageWidth": 80,
         "imagePosition": "left",
         "textHorizontalAlign": "left",
-        "imageHorizontalAlign": "right"
+        "imageHorizontalAlign": "right",
+        "textVerticalAlign": "middle"
       },
       {
         "text": "The barage will blow up ships in the row and column it is used on",
         "image": "images/button_barrage_default.png",
-        "maxImageHeight": 80,
+        "maxImageWidth": 80,
         "imagePosition": "left",
         "imageHorizontalAlign": "right",
         "textHorizontalAlign": "left",
@@ -116,7 +73,7 @@
       {
         "text": "The spyglass reveals 5 random tiles without ships",
         "image": "images/button_spy_default.png",
-        "maxImageHeight": 80,
+        "maxImageWidth": 80,
         "imagePosition": "left",
         "imageHorizontalAlign": "right",
         "textHorizontalAlign": "left",
@@ -125,7 +82,7 @@
       {
         "text": "Wind will blow away all the clouds in a 3x3 area",
         "image": "images/button_wind_default.png",
-        "maxImageHeight": 80,
+        "maxImageWidth": 80,
         "imagePosition": "left",
         "imageHorizontalAlign": "right",
         "textHorizontalAlign": "left",
