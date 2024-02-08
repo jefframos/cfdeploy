@@ -4,6 +4,41 @@
       "name": "default",
       "assets": [
         {
+          "name": "Cafe Chill.mp3",
+          "srcs": [
+            "Cafe Chill.mp3",
+            "Cafe Chill.ogg"
+          ]
+        },
+        {
+          "name": "cat-meow-1.wav",
+          "srcs": [
+            "cat-meow-1.mp3",
+            "cat-meow-1.ogg"
+          ]
+        },
+        {
+          "name": "cat-meow-2.wav",
+          "srcs": [
+            "cat-meow-2.mp3",
+            "cat-meow-2.ogg"
+          ]
+        },
+        {
+          "name": "chest-open-big.wav",
+          "srcs": [
+            "chest-open-big.mp3",
+            "chest-open-big.ogg"
+          ]
+        },
+        {
+          "name": "chest-open-small.wav",
+          "srcs": [
+            "chest-open-small.mp3",
+            "chest-open-small.ogg"
+          ]
+        },
+        {
           "name": "Hover.wav",
           "srcs": [
             "Hover.mp3",
@@ -22,6 +57,13 @@
           "srcs": [
             "pop-1.mp3",
             "pop-1.ogg"
+          ]
+        },
+        {
+          "name": "Sparkle Collect.wav",
+          "srcs": [
+            "Sparkle Collect.mp3",
+            "Sparkle Collect.ogg"
           ]
         },
         {
@@ -50,10 +92,45 @@
           ]
         },
         {
+          "name": "template/Applause Cheering.mp3",
+          "srcs": [
+            "template/Applause Cheering.mp3",
+            "template/Applause Cheering.ogg"
+          ]
+        },
+        {
           "name": "template/Bubbles.wav",
           "srcs": [
             "template/Bubbles.mp3",
             "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin1.wav",
+          "srcs": [
+            "template/Coin1.mp3",
+            "template/Coin1.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin2.mp3",
+          "srcs": [
+            "template/Coin2.mp3",
+            "template/Coin2.ogg"
+          ]
+        },
+        {
+          "name": "template/diamond-sparkle.mp3",
+          "srcs": [
+            "template/diamond-sparkle.mp3",
+            "template/diamond-sparkle.ogg"
+          ]
+        },
+        {
+          "name": "template/Game Negative SFX 3.mp3",
+          "srcs": [
+            "template/Game Negative SFX 3.mp3",
+            "template/Game Negative SFX 3.ogg"
           ]
         },
         {
@@ -64,10 +141,50 @@
           ]
         },
         {
+          "name": "template/Opening Chest 1.mp3",
+          "srcs": [
+            "template/Opening Chest 1.mp3",
+            "template/Opening Chest 1.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 2.mp3",
+          "srcs": [
+            "template/Opening Chest 2.mp3",
+            "template/Opening Chest 2.ogg"
+          ]
+        },
+        {
           "name": "template/Pitched-Tapping-Glass.wav",
           "srcs": [
             "template/Pitched-Tapping-Glass.mp3",
             "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Positive Open.wav",
+          "srcs": [
+            "template/Positive Open.mp3",
+            "template/Positive Open.ogg"
+          ]
+        },
+        {
+          "name": "template/ScoreUpdate.mp3",
+          "srcs": [
+            "template/ScoreUpdate.mp3",
+            "template/ScoreUpdate.ogg"
+          ]
+        },
+        {
+          "name": "template/Synth-Appear-01.m4a",
+          "srcs": [
+            "template/Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "template/Synth-Whoosh-Small-01.m4a"
           ]
         },
         {

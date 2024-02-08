@@ -4,6 +4,54 @@
       "name": "default",
       "assets": [
         {
+          "name": "bitmap/CattoBodyText.png",
+          "srcs": [
+            "bitmap/CattoBodyText.png"
+          ]
+        },
+        {
+          "name": "bitmap/CattoBodyText.xml",
+          "srcs": [
+            "bitmap/CattoBodyText.xml"
+          ]
+        },
+        {
+          "name": "bitmap/cattoScore.png",
+          "srcs": [
+            "bitmap/cattoScore.png"
+          ]
+        },
+        {
+          "name": "bitmap/cattoScore.xml",
+          "srcs": [
+            "bitmap/cattoScore.xml"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-emerald.png",
+          "srcs": [
+            "bitmap/poppins-emerald.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-emerald.xml",
+          "srcs": [
+            "bitmap/poppins-emerald.xml"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-gold.png",
+          "srcs": [
+            "bitmap/poppins-gold.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-gold.xml",
+          "srcs": [
+            "bitmap/poppins-gold.xml"
+          ]
+        },
+        {
           "name": "styles.css",
           "srcs": [
             "styles.css"

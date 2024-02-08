@@ -20,6 +20,30 @@
           "srcs": [
             "commit-hash.json"
           ]
+        },
+        {
+          "name": "localization/localization_EN.json",
+          "srcs": [
+            "localization/localization_EN.json"
+          ]
+        },
+        {
+          "name": "localization/localization_ES.json",
+          "srcs": [
+            "localization/localization_ES.json"
+          ]
+        },
+        {
+          "name": "localization/localization_JA.json",
+          "srcs": [
+            "localization/localization_JA.json"
+          ]
+        },
+        {
+          "name": "localization/localization_PT-BR.json",
+          "srcs": [
+            "localization/localization_PT-BR.json"
+          ]
         }
       ]
     }

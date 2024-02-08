@@ -4,6 +4,18 @@
       "name": "default",
       "assets": [
         {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
           "name": "template/template.json",
           "srcs": [
             "template/template@1x.json",
@@ -46,10 +58,10 @@
           }
         },
         {
-          "name": "game/cats/cats.json",
+          "name": "game/balls/balls.json",
           "srcs": [
-            "game/cats/cats@1x.json",
-            "game/cats/cats@0.5x.json"
+            "game/balls/balls@1x.json",
+            "game/balls/balls@0.5x.json"
           ],
           "data": {
             "tags": {
@@ -63,6 +75,19 @@
           "srcs": [
             "game/countdown/countdown@1x.json",
             "game/countdown/countdown@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/particle/particle.json",
+          "srcs": [
+            "game/particle/particle@1x.json",
+            "game/particle/particle@0.5x.json"
           ],
           "data": {
             "tags": {
