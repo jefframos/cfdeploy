@@ -33,6 +33,19 @@
       "name": "game",
       "assets": [
         {
+          "name": "game/textures/textures.json",
+          "srcs": [
+            "game/textures/textures@1x.json",
+            "game/textures/textures@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/words/words.json",
           "srcs": [
             "game/words/words@1x.json",

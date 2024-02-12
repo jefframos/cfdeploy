@@ -2,7 +2,14 @@
   "bundles": [
     {
       "name": "default",
-      "assets": []
+      "assets": [
+        {
+          "name": "bundle.glsl.js",
+          "srcs": [
+            "bundle.glsl.js"
+          ]
+        }
+      ]
     }
   ]
 }
