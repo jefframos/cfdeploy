@@ -1,0 +1,77 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/adventure/adventure.json",
+          "srcs": [
+            "game/adventure/adventure@1x.json",
+            "game/adventure/adventure@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/textures/textures.json",
+          "srcs": [
+            "game/textures/textures@1x.json",
+            "game/textures/textures@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/words/words.json",
+          "srcs": [
+            "game/words/words@1x.json",
+            "game/words/words@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
