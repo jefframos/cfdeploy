@@ -46,6 +46,20 @@
           }
         },
         {
+          "name": "game/animations/animations.json",
+          "srcs": [
+            "game/animations/animations@1x.json",
+            "game/animations/animations@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "a": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/textures/textures.json",
           "srcs": [
             "game/textures/textures@1x.json",
