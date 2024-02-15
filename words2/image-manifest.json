@@ -60,6 +60,19 @@
           }
         },
         {
+          "name": "game/backgrounds/backgrounds.json",
+          "srcs": [
+            "game/backgrounds/backgrounds@1x.json",
+            "game/backgrounds/backgrounds@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/textures/textures.json",
           "srcs": [
             "game/textures/textures@1x.json",

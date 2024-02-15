@@ -4,6 +4,62 @@
       "name": "default",
       "assets": [
         {
+          "name": "Blood and Gore Impact 1.mp3",
+          "srcs": [
+            "Blood and Gore Impact 1.mp3",
+            "Blood and Gore Impact 1.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 2.mp3",
+          "srcs": [
+            "Blood and Gore Impact 2.mp3",
+            "Blood and Gore Impact 2.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 3.mp3",
+          "srcs": [
+            "Blood and Gore Impact 3.mp3",
+            "Blood and Gore Impact 3.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 4.mp3",
+          "srcs": [
+            "Blood and Gore Impact 4.mp3",
+            "Blood and Gore Impact 4.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 5.mp3",
+          "srcs": [
+            "Blood and Gore Impact 5.mp3",
+            "Blood and Gore Impact 5.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 6.mp3",
+          "srcs": [
+            "Blood and Gore Impact 6.mp3",
+            "Blood and Gore Impact 6.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 7.mp3",
+          "srcs": [
+            "Blood and Gore Impact 7.mp3",
+            "Blood and Gore Impact 7.ogg"
+          ]
+        },
+        {
+          "name": "Blood and Gore Impact 8.mp3",
+          "srcs": [
+            "Blood and Gore Impact 8.mp3",
+            "Blood and Gore Impact 8.ogg"
+          ]
+        },
+        {
           "name": "checkbox interface.wav",
           "srcs": [
             "checkbox interface.mp3",
@@ -15,6 +71,34 @@
           "srcs": [
             "Float.mp3",
             "Float.ogg"
+          ]
+        },
+        {
+          "name": "game enemy emerging-full.mp3",
+          "srcs": [
+            "game enemy emerging-full.mp3",
+            "game enemy emerging-full.ogg"
+          ]
+        },
+        {
+          "name": "Heal 1.mp3",
+          "srcs": [
+            "Heal 1.mp3",
+            "Heal 1.ogg"
+          ]
+        },
+        {
+          "name": "Heal 2.mp3",
+          "srcs": [
+            "Heal 2.mp3",
+            "Heal 2.ogg"
+          ]
+        },
+        {
+          "name": "Heal 3.mp3",
+          "srcs": [
+            "Heal 3.mp3",
+            "Heal 3.ogg"
           ]
         },
         {

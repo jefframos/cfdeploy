@@ -16,6 +16,12 @@
           ]
         },
         {
+          "name": "enemies-short.json",
+          "srcs": [
+            "enemies-short.json"
+          ]
+        },
+        {
           "name": "enemies.json",
           "srcs": [
             "enemies.json"
