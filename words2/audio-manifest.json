@@ -67,17 +67,17 @@
           ]
         },
         {
+          "name": "Fantasy Warning.wav",
+          "srcs": [
+            "Fantasy Warning.mp3",
+            "Fantasy Warning.ogg"
+          ]
+        },
+        {
           "name": "Float.wav",
           "srcs": [
             "Float.mp3",
             "Float.ogg"
-          ]
-        },
-        {
-          "name": "game enemy emerging-full.mp3",
-          "srcs": [
-            "game enemy emerging-full.mp3",
-            "game enemy emerging-full.ogg"
           ]
         },
         {
@@ -113,6 +113,27 @@
           "srcs": [
             "Hover.mp3",
             "Hover.ogg"
+          ]
+        },
+        {
+          "name": "Medieval Musical Transition.mp3",
+          "srcs": [
+            "Medieval Musical Transition.mp3",
+            "Medieval Musical Transition.ogg"
+          ]
+        },
+        {
+          "name": "Mouth Pop.wav",
+          "srcs": [
+            "Mouth Pop.mp3",
+            "Mouth Pop.ogg"
+          ]
+        },
+        {
+          "name": "shuffling-the-cards-05.mp3",
+          "srcs": [
+            "shuffling-the-cards-05.mp3",
+            "shuffling-the-cards-05.ogg"
           ]
         },
         {
