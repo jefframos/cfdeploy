@@ -1,0 +1,69 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "commit-hash.json",
+          "srcs": [
+            "commit-hash.json"
+          ]
+        },
+        {
+          "name": "enemies-short.json",
+          "srcs": [
+            "enemies-short.json"
+          ]
+        },
+        {
+          "name": "enemies.json",
+          "srcs": [
+            "enemies.json"
+          ]
+        },
+        {
+          "name": "localization/localization_EN.json",
+          "srcs": [
+            "localization/localization_EN.json"
+          ]
+        },
+        {
+          "name": "localization/localization_ES.json",
+          "srcs": [
+            "localization/localization_ES.json"
+          ]
+        },
+        {
+          "name": "localization/localization_JA.json",
+          "srcs": [
+            "localization/localization_JA.json"
+          ]
+        },
+        {
+          "name": "localization/localization_PT-BR.json",
+          "srcs": [
+            "localization/localization_PT-BR.json"
+          ]
+        },
+        {
+          "name": "scrabble.json",
+          "srcs": [
+            "scrabble.json"
+          ]
+        },
+        {
+          "name": "words_dictionary_.json",
+          "srcs": [
+            "words_dictionary_.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

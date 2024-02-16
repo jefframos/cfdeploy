@@ -1,0 +1,1 @@
+[{"type":"enemy","hp":[16,21],"attack":[5,12],"speed":[0.25,0.40625]},{"type":"enemy","hp":[8,43],"attack":[5,9],"speed":[0,1.09375]},{"type":"enemy","hp":[10,41],"attack":[8,14],"speed":[0.0625,1.03125]},{"type":"enemy","hp":[28,46],"attack":[9,9],"speed":[0.625,1.1875]},{"type":"boss","hp":[98,99],"attack":[15,17],"speed":[0.9,0.95]}]

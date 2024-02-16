@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'arsenal-bold';
+    src: url('../style/webfonts/Arsenal-Bold.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arsenal-bolditalic';
+    src: url('../style/webfonts/Arsenal-BoldItalic.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arsenal-italic';
+    src: url('../style/webfonts/Arsenal-Italic.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'arsenal-regular';
+    src: url('../style/webfonts/Arsenal-Regular.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../style/webfonts/Poppins-Bold.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../style/webfonts/Poppins-Regular.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
