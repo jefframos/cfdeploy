@@ -116,6 +116,13 @@
           ]
         },
         {
+          "name": "magic-music.wav",
+          "srcs": [
+            "magic-music.mp3",
+            "magic-music.ogg"
+          ]
+        },
+        {
           "name": "Medieval Musical Transition.mp3",
           "srcs": [
             "Medieval Musical Transition.mp3",

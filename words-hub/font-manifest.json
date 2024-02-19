@@ -72,6 +72,17 @@
           }
         },
         {
+          "name": "webfonts/helvetica-now.ttf",
+          "srcs": [
+            "webfonts/helvetica-now.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        },
+        {
           "name": "webfonts/Poppins-Bold.ttf",
           "srcs": [
             "webfonts/Poppins-Bold.woff2"

@@ -73,6 +73,19 @@
           }
         },
         {
+          "name": "game/magic/magic.json",
+          "srcs": [
+            "game/magic/magic@1x.json",
+            "game/magic/magic@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/shared/shared.json",
           "srcs": [
             "game/shared/shared@1x.json",

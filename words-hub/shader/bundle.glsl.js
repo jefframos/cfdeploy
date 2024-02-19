@@ -7,12 +7,12 @@
 // Redefine below to see the tiling...
 //#define SHOW_TILING
 ---
-	name: CornerPin
+        name: CornerPin
 type: fragment
 author: ''
 ---
 
-	precision mediump float;
+        precision mediump float;
 
         uniform vec2 resolution;
         uniform sampler2D iChannel0;
@@ -25,5 +25,5 @@ void main()
 
             vec4 pixel = texture2D(iChannel0, uv);
 
-	gl_FragColor = vec4(uv.xyx * pixel.rgb, 1.0);
+        gl_FragColor = vec4(uv.xyx * pixel.rgb, 1.0);
 }

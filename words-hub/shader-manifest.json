@@ -8,6 +8,12 @@
           "srcs": [
             "bundle.glsl.js"
           ]
+        },
+        {
+          "name": "bundle2.glsl.js",
+          "srcs": [
+            "bundle2.glsl.js"
+          ]
         }
       ]
     }

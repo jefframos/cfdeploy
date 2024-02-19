@@ -23,6 +23,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'helvetica-now';
+    src: url('../style/webfonts/helvetica-now.woff2') format('woff2'); /* Update the format if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'poppins-bold';
     src: url('../style/webfonts/Poppins-Bold.woff2') format('woff2'); /* Update the format if needed */
     font-weight: normal;
