@@ -58,6 +58,12 @@
           ]
         },
         {
+          "name": "speech.json",
+          "srcs": [
+            "speech.json"
+          ]
+        },
+        {
           "name": "words_dictionary_.json",
           "srcs": [
             "words_dictionary_.json"

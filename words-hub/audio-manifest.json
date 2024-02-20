@@ -116,6 +116,41 @@
           ]
         },
         {
+          "name": "magic/Caveman Discovery Voices 1.mp3",
+          "srcs": [
+            "magic/Caveman Discovery Voices 1.mp3",
+            "magic/Caveman Discovery Voices 1.ogg"
+          ]
+        },
+        {
+          "name": "magic/Caveman Discovery Voices 2.mp3",
+          "srcs": [
+            "magic/Caveman Discovery Voices 2.mp3",
+            "magic/Caveman Discovery Voices 2.ogg"
+          ]
+        },
+        {
+          "name": "magic/Caveman Discovery Voices 3.mp3",
+          "srcs": [
+            "magic/Caveman Discovery Voices 3.mp3",
+            "magic/Caveman Discovery Voices 3.ogg"
+          ]
+        },
+        {
+          "name": "magic/Caveman Discovery Voices 4.mp3",
+          "srcs": [
+            "magic/Caveman Discovery Voices 4.mp3",
+            "magic/Caveman Discovery Voices 4.ogg"
+          ]
+        },
+        {
+          "name": "magic/Caveman Discovery Voices 5.mp3",
+          "srcs": [
+            "magic/Caveman Discovery Voices 5.mp3",
+            "magic/Caveman Discovery Voices 5.ogg"
+          ]
+        },
+        {
           "name": "magic-music.wav",
           "srcs": [
             "magic-music.mp3",
