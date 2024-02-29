@@ -4,6 +4,69 @@
       "name": "default",
       "assets": [
         {
+          "name": "Cannon 1.mp3",
+          "srcs": [
+            "Cannon 1.mp3",
+            "Cannon 1.ogg"
+          ]
+        },
+        {
+          "name": "Folk.wav",
+          "srcs": [
+            "Folk.mp3",
+            "Folk.ogg"
+          ]
+        },
+        {
+          "name": "horse1.wav",
+          "srcs": [
+            "horse1.mp3",
+            "horse1.ogg"
+          ]
+        },
+        {
+          "name": "horse2.wav",
+          "srcs": [
+            "horse2.mp3",
+            "horse2.ogg"
+          ]
+        },
+        {
+          "name": "Punch 01.mp3",
+          "srcs": [
+            "Punch 01.mp3",
+            "Punch 01.ogg"
+          ]
+        },
+        {
+          "name": "Punch 02.mp3",
+          "srcs": [
+            "Punch 02.mp3",
+            "Punch 02.ogg"
+          ]
+        },
+        {
+          "name": "Punch 03.mp3",
+          "srcs": [
+            "Punch 03.mp3",
+            "Punch 03.ogg"
+          ]
+        },
+        {
+          "name": "Punch 04.mp3",
+          "srcs": [
+            "Punch 04.mp3",
+            "Punch 04.ogg"
+          ]
+        },
+        {
+          "name": "Punch 05.mp3",
+          "srcs": [
+            "Punch 05.mp3",
+            "Punch 05.ogg"
+          ]
+        },
+        {
           "name": "template/Appear.m4a",
           "srcs": [
             "template/Appear.m4a"
