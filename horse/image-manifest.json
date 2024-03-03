@@ -47,6 +47,20 @@
           }
         },
         {
+          "name": "game/animation3/animation3.json",
+          "srcs": [
+            "game/animation3/animation3@1x.json",
+            "game/animation3/animation3@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/animation/animation.json",
           "srcs": [
             "game/animation/animation@1x.json",
