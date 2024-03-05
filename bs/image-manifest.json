@@ -33,20 +33,6 @@
       "name": "game",
       "assets": [
         {
-          "name": "game/characters/characters.json",
-          "srcs": [
-            "game/characters/characters@1x.json",
-            "game/characters/characters@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
-              "a": true,
-              "m": true
-            }
-          }
-        },
-        {
           "name": "game/Island/Island.json",
           "srcs": [
             "game/Island/Island@1x.json",
