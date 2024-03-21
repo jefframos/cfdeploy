@@ -1,0 +1,33 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "commit-hash.json",
+          "srcs": [
+            "commit-hash.json"
+          ]
+        },
+        {
+          "name": "weapons.json",
+          "srcs": [
+            "weapons.json"
+          ]
+        },
+        {
+          "name": "weaponView.json",
+          "srcs": [
+            "weaponView.json"
+          ]
+        }
+      ]
+    }
+  ]
+}
