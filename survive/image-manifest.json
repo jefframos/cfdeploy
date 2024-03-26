@@ -1,0 +1,119 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/bullets/bullets.json",
+          "srcs": [
+            "game/bullets/bullets@1x.json",
+            "game/bullets/bullets@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/characters/characters.json",
+          "srcs": [
+            "game/characters/characters@1x.json",
+            "game/characters/characters@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/textures/textures.json",
+          "srcs": [
+            "game/textures/textures@1x.json",
+            "game/textures/textures@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/ui/ui.json",
+          "srcs": [
+            "game/ui/ui@1x.json",
+            "game/ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/vfx/vfx.json",
+          "srcs": [
+            "game/vfx/vfx@1x.json",
+            "game/vfx/vfx@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/zombie/zombie.json",
+          "srcs": [
+            "game/zombie/zombie@1x.json",
+            "game/zombie/zombie@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
