@@ -1,0 +1,114 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "bitmap/poppins-emerald.png",
+          "srcs": [
+            "bitmap/poppins-emerald.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-emerald.xml",
+          "srcs": [
+            "bitmap/poppins-emerald.xml"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-gold.png",
+          "srcs": [
+            "bitmap/poppins-gold.png"
+          ]
+        },
+        {
+          "name": "bitmap/poppins-gold.xml",
+          "srcs": [
+            "bitmap/poppins-gold.xml"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins1.png",
+          "srcs": [
+            "bitmap/Poppins1.png"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins1.xml",
+          "srcs": [
+            "bitmap/Poppins1.xml"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins2.png",
+          "srcs": [
+            "bitmap/Poppins2.png"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins2.xml",
+          "srcs": [
+            "bitmap/Poppins2.xml"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins3.png",
+          "srcs": [
+            "bitmap/Poppins3.png"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins3.xml",
+          "srcs": [
+            "bitmap/Poppins3.xml"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins4.png",
+          "srcs": [
+            "bitmap/Poppins4.png"
+          ]
+        },
+        {
+          "name": "bitmap/Poppins4.xml",
+          "srcs": [
+            "bitmap/Poppins4.xml"
+          ]
+        },
+        {
+          "name": "webfonts/Poppins-Bold.ttf",
+          "srcs": [
+            "webfonts/Poppins-Bold.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        },
+        {
+          "name": "webfonts/Poppins-ExtraLight.ttf",
+          "srcs": [
+            "webfonts/Poppins-ExtraLight.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        },
+        {
+          "name": "webfonts/Poppins-Regular.ttf",
+          "srcs": [
+            "webfonts/Poppins-Regular.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

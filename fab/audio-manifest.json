@@ -1,0 +1,188 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "Cannon 1.mp3",
+          "srcs": [
+            "Cannon 1.mp3",
+            "Cannon 1.ogg"
+          ]
+        },
+        {
+          "name": "Folk.wav",
+          "srcs": [
+            "Folk.mp3",
+            "Folk.ogg"
+          ]
+        },
+        {
+          "name": "horse1.wav",
+          "srcs": [
+            "horse1.mp3",
+            "horse1.ogg"
+          ]
+        },
+        {
+          "name": "horse2.wav",
+          "srcs": [
+            "horse2.mp3",
+            "horse2.ogg"
+          ]
+        },
+        {
+          "name": "Punch 01.mp3",
+          "srcs": [
+            "Punch 01.mp3",
+            "Punch 01.ogg"
+          ]
+        },
+        {
+          "name": "Punch 02.mp3",
+          "srcs": [
+            "Punch 02.mp3",
+            "Punch 02.ogg"
+          ]
+        },
+        {
+          "name": "Punch 03.mp3",
+          "srcs": [
+            "Punch 03.mp3",
+            "Punch 03.ogg"
+          ]
+        },
+        {
+          "name": "Punch 04.mp3",
+          "srcs": [
+            "Punch 04.mp3",
+            "Punch 04.ogg"
+          ]
+        },
+        {
+          "name": "Punch 05.mp3",
+          "srcs": [
+            "Punch 05.mp3",
+            "Punch 05.ogg"
+          ]
+        },
+        {
+          "name": "template/Appear.m4a",
+          "srcs": [
+            "template/Appear.m4a"
+          ]
+        },
+        {
+          "name": "template/Applause Cheering.mp3",
+          "srcs": [
+            "template/Applause Cheering.mp3",
+            "template/Applause Cheering.ogg"
+          ]
+        },
+        {
+          "name": "template/Bubbles.wav",
+          "srcs": [
+            "template/Bubbles.mp3",
+            "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin1.wav",
+          "srcs": [
+            "template/Coin1.mp3",
+            "template/Coin1.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin2.mp3",
+          "srcs": [
+            "template/Coin2.mp3",
+            "template/Coin2.ogg"
+          ]
+        },
+        {
+          "name": "template/diamond-sparkle.mp3",
+          "srcs": [
+            "template/diamond-sparkle.mp3",
+            "template/diamond-sparkle.ogg"
+          ]
+        },
+        {
+          "name": "template/Game Negative SFX 3.mp3",
+          "srcs": [
+            "template/Game Negative SFX 3.mp3",
+            "template/Game Negative SFX 3.ogg"
+          ]
+        },
+        {
+          "name": "template/Hover.wav",
+          "srcs": [
+            "template/Hover.mp3",
+            "template/Hover.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 1.mp3",
+          "srcs": [
+            "template/Opening Chest 1.mp3",
+            "template/Opening Chest 1.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 2.mp3",
+          "srcs": [
+            "template/Opening Chest 2.mp3",
+            "template/Opening Chest 2.ogg"
+          ]
+        },
+        {
+          "name": "template/Pitched-Tapping-Glass.wav",
+          "srcs": [
+            "template/Pitched-Tapping-Glass.mp3",
+            "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Positive Open.wav",
+          "srcs": [
+            "template/Positive Open.mp3",
+            "template/Positive Open.ogg"
+          ]
+        },
+        {
+          "name": "template/ScoreUpdate.mp3",
+          "srcs": [
+            "template/ScoreUpdate.mp3",
+            "template/ScoreUpdate.ogg"
+          ]
+        },
+        {
+          "name": "template/Synth-Appear-01.m4a",
+          "srcs": [
+            "template/Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "template/Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Tap.wav",
+          "srcs": [
+            "template/Tap.mp3",
+            "template/Tap.ogg"
+          ]
+        },
+        {
+          "name": "template/Whoosh.wav",
+          "srcs": [
+            "template/Whoosh.mp3",
+            "template/Whoosh.ogg"
+          ]
+        }
+      ]
+    }
+  ]
+}

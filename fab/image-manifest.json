@@ -1,0 +1,132 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/animation2/animation2.json",
+          "srcs": [
+            "game/animation2/animation2@1x.json",
+            "game/animation2/animation2@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/animation3/animation3.json",
+          "srcs": [
+            "game/animation3/animation3@1x.json",
+            "game/animation3/animation3@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/animation/animation.json",
+          "srcs": [
+            "game/animation/animation@1x.json",
+            "game/animation/animation@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/horse/horse.json",
+          "srcs": [
+            "game/horse/horse@1x.json",
+            "game/horse/horse@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/shared/shared.json",
+          "srcs": [
+            "game/shared/shared@1x.json",
+            "game/shared/shared@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/textures/textures.json",
+          "srcs": [
+            "game/textures/textures@1x.json",
+            "game/textures/textures@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/ui/ui.json",
+          "srcs": [
+            "game/ui/ui@1x.json",
+            "game/ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
