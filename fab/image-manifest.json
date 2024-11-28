@@ -88,6 +88,19 @@
           }
         },
         {
+          "name": "game/prize-wheel/prize-wheel.json",
+          "srcs": [
+            "game/prize-wheel/prize-wheel@1x.json",
+            "game/prize-wheel/prize-wheel@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/shared/shared.json",
           "srcs": [
             "game/shared/shared@1x.json",

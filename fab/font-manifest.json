@@ -4,6 +4,18 @@
       "name": "default",
       "assets": [
         {
+          "name": "bitmap/BigWheel.png",
+          "srcs": [
+            "bitmap/BigWheel.png"
+          ]
+        },
+        {
+          "name": "bitmap/BigWheel.xml",
+          "srcs": [
+            "bitmap/BigWheel.xml"
+          ]
+        },
+        {
           "name": "bitmap/poppins-emerald.png",
           "srcs": [
             "bitmap/poppins-emerald.png"
@@ -28,51 +40,15 @@
           ]
         },
         {
-          "name": "bitmap/Poppins1.png",
+          "name": "bitmap/SmallWheel.png",
           "srcs": [
-            "bitmap/Poppins1.png"
+            "bitmap/SmallWheel.png"
           ]
         },
         {
-          "name": "bitmap/Poppins1.xml",
+          "name": "bitmap/SmallWheel.xml",
           "srcs": [
-            "bitmap/Poppins1.xml"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins2.png",
-          "srcs": [
-            "bitmap/Poppins2.png"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins2.xml",
-          "srcs": [
-            "bitmap/Poppins2.xml"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins3.png",
-          "srcs": [
-            "bitmap/Poppins3.png"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins3.xml",
-          "srcs": [
-            "bitmap/Poppins3.xml"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins4.png",
-          "srcs": [
-            "bitmap/Poppins4.png"
-          ]
-        },
-        {
-          "name": "bitmap/Poppins4.xml",
-          "srcs": [
-            "bitmap/Poppins4.xml"
+            "bitmap/SmallWheel.xml"
           ]
         },
         {

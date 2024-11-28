@@ -1,0 +1,130 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/animation1/animation1.json",
+          "srcs": [
+            "game/animation1/animation1@1x.json",
+            "game/animation1/animation1@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/prize-wheel/prize-wheel.json",
+          "srcs": [
+            "game/prize-wheel/prize-wheel@1x.json",
+            "game/prize-wheel/prize-wheel@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/shared/shared.json",
+          "srcs": [
+            "game/shared/shared@1x.json",
+            "game/shared/shared@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/textures/textures.json",
+          "srcs": [
+            "game/textures/textures@1x.json",
+            "game/textures/textures@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/tileset1/tileset1.json",
+          "srcs": [
+            "game/tileset1/tileset1@1x.json",
+            "game/tileset1/tileset1@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/tileset2/tileset2.json",
+          "srcs": [
+            "game/tileset2/tileset2@1x.json",
+            "game/tileset2/tileset2@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/ui/ui.json",
+          "srcs": [
+            "game/ui/ui@1x.json",
+            "game/ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
