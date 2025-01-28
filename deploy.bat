@@ -28,7 +28,7 @@ echo %counter% > "%counter_file%"
 REM Execute Git commands
 git add .
 git commit -m "Auto commit - Execution number %counter% for %game_name%"
-git push origin main
+git push origin gh-pages
 
 REM Pause the script to see the output
 pause
