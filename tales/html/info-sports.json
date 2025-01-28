@@ -1,0 +1,332 @@
+[
+  {
+    "type": "tiledImage",
+    "src": "images/pattern-sports.png",
+    "height": 250,
+    "backgroundColor": "#000",
+    "centeredContent": {
+      "src": "images/logo-sports.png",
+      "imageHeight": 64,
+      "textColor": "#f0f0f0"
+    }
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "The ball above the red arrow is the one you are about to drop. You decide which side of the screen they go on by tapping.",
+        "image": "images/sports1.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "When two balls touch they form a bigger sports ball. Keep merging and see how big you can go!",
+        "image": "images/sports2-5.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Plan your merges by keeping an eye on which ball is up next.",
+        "image": "images/sports2.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "This is your total number of points!",
+        "image": "images/sports3.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "How to Play",
+    "spaceAfter": 10
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Drop this powerup to make the balls go wild and SHUFFLE around.",
+        "image": "images/sports-shuffle.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Drop this powerup to make any ball GROW one size larger.",
+        "image": "images/sports-grow.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Drop this powerup to SPLIT a big ball into smaller ones!",
+        "image": "images/sports-split.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "Powerups",
+    "spaceAfter": 30
+  },
+  {
+    "type": "title",
+    "text": "Treasure Chests",
+    "spaceAfter": 5
+  },
+  {
+    "type": "image",
+    "src": "images/sports4.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 80,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "With every merge you gain points."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/sportsOrb.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 80,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Bronze, silver and gold points will tell you which chest you are filling up."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Fill up the bar to unlock the chest and improve your chance of winning a reward."
+      }
+    ]
+  },
+  {
+    "type": "title",
+    "text": "Rewards",
+    "spaceAfter": 5
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Rewards are calculated as a multiplier of your play amount. A different set of multipliers are applied based on your performance - with your chances of a reward increasing based on the coloured chest you unlock:"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_bronzeSports.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Bronze Chest - This is the default chest and has an RTP of 78.32%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.1%"]
+      },
+      {
+        "text": ["15x", "0.1%"]
+      },
+      {
+        "text": ["10x", "0.32%"]
+      },
+      {
+        "text": ["5x", "1.5%"]
+      },
+      {
+        "text": ["3x", "2.5%"]
+      },
+      {
+        "text": ["1.5x", "7%"]
+      },
+      {
+        "text": ["1.25x", "15%"]
+      },
+      {
+        "text": ["0.65x", "15%"]
+      },
+      {
+        "text": ["0.25x", "58.4%"]
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_silverSports.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Silver Chest - This is the middle chest and has an RTP of 88.32%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.1%"]
+      },
+      {
+        "text": ["15x", "0.1%"]
+      },
+      {
+        "text": ["10x", "0.32%"]
+      },
+      {
+        "text": ["5x", "1.5%"]
+      },
+      {
+        "text": ["2x", "2.5%"]
+      },
+      {
+        "text": ["1.5x", "7%"]
+      },
+      {
+        "text": ["0.8x", "15%"]
+      },
+      {
+        "text": ["0.6x", "15%"]
+      },
+      {
+        "text": ["0.25x", "58.4%"]
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_goldSports.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Gold Chest - This is the best chest and has an RTP of 98.91%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.1%"]
+      },
+      {
+        "text": ["15x", "0.1%"]
+      },
+      {
+        "text": ["10x", "0.32%"]
+      },
+      {
+        "text": ["5x", "1.5%"]
+      },
+      {
+        "text": ["3x", "2.5%"]
+      },
+      {
+        "text": ["1.75x", "7%"]
+      },
+      {
+        "text": ["1.25x", "15%"]
+      },
+      {
+        "text": ["0.85x", "15%"]
+      },
+      {
+        "text": ["0.35x", "58.4%"]
+      }
+    ]
+  }
+]

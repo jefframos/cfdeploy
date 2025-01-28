@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Info</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="../style/fonts.css" />
+  </head>
+  <body>
+    <div
+      id="tiled-image-0"
+      class="tiled-image"
+      style="
+        height: 150px;
+        color: #f0f0f0;
+        background-image: url('images/pattern.png');
+        background-color: #000;
+      "
+    >
+      <img
+        id="centered-content-0"
+        class="centered-content"
+        src="./images/logo.png"
+        alt="undefined"
+        style="height: 150px"
+      />
+    </div>
+
+    <div class="table-container">
+      <h1 class="table-title">How to Play</h1>
+      <table id="table-1">
+        <tr id="table-1-row-0" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales1.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            This is the player’s HP. It cannot go above 100. If it reaches 0
+            then you lose.
+          </td>
+        </tr>
+        <tr id="table-1-row-1" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales2.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            This is how much the enemy will deal to you after your next move.
+          </td>
+        </tr>
+        <tr id="table-1-row-2" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales3.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            This is the enemy’s HP. Make it hit 0 to defeat them.
+          </td>
+        </tr>
+        <tr id="table-1-row-3" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales4.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            This is the total damage you’ve dealt since the start of the game.
+          </td>
+        </tr>
+        <tr id="table-1-row-4" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales7.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            The sum of the selected letters that you will deal as damage can be
+            seen here.
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 30px"></div>
+    <div id="image-2" class="flex-item .align-center">
+      <img
+        src="./images/Tales5.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+
+    <div id="flex-container-3" class="flex-container">
+      <div id="flex-container-3-item-0" class="flex-item">
+        These are your letters. The number represents how much damage each
+        letter will deal. The arrow undoes, and the attack sends the word if
+        it’s valid.
+      </div>
+    </div>
+    <div id="image-4" class="flex-item .align-center">
+      <img
+        src="./images/Tales6.png"
+        alt="Standalone Image"
+        style="height: 100px"
+      />
+    </div>
+
+    <div id="flex-container-5" class="flex-container">
+      <div id="flex-container-5-item-0" class="flex-item">
+        When you select the letters they will appear in the middle of the
+        screen. You can reuse letters.
+      </div>
+    </div>
+    <div class="table-container">
+      <h1 class="table-title">Abilities</h1>
+      <table id="table-6">
+        <tr id="table-6-row-0" class="image-left">
+          <td class="image-cell">
+            <img src="./images/Tales8.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Every turn, the ability bar will fill by 1. When full, you can tap
+            the heart to enter or exit healing mode.
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 30px"></div>
+    <div id="image-7" class="flex-item .align-center">
+      <img
+        src="./images/Tales9.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+
+    <div id="flex-container-8" class="flex-container">
+      <div id="flex-container-8-item-0" class="flex-item">
+        In Healing Mode, the letters turn green. You can select 5 letters and
+        heal that amount back. You also block the upcoming enemy attack.
+      </div>
+    </div>
+    <h1 class="table-title">Progression</h1>
+    <div style="height: 30px"></div>
+    <div id="image-10" class="flex-item .align-center">
+      <img
+        src="./images/Tales10.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+
+    <div id="flex-container-11" class="flex-container">
+      <div id="flex-container-11-item-0" class="flex-item">
+        After beating the third and fifth fight, you will earn a reward based on
+        your play amount since the last chest.
+      </div>
+    </div>
+    <div id="image-12" class="flex-item .align-center">
+      <img
+        src="./images/Tales11.png"
+        alt="Standalone Image"
+        style="height: 100px"
+      />
+    </div>
+
+    <div id="flex-container-13" class="flex-container">
+      <div id="flex-container-13-item-0" class="flex-item">
+        If you are beaten or flee, your reward builds up till the next chest you
+        open.
+      </div>
+    </div>
+    <div id="image-14" class="flex-item .align-center">
+      <img
+        src="./images/Tales12.png"
+        alt="Standalone Image"
+        style="height: 100px"
+      />
+    </div>
+
+    <div id="flex-container-15" class="flex-container">
+      <div id="flex-container-15-item-0" class="flex-item">
+        The play amount shows you how much you have currently put towards the
+        next reward.
+      </div>
+    </div>
+    <h1 class="table-title">Progression</h1>
+    <div style="height: 30px"></div>
+    <div id="flex-container-17" class="flex-container">
+      <div id="flex-container-17-item-0" class="flex-item">
+        Rewards are calculated as a multiplier of what you’ve given since the
+        last chest opened.
+      </div>
+    </div>
+    <div id="flex-container-18" class="flex-container">
+      <div id="flex-container-18-item-0" class="flex-item">
+        The chest after the third fight has a RTP of 86.60%
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="table-19">
+        <tr id="table-19-row-0" class="image-left">
+          <td style="border: 2px solid white">Multiplier</td>
+          <td style="border: 2px solid white">Chance</td>
+        </tr>
+        <tr id="table-19-row-1" class="image-left">
+          <td style="border: 2px solid white">5x</td>
+          <td style="border: 2px solid white">0.50%</td>
+        </tr>
+        <tr id="table-19-row-2" class="image-left">
+          <td style="border: 2px solid white">3x</td>
+          <td style="border: 2px solid white">2.50%</td>
+        </tr>
+        <tr id="table-19-row-3" class="image-left">
+          <td style="border: 2px solid white">2x</td>
+          <td style="border: 2px solid white">10.00%</td>
+        </tr>
+        <tr id="table-19-row-4" class="image-left">
+          <td style="border: 2px solid white">1x</td>
+          <td style="border: 2px solid white">24.00%</td>
+        </tr>
+        <tr id="table-19-row-5" class="image-left">
+          <td style="border: 2px solid white">0.8x</td>
+          <td style="border: 2px solid white">20.00%</td>
+        </tr>
+        <tr id="table-19-row-6" class="image-left">
+          <td style="border: 2px solid white">0.6x</td>
+          <td style="border: 2px solid white">15.00%</td>
+        </tr>
+        <tr id="table-19-row-7" class="image-left">
+          <td style="border: 2px solid white">0.4x</td>
+          <td style="border: 2px solid white">14.00%</td>
+        </tr>
+        <tr id="table-19-row-8" class="image-left">
+          <td style="border: 2px solid white">0.2x</td>
+          <td style="border: 2px solid white">10.00%</td>
+        </tr>
+        <tr id="table-19-row-9" class="image-left">
+          <td style="border: 2px solid white">0x</td>
+          <td style="border: 2px solid white">4.00%</td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 50px"></div>
+    <div id="flex-container-20" class="flex-container">
+      <div id="flex-container-20-item-0" class="flex-item">
+        The chest after the fifth fight has a RTP of 89.79%
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="table-21">
+        <tr id="table-21-row-0" class="image-left">
+          <td style="border: 2px solid white">Multiplier</td>
+          <td style="border: 2px solid white">Chance</td>
+        </tr>
+        <tr id="table-21-row-1" class="image-left">
+          <td style="border: 2px solid white">500x</td>
+          <td style="border: 2px solid white">0.005%</td>
+        </tr>
+        <tr id="table-21-row-2" class="image-left">
+          <td style="border: 2px solid white">250x</td>
+          <td style="border: 2px solid white">0.01%</td>
+        </tr>
+        <tr id="table-21-row-3" class="image-left">
+          <td style="border: 2px solid white">100x</td>
+          <td style="border: 2px solid white">0.05%</td>
+        </tr>
+        <tr id="table-21-row-4" class="image-left">
+          <td style="border: 2px solid white">25x</td>
+          <td style="border: 2px solid white">0.125%</td>
+        </tr>
+        <tr id="table-21-row-5" class="image-left">
+          <td style="border: 2px solid white">10x</td>
+          <td style="border: 2px solid white">0.50%</td>
+        </tr>
+        <tr id="table-21-row-6" class="image-left">
+          <td style="border: 2px solid white">5x</td>
+          <td style="border: 2px solid white">3.50%</td>
+        </tr>
+        <tr id="table-21-row-7" class="image-left">
+          <td style="border: 2px solid white">2x</td>
+          <td style="border: 2px solid white">5.00%</td>
+        </tr>
+        <tr id="table-21-row-8" class="image-left">
+          <td style="border: 2px solid white">1.2x</td>
+          <td style="border: 2px solid white">20.00%</td>
+        </tr>
+        <tr id="table-21-row-9" class="image-left">
+          <td style="border: 2px solid white">0.6x</td>
+          <td style="border: 2px solid white">10.00%</td>
+        </tr>
+        <tr id="table-21-row-10" class="image-left">
+          <td style="border: 2px solid white">0.4x</td>
+          <td style="border: 2px solid white">10.00%</td>
+        </tr>
+        <tr id="table-21-row-11" class="image-left">
+          <td style="border: 2px solid white">0.2x</td>
+          <td style="border: 2px solid white">50.81%</td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 50px"></div>
+    <div id="flex-container-22" class="flex-container">
+      <div id="flex-container-22-item-0" class="flex-item"></div>
+    </div>
+  </body>
+</html>
