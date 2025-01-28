@@ -26,7 +26,7 @@ function getRootFolders() {
 
 // Function to create the HTML content
 function generateHTML(folderNames) {
-    const links = folderNames.map(folder => `<li><a href="${folder}/">${folder}?platform=direct</a></li>`).join('\n');
+    const links = folderNames.map(folder => `<li><a href="${folder}?platform=direct">${folder}</a></li>`).join('\n');
     return `
 <!DOCTYPE html>
 <html lang="en">
