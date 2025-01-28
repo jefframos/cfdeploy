@@ -1,7 +1,7 @@
 @echo off
 
 REM Execute Node.js commands
-node links.js
+call node links.js
 
 
 REM Define the source and destination folders
