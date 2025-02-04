@@ -84,28 +84,6 @@
           }
         },
         {
-          "name": "game/textures/MatchRush_BG.png",
-          "srcs": [
-            "game/textures/MatchRush_BG.png"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "name": "game/textures/MatchRush_FG.png",
-          "srcs": [
-            "game/textures/MatchRush_FG.png"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        },
-        {
           "name": "game/textures/RedInk.png",
           "srcs": [
             "game/textures/RedInk.png"
