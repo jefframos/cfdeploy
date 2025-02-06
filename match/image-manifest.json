@@ -84,6 +84,28 @@
           }
         },
         {
+          "name": "game/textures/MatchRush_BG.png",
+          "srcs": [
+            "game/textures/MatchRush_BG.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/textures/MatchRush_FG.png",
+          "srcs": [
+            "game/textures/MatchRush_FG.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
           "name": "game/textures/RedInk.png",
           "srcs": [
             "game/textures/RedInk.png"
@@ -112,19 +134,6 @@
           ],
           "data": {
             "tags": {
-              "m": true
-            }
-          }
-        },
-        {
-          "name": "game/textures/textures.json",
-          "srcs": [
-            "game/textures/textures@1x.json",
-            "game/textures/textures@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
               "m": true
             }
           }
