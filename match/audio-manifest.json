@@ -17,17 +17,45 @@
           ]
         },
         {
-          "name": "dream2.mp3",
-          "srcs": [
-            "dream2.mp3",
-            "dream2.ogg"
-          ]
-        },
-        {
           "name": "Folk.wav",
           "srcs": [
             "Folk.mp3",
             "Folk.ogg"
+          ]
+        },
+        {
+          "name": "Glass_tap_01.wav",
+          "srcs": [
+            "Glass_tap_01.mp3",
+            "Glass_tap_01.ogg"
+          ]
+        },
+        {
+          "name": "Glass_tap_02.wav",
+          "srcs": [
+            "Glass_tap_02.mp3",
+            "Glass_tap_02.ogg"
+          ]
+        },
+        {
+          "name": "Glass_tap_03.wav",
+          "srcs": [
+            "Glass_tap_03.mp3",
+            "Glass_tap_03.ogg"
+          ]
+        },
+        {
+          "name": "Glass_tap_05.wav",
+          "srcs": [
+            "Glass_tap_05.mp3",
+            "Glass_tap_05.ogg"
+          ]
+        },
+        {
+          "name": "Glass_tap_06.wav",
+          "srcs": [
+            "Glass_tap_06.mp3",
+            "Glass_tap_06.ogg"
           ]
         },
         {
@@ -42,6 +70,27 @@
           "srcs": [
             "horse2.mp3",
             "horse2.ogg"
+          ]
+        },
+        {
+          "name": "matchRush_MusicLoop.wav",
+          "srcs": [
+            "matchRush_MusicLoop.mp3",
+            "matchRush_MusicLoop.ogg"
+          ]
+        },
+        {
+          "name": "matchRush_NaturaAmbience.mp3",
+          "srcs": [
+            "matchRush_NaturaAmbience.mp3",
+            "matchRush_NaturaAmbience.ogg"
+          ]
+        },
+        {
+          "name": "matchRush_WaterfallAmbience.wav",
+          "srcs": [
+            "matchRush_WaterfallAmbience.mp3",
+            "matchRush_WaterfallAmbience.ogg"
           ]
         },
         {
