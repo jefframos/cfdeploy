@@ -1,0 +1,27 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "Dragon.atlas",
+          "srcs": [
+            "Dragon.atlas"
+          ]
+        },
+        {
+          "name": "Dragon.json",
+          "srcs": [
+            "Dragon.json"
+          ]
+        },
+        {
+          "name": "Dragon.png",
+          "srcs": [
+            "Dragon.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
