@@ -4,66 +4,73 @@
       "name": "default",
       "assets": [
         {
-          "name": "Cannon 1.mp3",
+          "name": "cannon.mp3",
           "srcs": [
-            "Cannon 1.mp3",
-            "Cannon 1.ogg"
+            "cannon.mp3",
+            "cannon.ogg"
           ]
         },
         {
-          "name": "Folk.wav",
+          "name": "Collect_Treasures_01_Gems.mp3",
           "srcs": [
-            "Folk.mp3",
-            "Folk.ogg"
+            "Collect_Treasures_01_Gems.mp3",
+            "Collect_Treasures_01_Gems.ogg"
           ]
         },
         {
-          "name": "horse1.wav",
+          "name": "Collect_Treasures_02_Gems.mp3",
           "srcs": [
-            "horse1.mp3",
-            "horse1.ogg"
+            "Collect_Treasures_02_Gems.mp3",
+            "Collect_Treasures_02_Gems.ogg"
           ]
         },
         {
-          "name": "horse2.wav",
+          "name": "drop.wav",
           "srcs": [
-            "horse2.mp3",
-            "horse2.ogg"
+            "drop.mp3",
+            "drop.ogg"
           ]
         },
         {
-          "name": "Punch 01.mp3",
+          "name": "Explosion_01.mp3",
           "srcs": [
-            "Punch 01.mp3",
-            "Punch 01.ogg"
+            "Explosion_01.mp3",
+            "Explosion_01.ogg"
           ]
         },
         {
-          "name": "Punch 02.mp3",
+          "name": "Explosion_02.mp3",
           "srcs": [
-            "Punch 02.mp3",
-            "Punch 02.ogg"
+            "Explosion_02.mp3",
+            "Explosion_02.ogg"
           ]
         },
         {
-          "name": "Punch 03.mp3",
+          "name": "Explosion_03.mp3",
           "srcs": [
-            "Punch 03.mp3",
-            "Punch 03.ogg"
+            "Explosion_03.mp3",
+            "Explosion_03.ogg"
           ]
         },
         {
-          "name": "Punch 04.mp3",
+          "name": "Fantasy_Lofi.mp3",
           "srcs": [
-            "Punch 04.mp3",
-            "Punch 04.ogg"
+            "Fantasy_Lofi.mp3",
+            "Fantasy_Lofi.ogg"
           ]
         },
         {
-          "name": "Punch 05.mp3",
+          "name": "ICE_Bomb_Hit.mp3",
           "srcs": [
-            "Punch 05.mp3",
-            "Punch 05.ogg"
+            "ICE_Bomb_Hit.mp3",
+            "ICE_Bomb_Hit.ogg"
+          ]
+        },
+        {
+          "name": "start_game.wav",
+          "srcs": [
+            "start_game.mp3",
+            "start_game.ogg"
           ]
         },
         {
