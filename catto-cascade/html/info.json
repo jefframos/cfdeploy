@@ -1,0 +1,368 @@
+[
+  {
+    "type": "tiledImage",
+    "src": "images/pattern.png",
+    "height": 250,
+    "backgroundColor": "#000",
+    "centeredContent": {
+      "src": "images/logo.png",
+      "imageHeight": 200,
+      "textColor": "#f0f0f0"
+    }
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "The Catto above the golden paw is the one you are about to drop. You decide which side of the screen they go on by tapping.",
+        "image": "images/catto1.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "When two Cattos touch they form a bigger Catto. Keep merging and see how big you can go!",
+        "image": "images/catto2-5.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Plan your merges by keeping an eye on which Catto is up next.",
+        "image": "images/catto2.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "This is your total number of paw-points.",
+        "image": "images/catto3.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Click this to activate autoplay and fast track to the end of the game.",
+        "image": "images/autoplay.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "How to Play",
+    "spaceAfter": 30
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Drop catnip to make the cats go wild and SHUFFLE around.",
+        "image": "images/catto-catnip.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Drop a fish on a Catto to make it GROW one size larger.",
+        "image": "images/catto-fish.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Use the bottle to SPLIT up a big Catto into smaller ones!",
+        "image": "images/catto-bottle.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "Powerups",
+    "spaceAfter": 30
+  },
+  {
+    "type": "title",
+    "text": "Treasure Chests",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Your chances of a reward increase based on the colored chest you unlock."
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "With every merge you gain paw-points.",
+        "image": "images/hporb.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Blue, red and pink paw-points will tell you which chest you are filling up.",
+        "image": "images/catto5.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "",
+    "spaceAfter": 10
+  },
+  {
+    "type": "image",
+    "src": "images/catto4.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 100,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Fill up the bar, by gaining the number of paw-points listed underneath, to unlock the chests."
+      }
+    ],
+    "spaceAfter": 30
+  },
+  {
+    "type": "title",
+    "text": "Rewards",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Play amount is selected before the game begins but is not spent until the end of the game."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Rewards are calculated as a multiplier of your play amount."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "A different set of multipliers are applied based on your performance and the color chest you unlock:"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_bronze.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Bronze Chest - This is the default chest and has an RTP of 78.19%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.10%"]
+      },
+      {
+        "text": ["20x", "0.10%"]
+      },
+      {
+        "text": ["10x", "0.32%"]
+      },
+      {
+        "text": ["5x", "1.50%"]
+      },
+      {
+        "text": ["2x", "2.50%"]
+      },
+      {
+        "text": ["1.4x", "7.00%"]
+      },
+      {
+        "text": ["1x", "15.00%"]
+      },
+      {
+        "text": ["0.6x", "15.00%"]
+      },
+      {
+        "text": ["0.2x", "58.465%"]
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_silver.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Silver Chest - This is the middle chest and has an RTP of 88.393%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.10%"]
+      },
+      {
+        "text": ["30x", "0.10%"]
+      },
+      {
+        "text": ["10x", "0.32%"]
+      },
+      {
+        "text": ["5x", "1.50%"]
+      },
+      {
+        "text": ["4x", "2.50%"]
+      },
+      {
+        "text": ["2x", "7.00%"]
+      },
+      {
+        "text": ["1x", "15.00%"]
+      },
+      {
+        "text": ["0.6x", "15.00%"]
+      },
+      {
+        "text": ["0.2x", "58.465%"]
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/chest_gold.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Gold Chest - This is the best chest and has an RTP of 97.80%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["500x", "0.005%"]
+      },
+      {
+        "text": ["250x", "0.01%"]
+      },
+      {
+        "text": ["100x", "0.10%"]
+      },
+      {
+        "text": ["16x", "0.10%"]
+      },
+      {
+        "text": ["8x", "0.325%"]
+      },
+      {
+        "text": ["5x", "1.46%"]
+      },
+      {
+        "text": ["3x", "2.50%"]
+      },
+      {
+        "text": ["1.6x", "7.00%"]
+      },
+      {
+        "text": ["1.2x", "12.50%"]
+      },
+      {
+        "text": ["0.8x", "18.00%"]
+      },
+      {
+        "text": ["0.4x", "58.00%"]
+      }
+    ]
+  }
+]

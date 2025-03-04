@@ -1,0 +1,15 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "bundle.glsl.js",
+          "srcs": [
+            "bundle.glsl.js"
+          ]
+        }
+      ]
+    }
+  ]
+}

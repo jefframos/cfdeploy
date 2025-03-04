@@ -1,0 +1,169 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "prize/catto_chest_bronze.png",
+          "srcs": [
+            "prize/catto_chest_bronze.png"
+          ]
+        },
+        {
+          "name": "prize/catto_chest_gold.png",
+          "srcs": [
+            "prize/catto_chest_gold.png"
+          ]
+        },
+        {
+          "name": "prize/catto_chest_silver.png",
+          "srcs": [
+            "prize/catto_chest_silver.png"
+          ]
+        },
+        {
+          "name": "prize/chest-bronze/chest-bronze.json",
+          "srcs": [
+            "prize/chest-bronze/chest-bronze@1x.json",
+            "prize/chest-bronze/chest-bronze@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "prize/chest-gold/chest-gold.json",
+          "srcs": [
+            "prize/chest-gold/chest-gold@1x.json",
+            "prize/chest-gold/chest-gold@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "prize/chest-silver/chest-silver.json",
+          "srcs": [
+            "prize/chest-silver/chest-silver@1x.json",
+            "prize/chest-silver/chest-silver@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "prize/chest/chest.json",
+          "srcs": [
+            "prize/chest/chest@1x.json",
+            "prize/chest/chest@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "template/template.json",
+          "srcs": [
+            "template/template@1x.json",
+            "template/template@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        },
+        {
+          "name": "ui/ui.json",
+          "srcs": [
+            "ui/ui@1x.json",
+            "ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/backing_assets/backing_assets.json",
+          "srcs": [
+            "game/backing_assets/backing_assets@1x.json",
+            "game/backing_assets/backing_assets@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/balls/balls.json",
+          "srcs": [
+            "game/balls/balls@1x.json",
+            "game/balls/balls@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/countdown/countdown.json",
+          "srcs": [
+            "game/countdown/countdown@1x.json",
+            "game/countdown/countdown@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/particle/particle.json",
+          "srcs": [
+            "game/particle/particle@1x.json",
+            "game/particle/particle@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/ui2/ui2.json",
+          "srcs": [
+            "game/ui2/ui2@1x.json",
+            "game/ui2/ui2@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

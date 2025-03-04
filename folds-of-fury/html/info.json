@@ -1,0 +1,532 @@
+[
+  {
+    "type": "tiledImage",
+    "src": "images/pattern.png",
+    "height": 250,
+    "backgroundColor": "#000",
+    "centeredContent": {
+      "src": "images/logo.png",
+      "imageHeight": 200,
+      "textColor": "#f0f0f0"
+    }
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Move the paper plane around the board to aim your weapon at enemies.",
+        "image": "images/folds1.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Enemies have different behaviors, memorize these patterns to predict where you will be safe.",
+        "image": "images/folds2.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Basic enemies drop blue crystals, collect these to unlock powerups.",
+        "image": "images/folds3.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Elite enemies have a psychedelic aura and are stronger than regular enemies.",
+        "image": "images/folds5.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Once defeated Elites drop a shiny purple token. Collect these before they slide off the board to earn a reward!",
+        "image": "images/folds6.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Turn autoplay on and off to fast track to the end of the game.",
+        "image": "images/autoplay.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "How to Play",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Watch out for your health!"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If this runs out, so do your chances of a reward..."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/folds7_HP.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 100,
+    "spaceAfter": 1
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Octoboss is your last adversary."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/testGIF.gif",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 1
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Dodge the projectiles while using your weapons."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Octoboss will lose limbs as their health decreases."
+      }
+    ]
+  },
+  {
+    "type": "title",
+    "text": "Experience Cards",
+    "spaceAfter": 5
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Fill your experience to unlock powerups."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/folds4_experienceBar.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 100,
+    "spaceAfter": 0
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Choose Papercut to increase your shooting speed and damage.",
+        "image": "images/folds10.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Use Paperwaves to deal damage to all enemies in its path.",
+        "image": "images/folds11.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Increase close combat defense with rotating Blade Shields.",
+        "image": "images/folds12.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Harness the Wild Arrows, to shoot enemies in all directions.",
+        "image": "images/folds13.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Call a Crane Storm to deal major damage to your enemies.",
+        "image": "images/folds14.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Collect and stack weapons in preparation for the final battle.",
+        "image": "images/Combine.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Card numbers indicate the upgrade level for already unlocked powerups.",
+        "image": "images/fatui_18.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Invest in some health along the way!"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/folds15.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "title",
+    "text": "Tokens",
+    "spaceAfter": 5
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "You can collect up to four tokens."
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Each token represents one chance at a reward.",
+        "image": "images/folds6.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "See the number of tokens collected at the top of the screen.",
+        "image": "images/folds16_coinCollection.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Rewards for any collected tokens will be shown at the end of the game.",
+        "image": "images/folds17.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "If no tokens are collected play again for another chance at a reward.",
+        "image": "images/folds18.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Play amount per token is selected before the game begins..."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/playAmount.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 140,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "...and shows max amount if all four tokens are collected."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "See individual returns, along with total reward, at the end."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/EndScreen.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If no tokens are collected, play amount is not spent."
+      }
+    ]
+  },
+  {
+    "type": "title",
+    "text": "OctoBoss",
+    "spaceAfter": 5
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "You are given a unique screen to place a play amount before fighting the Octoboss."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/folds21.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 1
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If you fail to defeat the Octoboss, the play amount will remain between sessions."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Upon defeating the Octoboss, there is a special reward screen before the regular rewards."
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/folds22.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 1
+  },
+  {
+    "type": "title",
+    "text": "Rewards",
+    "spaceAfter": 5
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Rewards are calculated as a multiplier of your play amount per token. The number of tokens you collect determines the number of chances rolled. Each token is rolled individually."
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Chances of receiving a reward, and the corresponding multiplier for that reward, are listed below:"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Folds of Fury tokens have a 81.00% RTP."
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["20x", "0.25%"]
+      },
+      {
+        "text": ["15x", "0.50%"]
+      },
+      {
+        "text": ["10x", "1.00%"]
+      },
+      {
+        "text": ["5x", "2.50%"]
+      },
+      {
+        "text": ["2x", "5.00%"]
+      },
+      {
+        "text": ["1.2x", "10.00%"]
+      },
+      {
+        "text": ["0.6x", "20.00%"]
+      },
+      {
+        "text": ["0.4x", "30.00%"]
+      },
+      {
+        "text": ["0x", "30.75%"]
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Octoboss reward has a 88.94% RTP."
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 50,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["50x", "0.05%"]
+      },
+      {
+        "text": ["10x", "0.25%"]
+      },
+      {
+        "text": ["5x", "2.00%"]
+      },
+      {
+        "text": ["2x", "5.00%"]
+      },
+      {
+        "text": ["1.6x", "6.00%"]
+      },
+      {
+        "text": ["1x", "15.00%"]
+      },
+      {
+        "text": ["0.8x", "15.00%"]
+      },
+      {
+        "text": ["0.6x", "40.00%"]
+      },
+      {
+        "text": ["0.2x", "16.70%"]
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "Beware: Autoplay generates a randomized play pattern. We do not recommend using for long periods as chances of collecting tokens and participating in sweepstakes is reduced.",
+        "image": "images/autoplayWarning.png",
+        "maxImageHeight": 50,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "tableTitle": "",
+    "spaceAfter": 30
+  }
+]

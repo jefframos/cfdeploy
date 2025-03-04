@@ -1,0 +1,69 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "animations/animation-set.json",
+          "srcs": [
+            "animations/animation-set.json"
+          ]
+        },
+        {
+          "name": "commit-hash.json",
+          "srcs": [
+            "commit-hash.json"
+          ]
+        },
+        {
+          "name": "entity.json",
+          "srcs": [
+            "entity.json"
+          ]
+        },
+        {
+          "name": "entityGroup.json",
+          "srcs": [
+            "entityGroup.json"
+          ]
+        },
+        {
+          "name": "entityView.json",
+          "srcs": [
+            "entityView.json"
+          ]
+        },
+        {
+          "name": "localization/localization_EN.json",
+          "srcs": [
+            "localization/localization_EN.json"
+          ]
+        },
+        {
+          "name": "testConfig.json",
+          "srcs": [
+            "testConfig.json"
+          ]
+        },
+        {
+          "name": "waves.json",
+          "srcs": [
+            "waves.json"
+          ]
+        },
+        {
+          "name": "weapons.json",
+          "srcs": [
+            "weapons.json"
+          ]
+        },
+        {
+          "name": "weaponView.json",
+          "srcs": [
+            "weaponView.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

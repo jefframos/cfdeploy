@@ -1,0 +1,508 @@
+body {
+  font-family: 'poppins-extralight';
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  background-color: #1a1a1a;
+}
+
+.table-title {
+  font-family: 'poppins-bold';
+  padding: 20px;
+}
+
+.close-button {
+  font-family: 'poppins-bold';
+  border: none;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  /* Position the button on the top-right corner */
+  z-index: 1000;
+  border-radius: 0px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease;
+  background: linear-gradient(#64cf94, #00bf91);
+  border: 2px solid #00bf91;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.table-container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  border: none;
+}
+
+@media screen and (orientation: portrait) {
+  table {
+    width: 90%;
+  }
+
+  .flex-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    zoom: 0.6;
+  }
+}
+
+@media (orientation: landscape) {
+  .close-button {
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+  }
+}
+
+@media (orientation: portrait) {
+  .close-button {
+    width: 82px;
+    height: 82px;
+    font-size: 32px;
+  }
+}
+
+td {
+  padding: 10px;
+  /* width: 50%; */
+}
+
+h2 {
+  width: 90%;
+  text-align: center;
+}
+
+.empty-space {
+  width: 90%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.tiled-image {
+  width: 100%;
+  background-size: auto;
+  background-repeat: repeat;
+  animation: moveTiledBackground 5s linear infinite;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Centered text styling */
+.centered-text {
+  font-size: 48px;
+}
+
+@keyframes moveTiledBackground {
+  from {
+    background-position: 0 0;
+    /* Initial background position */
+  }
+
+  to {
+    background-position: 64px 64px;
+    /* Move background position by 1 pixel */
+  }
+}
+
+/* Flex container styling */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex item styling */
+.flex-item {
+  vertical-align: middle;
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Image styling */
+.flex-item img {
+  height: auto;
+  /* Ensure the image height adjusts based on its content */
+  max-height: 100%;
+  /* Set a maximum height to prevent the image from exceeding its container */
+  align-self: center;
+  /* Vertically center the image within its flex container */
+}
+
+.align-center img {
+  text-align: center;
+}
+
+.align-left img {
+  text-align: left;
+}
+
+.align-right img {
+  text-align: right;
+}
+
+#table-1-row-0 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-0 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-1-row-1 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-1 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-1-row-2 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-2 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-1-row-3 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-3 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-1-row-4 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-4 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-1-row-5 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-1-row-5 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-0 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-0 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-1 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-1 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-2 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-2 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-3 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-3 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-4 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-4 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-5 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-5 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-12-row-6 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-12-row-6 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-17-row-0 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-17-row-0 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-17-row-1 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-17-row-1 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-17-row-2 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-17-row-2 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-17-row-3 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-17-row-3 .image-cell img {
+  height: 80px;
+  width: 80px;
+}
+
+#table-34-row-0 {
+}
+
+#table-34-row-0 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-1 {
+}
+
+#table-34-row-1 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-2 {
+}
+
+#table-34-row-2 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-3 {
+}
+
+#table-34-row-3 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-4 {
+}
+
+#table-34-row-4 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-5 {
+}
+
+#table-34-row-5 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-6 {
+}
+
+#table-34-row-6 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-7 {
+}
+
+#table-34-row-7 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-8 {
+}
+
+#table-34-row-8 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-34-row-9 {
+}
+
+#table-34-row-9 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-0 {
+}
+
+#table-36-row-0 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-1 {
+}
+
+#table-36-row-1 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-2 {
+}
+
+#table-36-row-2 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-3 {
+}
+
+#table-36-row-3 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-4 {
+}
+
+#table-36-row-4 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-5 {
+}
+
+#table-36-row-5 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-6 {
+}
+
+#table-36-row-6 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-7 {
+}
+
+#table-36-row-7 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-8 {
+}
+
+#table-36-row-8 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-36-row-9 {
+}
+
+#table-36-row-9 .image-cell img {
+  height: 100%;
+  width: 100%;
+}
+
+#table-37-row-0 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+#table-37-row-0 .image-cell img {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,65 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "ui/ui.json",
+          "srcs": [
+            "ui/ui@1x.json",
+            "ui/ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "name": "game/characters/characters.json",
+          "srcs": [
+            "game/characters/characters@1x.json",
+            "game/characters/characters@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/example/example.json",
+          "srcs": [
+            "game/example/example@1x.json",
+            "game/example/example@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/terrain/terrain.json",
+          "srcs": [
+            "game/terrain/terrain@1x.json",
+            "game/terrain/terrain@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

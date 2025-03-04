@@ -1,0 +1,280 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "Cannon 1.mp3",
+          "srcs": [
+            "Cannon 1.mp3",
+            "Cannon 1.ogg"
+          ]
+        },
+        {
+          "name": "Cannon 2.mp3",
+          "srcs": [
+            "Cannon 2.mp3",
+            "Cannon 2.ogg"
+          ]
+        },
+        {
+          "name": "Cannon 3.mp3",
+          "srcs": [
+            "Cannon 3.mp3",
+            "Cannon 3.ogg"
+          ]
+        },
+        {
+          "name": "checkbox interface.wav",
+          "srcs": [
+            "checkbox interface.mp3",
+            "checkbox interface.ogg"
+          ]
+        },
+        {
+          "name": "Choral-Long-Ah-Major-Chord-01.m4a",
+          "srcs": [
+            "Choral-Long-Ah-Major-Chord-01.m4a"
+          ]
+        },
+        {
+          "name": "Fart.wav",
+          "srcs": [
+            "Fart.mp3",
+            "Fart.ogg"
+          ]
+        },
+        {
+          "name": "Fire-Burst-Large-01.m4a",
+          "srcs": [
+            "Fire-Burst-Large-01.m4a"
+          ]
+        },
+        {
+          "name": "Fire-Burst-Small-01.m4a",
+          "srcs": [
+            "Fire-Burst-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "Hit Alert.wav",
+          "srcs": [
+            "Hit Alert.mp3",
+            "Hit Alert.ogg"
+          ]
+        },
+        {
+          "name": "Hover.wav",
+          "srcs": [
+            "Hover.mp3",
+            "Hover.ogg"
+          ]
+        },
+        {
+          "name": "Notification-02.wav",
+          "srcs": [
+            "Notification-02.mp3",
+            "Notification-02.ogg"
+          ]
+        },
+        {
+          "name": "Sad-Trombone.wav",
+          "srcs": [
+            "Sad-Trombone.mp3",
+            "Sad-Trombone.ogg"
+          ]
+        },
+        {
+          "name": "Small Success.mp3",
+          "srcs": [
+            "Small Success.mp3",
+            "Small Success.ogg"
+          ]
+        },
+        {
+          "name": "Splash3.mp3",
+          "srcs": [
+            "Splash3.mp3",
+            "Splash3.ogg"
+          ]
+        },
+        {
+          "name": "Synth-Appear-01.m4a",
+          "srcs": [
+            "Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "Tap-01.wav",
+          "srcs": [
+            "Tap-01.mp3",
+            "Tap-01.ogg"
+          ]
+        },
+        {
+          "name": "template/Appear.m4a",
+          "srcs": [
+            "template/Appear.m4a"
+          ]
+        },
+        {
+          "name": "template/Applause Cheering.mp3",
+          "srcs": [
+            "template/Applause Cheering.mp3",
+            "template/Applause Cheering.ogg"
+          ]
+        },
+        {
+          "name": "template/Bubbles.wav",
+          "srcs": [
+            "template/Bubbles.mp3",
+            "template/Bubbles.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin1.wav",
+          "srcs": [
+            "template/Coin1.mp3",
+            "template/Coin1.ogg"
+          ]
+        },
+        {
+          "name": "template/Coin2.mp3",
+          "srcs": [
+            "template/Coin2.mp3",
+            "template/Coin2.ogg"
+          ]
+        },
+        {
+          "name": "template/diamond-sparkle.mp3",
+          "srcs": [
+            "template/diamond-sparkle.mp3",
+            "template/diamond-sparkle.ogg"
+          ]
+        },
+        {
+          "name": "template/Game Negative SFX 3.mp3",
+          "srcs": [
+            "template/Game Negative SFX 3.mp3",
+            "template/Game Negative SFX 3.ogg"
+          ]
+        },
+        {
+          "name": "template/Hover.wav",
+          "srcs": [
+            "template/Hover.mp3",
+            "template/Hover.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 1.mp3",
+          "srcs": [
+            "template/Opening Chest 1.mp3",
+            "template/Opening Chest 1.ogg"
+          ]
+        },
+        {
+          "name": "template/Opening Chest 2.mp3",
+          "srcs": [
+            "template/Opening Chest 2.mp3",
+            "template/Opening Chest 2.ogg"
+          ]
+        },
+        {
+          "name": "template/Pitched-Tapping-Glass.wav",
+          "srcs": [
+            "template/Pitched-Tapping-Glass.mp3",
+            "template/Pitched-Tapping-Glass.ogg"
+          ]
+        },
+        {
+          "name": "template/Positive Open.wav",
+          "srcs": [
+            "template/Positive Open.mp3",
+            "template/Positive Open.ogg"
+          ]
+        },
+        {
+          "name": "template/ScoreUpdate.mp3",
+          "srcs": [
+            "template/ScoreUpdate.mp3",
+            "template/ScoreUpdate.ogg"
+          ]
+        },
+        {
+          "name": "template/Synth-Appear-01.m4a",
+          "srcs": [
+            "template/Synth-Appear-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Synth-Whoosh-Small-01.m4a",
+          "srcs": [
+            "template/Synth-Whoosh-Small-01.m4a"
+          ]
+        },
+        {
+          "name": "template/Tap-01.wav",
+          "srcs": [
+            "template/Tap-01.mp3",
+            "template/Tap-01.ogg"
+          ]
+        },
+        {
+          "name": "template/Tap.wav",
+          "srcs": [
+            "template/Tap.mp3",
+            "template/Tap.ogg"
+          ]
+        },
+        {
+          "name": "template/Whoosh.wav",
+          "srcs": [
+            "template/Whoosh.mp3",
+            "template/Whoosh.ogg"
+          ]
+        },
+        {
+          "name": "Victory.mp3",
+          "srcs": [
+            "Victory.mp3",
+            "Victory.ogg"
+          ]
+        },
+        {
+          "name": "Waves-Breaking-Distant-Seagulls-Loop-01.m4a",
+          "srcs": [
+            "Waves-Breaking-Distant-Seagulls-Loop-01.m4a"
+          ]
+        },
+        {
+          "name": "Whoosh.wav",
+          "srcs": [
+            "Whoosh.mp3",
+            "Whoosh.ogg"
+          ]
+        },
+        {
+          "name": "WildKittyTunes.mp3",
+          "srcs": [
+            "WildKittyTunes.mp3",
+            "WildKittyTunes.ogg"
+          ]
+        },
+        {
+          "name": "Win Fanfare.mp3",
+          "srcs": [
+            "Win Fanfare.mp3",
+            "Win Fanfare.ogg"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"entity":[{"type":"Enemy1","sprite":"enemy1","inGameScale":0.5},{"type":"Enemy2","sprite":"enemy2","inGameScale":0.5},{"type":"Enemy3","sprite":"enemy3","inGameScale":0.5},{"type":"Enemy4","sprite":"enemy4","inGameScale":0.5},{"type":"Enemy5","sprite":"enemy5","inGameScale":0.5},{"type":"Boss1","sprite":"octoboss_head","inGameScale":0.7}]}

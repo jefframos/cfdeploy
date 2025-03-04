@@ -1,0 +1,1 @@
+{"waves":{"initialEnemiesPerGroup":1,"groupsPerWave":2,"incrementEnemiesPerGroup":1,"wavesPerIncrement":2,"secondsPerWave":5,"timeBetweenElites":30,"eliteHPMultiplier":3,"eliteSizeMultiplier":1.5,"elitesKilledBeforeBoss":4,"minutesBeforeBoss":3}}
