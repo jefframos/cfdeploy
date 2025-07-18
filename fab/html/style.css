@@ -8,6 +8,55 @@ body {
   margin: 0;
   flex-direction: column;
   background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  color: white;
+  padding: 0;
+  /* remove padding to align button height */
+  z-index: 1000;
+  display: flex;
+  justify-content: left;
+  /* center horizontally */
+  align-items: left;
+  /* vertically center buttons */
+  height: 60px;
+  /* fixed height for consistency */
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.top-menu button {
+  font-family: 'poppins-bold' !important;
+
+  background: #444;
+  color: white;
+  border: none;
+  height: 100%;
+  /* full height of nav bar */
+  padding: 0 16px;
+  /* horizontal padding only */
+  cursor: pointer;
+  /* border-radius: 4px; */
+  display: flex;
+  align-items: center;
+  /* vertically center text */
+  font-size: 16px;
+}
+
+.top-menu button:hover {
+  background: #666;
+}
+
+body {
+  padding-top: 60px;
+  /* to prevent content being hidden under fixed nav */
 }
 
 .table-title {
@@ -22,13 +71,13 @@ body {
   text-align: center;
   line-height: 40px;
   cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
   /* Position the button on the top-right corner */
   z-index: 1000;
-  border-radius: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+  /* border-radius: 15px; */
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); */
   transition: box-shadow 0.3s ease;
   background: linear-gradient(#b68acd, #9a70ba);
   border: 2px solid #b68acd;
@@ -60,24 +109,30 @@ table {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   body {
     zoom: 0.6;
   }
 }
 
+@media (min-width: 801px) and (max-width: 1024px) {
+  body {
+    zoom: 0.8;
+  }
+}
+
 @media (orientation: landscape) {
   .close-button {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
   }
 }
 
 @media (orientation: portrait) {
   .close-button {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     font-size: 25px;
   }
 }
@@ -100,6 +155,7 @@ h2 {
 
 .tiled-image {
   width: 100%;
+  padding: 10px;
   background-size: auto;
   background-repeat: repeat;
   animation: moveTiledBackground 5s linear infinite;

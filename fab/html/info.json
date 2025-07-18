@@ -50,8 +50,10 @@
         "textVerticalAlign": "middle"
       }
     ],
+    "spaceAfter": 30,
     "tableTitle": "How to Play",
-    "spaceAfter": 30
+    "redirectId": "how-to-play",
+    "name": "HOW TO PLAY"
   },
   {
     "type": "flexContainer",
@@ -65,7 +67,9 @@
   {
     "type": "title",
     "text": "Prize Wheel",
-    "spaceAfter": 30
+    "spaceAfter": 30,
+    "redirectId": "prize-wheel",
+    "name": "PRIZE WHEEL"
   },
   {
     "type": "flexContainer",
@@ -98,7 +102,7 @@
     "src": "images/FabHorse6.png",
     "imagePosition": "center",
     "imageHorizontalAlign": "center",
-    "imageHeight": 300,
+    "imageHeight": 150,
     "spaceAfter": 0
   },
   {
@@ -118,11 +122,12 @@
     "imageHeight": 200,
     "spaceAfter": 0
   },
-
   {
     "type": "title",
     "text": "Rewards",
-    "spaceAfter": 30
+    "spaceAfter": 30,
+    "redirectId": "rewards",
+    "name": "REWARDS"
   },
   {
     "type": "flexContainer",
@@ -185,7 +190,6 @@
       }
     ]
   },
-
   {
     "type": "flexContainer",
     "content": [

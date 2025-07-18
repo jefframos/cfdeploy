@@ -1,0 +1,123 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "chest.glb",
+          "srcs": [
+            "chest.glb"
+          ]
+        },
+        {
+          "name": "cloth.glb",
+          "srcs": [
+            "cloth.glb"
+          ]
+        },
+        {
+          "name": "clotha.glb",
+          "srcs": [
+            "clotha.glb"
+          ]
+        },
+        {
+          "name": "clothb.glb",
+          "srcs": [
+            "clothb.glb"
+          ]
+        },
+        {
+          "name": "clothc.glb",
+          "srcs": [
+            "clothc.glb"
+          ]
+        },
+        {
+          "name": "Cloth_F.glb",
+          "srcs": [
+            "Cloth_F.glb"
+          ]
+        },
+        {
+          "name": "coin.glb",
+          "srcs": [
+            "coin.glb"
+          ]
+        },
+        {
+          "name": "cup.fbx",
+          "srcs": [
+            "cup.fbx"
+          ]
+        },
+        {
+          "name": "Cup_02.glb",
+          "srcs": [
+            "Cup_02.glb"
+          ]
+        },
+        {
+          "name": "Cup_03.glb",
+          "srcs": [
+            "Cup_03.glb"
+          ]
+        },
+        {
+          "name": "Cup_04.glb",
+          "srcs": [
+            "Cup_04.glb"
+          ]
+        },
+        {
+          "name": "Cup_05.glb",
+          "srcs": [
+            "Cup_05.glb"
+          ]
+        },
+        {
+          "name": "Cup_06.glb",
+          "srcs": [
+            "Cup_06.glb"
+          ]
+        },
+        {
+          "name": "Cup_F.glb",
+          "srcs": [
+            "Cup_F.glb"
+          ]
+        },
+        {
+          "name": "cutting-board.glb",
+          "srcs": [
+            "cutting-board.glb"
+          ]
+        },
+        {
+          "name": "Gem.glb",
+          "srcs": [
+            "Gem.glb"
+          ]
+        },
+        {
+          "name": "table.glb",
+          "srcs": [
+            "table.glb"
+          ]
+        },
+        {
+          "name": "Table_F.glb",
+          "srcs": [
+            "Table_F.glb"
+          ]
+        },
+        {
+          "name": "Textures/colormap.png",
+          "srcs": [
+            "Textures/colormap.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

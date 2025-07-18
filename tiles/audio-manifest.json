@@ -11,6 +11,20 @@
           ]
         },
         {
+          "name": "Chest Appear.wav",
+          "srcs": [
+            "Chest Appear.mp3",
+            "Chest Appear.ogg"
+          ]
+        },
+        {
+          "name": "Chest Open.wav",
+          "srcs": [
+            "Chest Open.mp3",
+            "Chest Open.ogg"
+          ]
+        },
+        {
           "name": "Collect_Treasures_01_Gems.mp3",
           "srcs": [
             "Collect_Treasures_01_Gems.mp3",
@@ -60,10 +74,24 @@
           ]
         },
         {
+          "name": "FlipRemainingTile.wav",
+          "srcs": [
+            "FlipRemainingTile.mp3",
+            "FlipRemainingTile.ogg"
+          ]
+        },
+        {
           "name": "ICE_Bomb_Hit.mp3",
           "srcs": [
             "ICE_Bomb_Hit.mp3",
             "ICE_Bomb_Hit.ogg"
+          ]
+        },
+        {
+          "name": "StartFlippingRemainingTiles.wav",
+          "srcs": [
+            "StartFlippingRemainingTiles.mp3",
+            "StartFlippingRemainingTiles.ogg"
           ]
         },
         {
@@ -187,6 +215,27 @@
           "srcs": [
             "template/Whoosh.mp3",
             "template/Whoosh.ogg"
+          ]
+        },
+        {
+          "name": "Tile Tapped.wav",
+          "srcs": [
+            "Tile Tapped.mp3",
+            "Tile Tapped.ogg"
+          ]
+        },
+        {
+          "name": "TilesDrop.wav",
+          "srcs": [
+            "TilesDrop.mp3",
+            "TilesDrop.ogg"
+          ]
+        },
+        {
+          "name": "TileTapper Music Loop 1.wav",
+          "srcs": [
+            "TileTapper Music Loop 1.mp3",
+            "TileTapper Music Loop 1.ogg"
           ]
         }
       ]

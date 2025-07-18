@@ -1,0 +1,99 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "name": "Dragon.atlas",
+          "srcs": [
+            "Dragon.atlas"
+          ]
+        },
+        {
+          "name": "Dragon.json",
+          "srcs": [
+            "Dragon.json"
+          ]
+        },
+        {
+          "name": "Dragon.png",
+          "srcs": [
+            "Dragon.png"
+          ]
+        },
+        {
+          "name": "medusa-symbol.json",
+          "srcs": [
+            "medusa-symbol.json"
+          ]
+        },
+        {
+          "name": "pink-game-piece.atlas",
+          "srcs": [
+            "pink-game-piece.atlas"
+          ]
+        },
+        {
+          "name": "pink-game-piece.json",
+          "srcs": [
+            "pink-game-piece.json"
+          ]
+        },
+        {
+          "name": "pink-game-piece.png",
+          "srcs": [
+            "pink-game-piece.png"
+          ]
+        },
+        {
+          "name": "special-symbols-2.atlas",
+          "srcs": [
+            "special-symbols-2.atlas"
+          ]
+        },
+        {
+          "name": "special-symbols-2.png",
+          "srcs": [
+            "special-symbols-2.png"
+          ]
+        },
+        {
+          "name": "Tile_BG_Redesign_HighRes.atlas",
+          "srcs": [
+            "Tile_BG_Redesign_HighRes.atlas"
+          ]
+        },
+        {
+          "name": "Tile_BG_Redesign_HighRes.json",
+          "srcs": [
+            "Tile_BG_Redesign_HighRes.json"
+          ]
+        },
+        {
+          "name": "Tile_BG_Redesign_HighRes.png",
+          "srcs": [
+            "Tile_BG_Redesign_HighRes.png"
+          ]
+        },
+        {
+          "name": "TT_Hero_Spine.atlas",
+          "srcs": [
+            "TT_Hero_Spine.atlas"
+          ]
+        },
+        {
+          "name": "TT_Hero_Spine.json",
+          "srcs": [
+            "TT_Hero_Spine.json"
+          ]
+        },
+        {
+          "name": "TT_Hero_Spine.png",
+          "srcs": [
+            "TT_Hero_Spine.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

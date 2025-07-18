@@ -1,0 +1,16 @@
+{
+    "versionString": "1.1.3",
+    "name": "FabulousHorse",
+    "deployments": {
+        "goldslips": {
+            "analyticsId": "${GOLDSLIPS_GA_MEASUREMENT_ID}",
+            "deployment": "goldslips"
+        },
+        "rubysweepsmvp": {
+            "analyticsId": "${RUBYSWEEPSMVP_GA_MEASUREMENT_ID}",
+            "deployment": "rubysweepsmvp"
+        }
+    },
+    "environment": "${ENVIRONMENT}",
+    "hash": ""
+}

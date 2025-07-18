@@ -26,6 +26,54 @@
               "tps": true
             }
           }
+        },
+        {
+          "name": "tutorial/backTileImage.png",
+          "srcs": [
+            "tutorial/backTileImage.png"
+          ]
+        },
+        {
+          "name": "tutorial/dot.png",
+          "srcs": [
+            "tutorial/dot.png"
+          ]
+        },
+        {
+          "name": "tutorial/next.png",
+          "srcs": [
+            "tutorial/next.png"
+          ]
+        },
+        {
+          "name": "tutorial/page1.png",
+          "srcs": [
+            "tutorial/page1.png"
+          ]
+        },
+        {
+          "name": "tutorial/page2.png",
+          "srcs": [
+            "tutorial/page2.png"
+          ]
+        },
+        {
+          "name": "tutorial/page3.png",
+          "srcs": [
+            "tutorial/page3.png"
+          ]
+        },
+        {
+          "name": "tutorial/page4.png",
+          "srcs": [
+            "tutorial/page4.png"
+          ]
+        },
+        {
+          "name": "tutorial/prev.png",
+          "srcs": [
+            "tutorial/prev.png"
+          ]
         }
       ]
     },

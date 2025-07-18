@@ -1,0 +1,660 @@
+[
+  {
+    "type": "tiledImage",
+    "src": "images/pattern.png",
+    "height": 250,
+    "backgroundColor": "#000",
+    "centeredContent": {
+      "src": "images/logo.png",
+      "imageHeight": 200,
+      "textColor": "#f0f0f0"
+    }
+  },
+  {
+    "redirectId": "game-explanation",
+    "name": "GAME EXPLANATION",
+    "type": "title",
+    "text": "Game Explanation",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Every game generates a new board"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "The board is 5x5 consisting of a variety of tiles:",
+        "image": "images/fatui_01.png",
+        "maxImageHeight": 160,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Starting Tile  - Randomised point where the player begins",
+        "image": "images/fatui_02.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Pitfall Tile  - Impassible tiles, randomly around the board",
+        "image": "images/fatui_03.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Regular Tile -  Does nothing. Becomes a highlighted tile when next to a Gem Tile or Starting Tile",
+        "image": "images/fatui_04.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Highlighted Tile - Can be tapped to reveal either a Gem Tile or a Bomb Tile",
+        "image": "images/fatui_05.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Gem Tile - Shows one of three gems. When revealed, the player’s payout multiplier increases by one stage",
+        "image": "images/fatui_06.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Bomb Tile - When revealed, the player loses the game",
+        "image": "images/fatui_07.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "Gold Tile - One per board. When tapped, the Golden Tile Minigame screen is opened",
+        "image": "images/fatui_08.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "spaceAfter": 30
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_09.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Multiplier Track shows the currently earned multiplier, and that the maximum multiplier is x1000"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_10.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The settle button allows you to end the game with the current multiplier, leaving the ‘Win Amount’ shown on the left"
+      }
+    ]
+  },
+  {
+    "redirectId": "how-to-play",
+    "name": "HOW TO PLAY",
+    "type": "title",
+    "text": "How To Play",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "At the start of each game, you must choose your play amount and currency"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_11.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Then press continue"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_12.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "A random board is generated"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_13.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "You may then select a highlighted tile to reveal"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_14.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The tile will then be revealed as a bomb, or a gem"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_15.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If a bomb is selected, then the game ends, and you lose"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_16.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If a gem is revealed then your multiplier increases"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_17.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "As well as your potential reward"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_18.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Settle button is revealed, and the game continues"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The game then continues until either a bomb is struck, a bomb is reached, or you achieve the maximum multiplier"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_19.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "During the game, you can tap a golden tile. Doing so will prompt a second screen where you can set a play amount for the golden tile game, or leave"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_20.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "A table with three cups will appear, and shuffle around"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_21.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "You must pick a cup to either reveal:"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "entries": [
+      {
+        "text": "A Big Win (Cup with lots of gems)",
+        "image": "images/fatui_22.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "A Small Win (Cup with one gem)",
+        "image": "images/fatui_23.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      },
+      {
+        "text": "A loss (Empty cup)",
+        "image": "images/fatui_24.png",
+        "maxImageHeight": 80,
+        "imagePosition": "left",
+        "imageHorizontalAlign": "right",
+        "textHorizontalAlign": "left",
+        "textVerticalAlign": "middle"
+      }
+    ],
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "After the Golden Tile game is completed, the rewards are instantly won"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_25.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Golden Tile screen then closes, and the game continues as before"
+      }
+    ]
+  },
+  {
+    "redirectId": "rewards",
+    "name": "REWARDS",
+    "type": "title",
+    "text": "Rewards",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Before each game, the player selects a play amount"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_11.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 300,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "This amount is held until the player settles or loses"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "Each time you select a non-gold tile, you’ll either be shown a gem or a bomb"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_07.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If you get a bomb, then you lose your play amount and the game ends"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_06.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "If you get a gem, then your multiplier increases and the game continues"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "After earning one gem, you gain the option to settle before selecting each tile. Doing so will reward you with your play amount multiplied by your multiplier"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_18.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 120,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "This continues with increasing difficulty until you hit a bomb, settle, or reach the x1000 multiplier"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "During the game, you may reach the golden tile. Instead of a bomb or gem, you will unlock a minigame"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/fatui_21.png",
+    "imagePosition": "center",
+    "imageHorizontalAlign": "center",
+    "imageHeight": 200,
+    "spaceAfter": 0
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "To play the minigame, select a new play amount"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The cups will then shuffle around, before stopping and allowing you to pick one. Your cup will either reveal a pile of gems, one gem, or nothing"
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "You then immediately receive your reward, and the minigame closes"
+      }
+    ]
+  },
+  {
+    "redirectId": "paytables",
+    "name": "PAYTABLES",
+    "type": "title",
+    "text": "Paytables",
+    "spaceAfter": 30
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Main game's RTP depends on the round"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 150,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": [
+          "",
+          "Multiplier",
+          "Chance Per Round",
+          "Cumulative Chance",
+          "RTP"
+        ]
+      },
+      {
+        "text": ["Round 1", "1.2x", "80%", "80.00%", "0.96%"]
+      },
+      {
+        "text": ["Round 2", "2x", "60%", "48.00%", "0.96%"]
+      },
+      {
+        "text": ["Round 3", "3.2x", "60%", "28.80%", "0.9216%"]
+      },
+      {
+        "text": ["Round 4", "8x", "40%", "11.52%", "0.9216%"]
+      },
+      {
+        "text": ["Round 5", "20x", "40%", "4.608%", "0.9216%"]
+      },
+      {
+        "text": ["Round 6", "50x", "40%", "1.843%", "0.9216%"]
+      },
+      {
+        "text": ["Round 7", "250x", "20%", "0.36864%", "0.9216%"]
+      },
+      {
+        "text": ["Round 8", "1000x", "20%", "0.073728%", "0.73728%"]
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": " "
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Golden Tile minigame has an RTP of 94.80%"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "spaceAfter": 150,
+    "tableTitle": "",
+    "entries": [
+      {
+        "text": ["Multiplier", "Chance"]
+      },
+      {
+        "text": ["2.4x", "34.00%"]
+      },
+      {
+        "text": ["0.4x", "33.00%"]
+      },
+      {
+        "text": ["2x", "33.00%"]
+      }
+    ]
+  },
+  {
+    "type": "flexContainer",
+    "content": [
+      {
+        "type": "text",
+        "value": " "
+      }
+    ]
+  }
+]

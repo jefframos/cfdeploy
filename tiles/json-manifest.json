@@ -10,6 +10,12 @@
           ]
         },
         {
+          "name": "background/BackgroundMap.json",
+          "srcs": [
+            "background/BackgroundMap.json"
+          ]
+        },
+        {
           "name": "commit-hash.json",
           "srcs": [
             "commit-hash.json"
@@ -43,6 +49,12 @@
           "name": "localization/localization_PT-BR.json",
           "srcs": [
             "localization/localization_PT-BR.json"
+          ]
+        },
+        {
+          "name": "tutorial/tutorialData.json",
+          "srcs": [
+            "tutorial/tutorialData.json"
           ]
         }
       ]

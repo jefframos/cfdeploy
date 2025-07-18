@@ -26,6 +26,48 @@
               "tps": true
             }
           }
+        },
+        {
+          "name": "tutorial/dot.png",
+          "srcs": [
+            "tutorial/dot.png"
+          ]
+        },
+        {
+          "name": "tutorial/next.png",
+          "srcs": [
+            "tutorial/next.png"
+          ]
+        },
+        {
+          "name": "tutorial/page1.png",
+          "srcs": [
+            "tutorial/page1.png"
+          ]
+        },
+        {
+          "name": "tutorial/page2.png",
+          "srcs": [
+            "tutorial/page2.png"
+          ]
+        },
+        {
+          "name": "tutorial/page3.png",
+          "srcs": [
+            "tutorial/page3.png"
+          ]
+        },
+        {
+          "name": "tutorial/page4.png",
+          "srcs": [
+            "tutorial/page4.png"
+          ]
+        },
+        {
+          "name": "tutorial/prev.png",
+          "srcs": [
+            "tutorial/prev.png"
+          ]
         }
       ]
     },
@@ -41,6 +83,32 @@
           "data": {
             "tags": {
               "a": true,
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/bet-ui/bet-ui.json",
+          "srcs": [
+            "game/bet-ui/bet-ui@1x.json",
+            "game/bet-ui/bet-ui@0.5x.json"
+          ],
+          "data": {
+            "tags": {
+              "tps": true,
+              "m": true
+            }
+          }
+        },
+        {
+          "name": "game/cards/cards.json",
+          "srcs": [
+            "game/cards/cards@1x.json",
+            "game/cards/cards@0.5x.json"
+          ],
+          "data": {
+            "tags": {
               "tps": true,
               "m": true
             }

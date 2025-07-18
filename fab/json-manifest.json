@@ -10,12 +10,6 @@
           ]
         },
         {
-          "name": "commit-hash.json",
-          "srcs": [
-            "commit-hash.json"
-          ]
-        },
-        {
           "name": "levels/level1.json",
           "srcs": [
             "levels/level1.json"
@@ -43,6 +37,12 @@
           "name": "localization/localization_PT-BR.json",
           "srcs": [
             "localization/localization_PT-BR.json"
+          ]
+        },
+        {
+          "name": "tutorial/tutorialData.json",
+          "srcs": [
+            "tutorial/tutorialData.json"
           ]
         }
       ]
