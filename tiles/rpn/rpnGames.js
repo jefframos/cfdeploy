@@ -106,9 +106,11 @@ export const rpnGames = (() => {
       Object.defineProperty(exports, "__esModule", { value: true });
       exports.Either = void 0;
       var either_1 = require_either();
-      Object.defineProperty(exports, "Either", { enumerable: true, get: function() {
-        return either_1.Either;
-      } });
+      Object.defineProperty(exports, "Either", {
+        enumerable: true, get: function () {
+          return either_1.Either;
+        }
+      });
     }
   });
 
@@ -217,7 +219,7 @@ export const rpnGames = (() => {
   // node_modules/ieee754/index.js
   var require_ieee754 = __commonJS({
     "node_modules/ieee754/index.js"(exports) {
-      exports.read = function(buffer, offset, isLE, mLen, nBytes) {
+      exports.read = function (buffer, offset, isLE, mLen, nBytes) {
         var e, m;
         var eLen = nBytes * 8 - mLen - 1;
         var eMax = (1 << eLen) - 1;
@@ -247,7 +249,7 @@ export const rpnGames = (() => {
         }
         return (s ? -1 : 1) * m * Math.pow(2, e - mLen);
       };
-      exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
+      exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
         var e, m, c;
         var eLen = nBytes * 8 - mLen - 1;
         var eMax = (1 << eLen) - 1;
@@ -318,9 +320,11 @@ export const rpnGames = (() => {
       function typedArraySupport() {
         try {
           const arr = new Uint8Array(1);
-          const proto = { foo: function() {
-            return 42;
-          } };
+          const proto = {
+            foo: function () {
+              return 42;
+            }
+          };
           Object.setPrototypeOf(proto, Uint8Array.prototype);
           Object.setPrototypeOf(arr, proto);
           return arr.foo() === 42;
@@ -330,7 +334,7 @@ export const rpnGames = (() => {
       }
       Object.defineProperty(Buffer3.prototype, "parent", {
         enumerable: true,
-        get: function() {
+        get: function () {
           if (!Buffer3.isBuffer(this))
             return void 0;
           return this.buffer;
@@ -338,7 +342,7 @@ export const rpnGames = (() => {
       });
       Object.defineProperty(Buffer3.prototype, "offset", {
         enumerable: true,
-        get: function() {
+        get: function () {
           if (!Buffer3.isBuffer(this))
             return void 0;
           return this.byteOffset;
@@ -401,7 +405,7 @@ export const rpnGames = (() => {
           "The first argument must be one of type string, Buffer, ArrayBuffer, Array, or Array-like Object. Received type " + typeof value
         );
       }
-      Buffer3.from = function(value, encodingOrOffset, length) {
+      Buffer3.from = function (value, encodingOrOffset, length) {
         return from(value, encodingOrOffset, length);
       };
       Object.setPrototypeOf(Buffer3.prototype, Uint8Array.prototype);
@@ -423,17 +427,17 @@ export const rpnGames = (() => {
         }
         return createBuffer(size);
       }
-      Buffer3.alloc = function(size, fill, encoding) {
+      Buffer3.alloc = function (size, fill, encoding) {
         return alloc(size, fill, encoding);
       };
       function allocUnsafe(size) {
         assertSize(size);
         return createBuffer(size < 0 ? 0 : checked(size) | 0);
       }
-      Buffer3.allocUnsafe = function(size) {
+      Buffer3.allocUnsafe = function (size) {
         return allocUnsafe(size);
       };
-      Buffer3.allocUnsafeSlow = function(size) {
+      Buffer3.allocUnsafeSlow = function (size) {
         return allocUnsafe(size);
       };
       function fromString(string, encoding) {
@@ -620,7 +624,7 @@ export const rpnGames = (() => {
         if (!mustMatch && len === 0)
           return 0;
         let loweredCase = false;
-        for (; ; ) {
+        for (; ;) {
           switch (encoding) {
             case "ascii":
             case "latin1":
@@ -1002,7 +1006,7 @@ export const rpnGames = (() => {
         if (!encoding)
           encoding = "utf8";
         let loweredCase = false;
-        for (; ; ) {
+        for (; ;) {
           switch (encoding) {
             case "hex":
               return hexWrite(this, string, offset, length);
@@ -1349,7 +1353,7 @@ export const rpnGames = (() => {
           boundsError(offset, this.length - 8);
         }
         const val = (first << 24) + // Overflow
-        this[++offset] * __pow(2, 16) + this[++offset] * __pow(2, 8) + this[++offset];
+          this[++offset] * __pow(2, 16) + this[++offset] * __pow(2, 8) + this[++offset];
         return (BigInt(val) << BigInt(32)) + BigInt(this[++offset] * __pow(2, 24) + this[++offset] * __pow(2, 16) + this[++offset] * __pow(2, 8) + last);
       });
       Buffer3.prototype.readFloatLE = function readFloatLE(offset, noAssert) {
@@ -1769,7 +1773,7 @@ export const rpnGames = (() => {
       }
       E(
         "ERR_BUFFER_OUT_OF_BOUNDS",
-        function(name) {
+        function (name) {
           if (name) {
             return `${name} is outside of buffer bounds`;
           }
@@ -1779,14 +1783,14 @@ export const rpnGames = (() => {
       );
       E(
         "ERR_INVALID_ARG_TYPE",
-        function(name, actual) {
+        function (name, actual) {
           return `The "${name}" argument must be of type number. Received type ${typeof actual}`;
         },
         TypeError
       );
       E(
         "ERR_OUT_OF_RANGE",
-        function(str, range, input) {
+        function (str, range, input) {
           let msg = `The value of "${str}" is out of range.`;
           let received = input;
           if (Number.isInteger(input) && Math.abs(input) > __pow(2, 32)) {
@@ -1972,7 +1976,7 @@ export const rpnGames = (() => {
       function numberIsNaN(obj) {
         return obj !== obj;
       }
-      var hexSliceLookupTable = function() {
+      var hexSliceLookupTable = function () {
         const alphabet = "0123456789abcdef";
         const table = new Array(256);
         for (let i = 0; i < 16; ++i) {
@@ -2112,7 +2116,7 @@ export const rpnGames = (() => {
   })(Environment || {});
   var Config = class _Config {
     constructor() {
-      this._sdkVersion = "1.3.1196";
+      this._sdkVersion = "1.3.1267";
       this._gameData = {
         versionString: "0.0.1",
         name: "Test SDK Game",
@@ -2480,7 +2484,8 @@ URL credits param: ${creditsString}`
 
         gtag('js', new Date());
         gtag('config', '${Config.instance.analyticsId}', {
-            'user_id': '${userId}'
+            'user_id': '${userId}',
+            'cookie_flags': 'SameSite=None; Secure',
         });
         `;
       document.head.append(gaInitScript);
@@ -2610,7 +2615,7 @@ URL credits param: ${creditsString}`
   var EventManager = class {
     static listen(key, callback, once = false) {
       const listener = (event) => {
-        callback(event.detail);
+        callback(event.detail.data);
       };
       document.addEventListener(key, listener, { once });
       return listener;
@@ -2623,15 +2628,14 @@ URL credits param: ${creditsString}`
             const messageId = detail.id;
             if (startsWithUUID(messageId)) {
               if (idPrefix) {
-                if (!messageId)
+                if (!messageId || !messageId.startsWith(idPrefix)) {
                   return;
-                if (!messageId.startsWith(idPrefix))
-                  return;
+                }
               }
             }
             document.removeEventListener(key, listener, { capture: true });
             event.stopImmediatePropagation();
-            resolve(detail);
+            resolve(detail.data);
           };
           document.addEventListener(key, listener, { capture: true });
         });
@@ -2646,8 +2650,9 @@ URL credits param: ${creditsString}`
     }
   };
   function startsWithUUID(messageId) {
-    if (!messageId)
+    if (!messageId) {
       return false;
+    }
     const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/;
     return uuidRegex.test(messageId);
   }
@@ -2723,6 +2728,21 @@ URL credits param: ${creditsString}`
         }
       );
     }
+    fullscreenGet() {
+      return __async(this, null, function* () {
+        return document.fullscreenElement ? true : false;
+      });
+    }
+    fullscreenToggle() {
+      if (!document.fullscreenElement) {
+        document.body.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+    onFullscreenChanged(callback) {
+      window.addEventListener("fullscreenchange", () => callback(document.fullscreenElement ? true : false));
+    }
     // MoBingo Only
     skillCheckRequest(_betResult, _skillResult) {
       return __async(this, null, function* () {
@@ -2749,13 +2769,14 @@ URL credits param: ${creditsString}`
         return resultOrErr;
       });
     }
-    static sendStartGameResponse(gameCode, currency, betAmount, config) {
+    static sendStartGameResponse(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
         const resultOrErr = yield _TestResponder.sendRequest("POST", "start", {
           gameCode,
           betAmount,
           currency,
-          config
+          config,
+          forceBigWin
         });
         return resultOrErr;
       });
@@ -2883,8 +2904,9 @@ URL credits param: ${creditsString}`
     statefulGameGetInfo(gameCode) {
       return __async(this, null, function* () {
         const response = yield TestResponder.sendGetInfoResponse(gameCode);
-        if (response.isRight)
+        if (response.isRight) {
           return response.right;
+        }
         console.warn(`[RPN Games SDK] statefulGameGetInfo error ${response.left}`);
         return {
           error: `statefulGameGetInfo error ${response.left}`,
@@ -2892,11 +2914,12 @@ URL credits param: ${creditsString}`
         };
       });
     }
-    statefulGameStart(gameCode, currency, betAmount, config) {
+    statefulGameStart(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
-        const response = yield TestResponder.sendStartGameResponse(gameCode, currency, betAmount, config);
-        if (response.isRight)
+        const response = yield TestResponder.sendStartGameResponse(gameCode, currency, betAmount, config, forceBigWin);
+        if (response.isRight) {
           return response.right;
+        }
         console.warn(`[RPN Games SDK] statefulGameStart error ${response.left}`);
         return {
           error: `statefulGameStart error ${response.left}`,
@@ -2907,8 +2930,9 @@ URL credits param: ${creditsString}`
     statefulGameAction(gameCode, gameId, action) {
       return __async(this, null, function* () {
         const response = yield TestResponder.sendActionResponse(gameCode, gameId, action);
-        if (response.isRight)
+        if (response.isRight) {
           return response.right;
+        }
         console.warn(`[RPN Games SDK] statefulGameAction error ${response.left}`);
         return {
           error: `statefulGameAction error ${response.left}`,
@@ -2981,6 +3005,9 @@ URL credits param: ${creditsString}`
     CommandType2["GET_PAYTABLE_DETAILS"] = "GET_PAYTABLE_DETAILS";
     CommandType2["LOCAL_STORAGE_GET"] = "LOCAL_STORAGE_GET";
     CommandType2["LOCAL_STORAGE_SET"] = "LOCAL_STORAGE_SET";
+    CommandType2["FULLSCREEN_GET"] = "FULLSCREEN_GET";
+    CommandType2["FULLSCREEN_TOGGLE"] = "FULLSCREEN_TOGGLE";
+    CommandType2["FULLSCREEN_CHANGED"] = "FULLSCREEN_CHANGED";
     return CommandType2;
   })(CommandType || {});
   var Message = class {
@@ -2998,41 +3025,44 @@ URL credits param: ${creditsString}`
     if (message.controlType === 1 /* RESPONSE */) {
       switch (message.commandType) {
         case "CREDIT_BALANCE" /* CREDIT_BALANCE */:
-          EventManager.dispatch("onCreditBalanceResponse" /* onCreditBalanceResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onCreditBalanceResponse" /* onCreditBalanceResponse */, { id: message.id, data: message.data });
           break;
         case "BALANCE_UPDATE" /* BALANCE_UPDATE */: {
-          EventManager.dispatch("onBalanceUpdateNotification" /* onBalanceUpdateNotification */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onBalanceUpdateNotification" /* onBalanceUpdateNotification */, { id: message.id, data: message.data });
           break;
         }
         case "MAKE_BET" /* MAKE_BET */:
-          EventManager.dispatch("onMakeBetResponse" /* onMakeBetResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onMakeBetResponse" /* onMakeBetResponse */, { id: message.id, data: message.data });
           break;
         case "MAKE_CREDIT_BET" /* MAKE_CREDIT_BET */:
-          EventManager.dispatch("onMakeCreditBetResponse" /* onMakeCreditBetResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onMakeCreditBetResponse" /* onMakeCreditBetResponse */, { id: message.id, data: message.data });
           break;
         case "MAKE_MULTI_CREDIT_BET" /* MAKE_MULTI_CREDIT_BET */:
-          EventManager.dispatch("onMakeMultiCreditBetResponse" /* onMakeMultiCreditBetResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onMakeMultiCreditBetResponse" /* onMakeMultiCreditBetResponse */, { id: message.id, data: message.data });
           break;
         case "STATEFUL_GAME_INFO" /* STATEFUL_GAME_INFO */:
-          EventManager.dispatch("onStatefulGameInfoResponse" /* onStatefulGameInfoResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onStatefulGameInfoResponse" /* onStatefulGameInfoResponse */, { id: message.id, data: message.data });
           break;
         case "STATEFUL_GAME_START_GAME" /* STATEFUL_GAME_START_GAME */:
-          EventManager.dispatch("onStatefulGameStartResponse" /* onStatefulGameStartResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onStatefulGameStartResponse" /* onStatefulGameStartResponse */, { id: message.id, data: message.data });
           break;
         case "STATEFUL_GAME_ACTION" /* STATEFUL_GAME_ACTION */:
-          EventManager.dispatch("onStatefulGameActionResponse" /* onStatefulGameActionResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onStatefulGameActionResponse" /* onStatefulGameActionResponse */, { id: message.id, data: message.data });
           break;
         case "SPIN_ENDED" /* GAME_ENDED */:
-          EventManager.dispatch("onGameEndedResponse" /* onGameEndedResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onGameEndedResponse" /* onGameEndedResponse */, { id: message.id, data: message.data });
           break;
         case "SKILL_CHECK_RESULT" /* SKILL_CHECK_RESULT */:
-          EventManager.dispatch("onSkillCheckResultResponse" /* onSkillCheckResultResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onSkillCheckResultResponse" /* onSkillCheckResultResponse */, { id: message.id, data: message.data });
           break;
         case "LOCAL_STORAGE_GET" /* LOCAL_STORAGE_GET */:
-          EventManager.dispatch("onStorageResponse" /* onStorageResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onStorageResponse" /* onStorageResponse */, { id: message.id, data: message.data });
           break;
         case "GET_PAYTABLE_DETAILS" /* GET_PAYTABLE_DETAILS */:
-          EventManager.dispatch("onPaytableRtpResponse" /* onPaytableRtpResponse */, __spreadValues({ id: message.id }, message.data));
+          EventManager.dispatch("onPaytableRtpResponse" /* onPaytableRtpResponse */, { id: message.id, data: message.data });
+          break;
+        case "FULLSCREEN_GET" /* FULLSCREEN_GET */:
+          EventManager.dispatch("onFullscreenQueryResponse" /* onFullscreenGetResponse */, { id: message.id, data: message.data });
           break;
         default:
           console.warn(`[RPN Games SDK] No RESPONSE handling implemented for command ${CommandType[message.commandType]}`);
@@ -3042,18 +3072,21 @@ URL credits param: ${creditsString}`
     } else if (message.controlType === 2 /* NOTIFICATION */) {
       switch (message.commandType) {
         case "JACKPOT_UPDATE" /* JACKPOT_UPDATE */:
-          EventManager.dispatch("onJackpotUpdateNotification" /* onJackpotUpdateNotification */, message.data);
+          EventManager.dispatch("onJackpotUpdateNotification" /* onJackpotUpdateNotification */, { data: message.data });
           break;
         case "BALANCE_UPDATE" /* BALANCE_UPDATE */:
-          EventManager.dispatch("onBalanceUpdateNotification" /* onBalanceUpdateNotification */, message.data);
+          EventManager.dispatch("onBalanceUpdateNotification" /* onBalanceUpdateNotification */, { data: message.data });
           break;
         case "PAUSE_GAME" /* PAUSE_GAME */:
           console.debug(`[RPN Games SDK] PAUSE_GAME notification received`);
-          EventManager.dispatch("onGamePausedNotification" /* onGamePausedNotification */, message.data);
+          EventManager.dispatch("onGamePausedNotification" /* onGamePausedNotification */, { data: message.data });
           break;
         case "RESUME_GAME" /* RESUME_GAME */:
           console.debug(`[RPN Games SDK] RESUME_GAME notification received`);
-          EventManager.dispatch("onGameResumedNotification" /* onGameResumedNotification */, message.data);
+          EventManager.dispatch("onGameResumedNotification" /* onGameResumedNotification */, { data: message.data });
+          break;
+        case "FULLSCREEN_CHANGED" /* FULLSCREEN_CHANGED */:
+          EventManager.dispatch("onFullscreenChanged" /* onFullscreenChanged */, { data: message.data });
           break;
         default:
           console.warn(`[RPN Games SDK] No NOTIFICATION handling implemented for command ${CommandType[message.commandType]}`);
@@ -3232,7 +3265,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
         return response;
       });
     }
-    statefulGameStart(gameCode, currency, betAmount, config) {
+    statefulGameStart(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
         var _a, _b;
         const requestData = {
@@ -3242,7 +3275,8 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
           currency,
           gameVersion: Config.instance.gameVersion,
           numLines: 1,
-          gameType: "STATEFUL_GAME"
+          gameType: "STATEFUL_GAME",
+          forceBigWin
         };
         const msg = new Message(0 /* REQUEST */, "STATEFUL_GAME_START_GAME" /* STATEFUL_GAME_START_GAME */, requestData);
         const responsePromise = EventManager.nextEvent("onStatefulGameStartResponse" /* onStatefulGameStartResponse */, msg.id);
@@ -3365,6 +3399,26 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
     localStorageSet(key, value) {
       const setStorageMsg = new Message(0 /* REQUEST */, "LOCAL_STORAGE_SET" /* LOCAL_STORAGE_SET */, { key, value });
       AppComms.instance.sendMessage(setStorageMsg);
+    }
+    fullscreenGet() {
+      return __async(this, null, function* () {
+        const message = new Message(0 /* REQUEST */, "FULLSCREEN_GET" /* FULLSCREEN_GET */, {});
+        const fullscreenGetPromise = EventManager.nextEvent("onFullscreenQueryResponse" /* onFullscreenGetResponse */, message.id);
+        AppComms.instance.sendMessage(message);
+        return (yield fullscreenGetPromise).fullscreen;
+      });
+    }
+    fullscreenToggle() {
+      const message = new Message(0 /* REQUEST */, "FULLSCREEN_TOGGLE" /* FULLSCREEN_TOGGLE */, {});
+      AppComms.instance.sendMessage(message);
+    }
+    onFullscreenChanged(callback) {
+      EventManager.listen(
+        "onFullscreenChanged" /* onFullscreenChanged */,
+        (data) => {
+          callback(data.fullscreen);
+        }
+      );
     }
   };
 
@@ -3512,7 +3566,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
         };
       });
     }
-    statefulGameStart(gameCode, currency, betAmount, config) {
+    statefulGameStart(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
         console.warn(`[RPN Games SDK] statefulGame not available on ${Config.instance.platform} platform`);
         return {
@@ -3692,7 +3746,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
         };
       });
     }
-    statefulGameStart(gameCode, currency, betAmount, config) {
+    statefulGameStart(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
         console.warn(`[RPN Games SDK] statefulGame not available on ${Config.instance.platform} platform`);
         return {
@@ -3755,6 +3809,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
         900,
         1e3,
         1500,
+        2e3,
         2500,
         3e3,
         4e3,
@@ -4401,7 +4456,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
      *
      * @returns Either an error {@link ApiErrorResponse} or success {@link StatefulGameStartSuccessResponse} with updated accounts
      */
-    statefulGameStart(gameCode, currency, betAmount, config) {
+    statefulGameStart(gameCode, currency, betAmount, config, forceBigWin = false) {
       return __async(this, null, function* () {
         console.debug(`[RPN Games SDK] statefulGameStart: Starting a stateful game of ${gameCode} with a bet of ${betAmount}, in currency: ${currency}, with config: ${JSON.stringify(config)}`);
         const validBetAmount = this.apiResponseAsBool(this.isValidBetAmountForCurrency(currency, betAmount));
@@ -4422,7 +4477,7 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
           virtual_currency_name: currency,
           item_name: "STATEFUL_GAME"
         });
-        const response = yield this._platformApi.statefulGameStart(gameCode, currency, betAmount, config);
+        const response = yield this._platformApi.statefulGameStart(gameCode, currency, betAmount, config, forceBigWin);
         if ("error" in response) {
           BalanceManager.instance.creditAccount(currency, betAmount);
         }
@@ -4579,6 +4634,26 @@ ${CommandType[message.commandType]}: ${JSON.stringify(message.data)}`
       console.debug(`[RPN Games SDK] onBalancesUpdated: adding callback for balance update events`);
       this._platformApi.onBalancesUpdated(callback);
       callback(BalanceManager.instance.accountsArray);
+    }
+    /**
+     * Queries whether the game is in fullscreen or not.
+     */
+    fullscreenGet() {
+      return __async(this, null, function* () {
+        return this._platformApi.fullscreenGet();
+      });
+    }
+    /**
+     * Sets or unsets the game to fullscreen
+     */
+    fullscreenToggle() {
+      this._platformApi.fullscreenToggle();
+    }
+    /**
+     * Set a callback for when the fullscreen status of the game changes
+     */
+    onFullscreenChanged(callback) {
+      this._platformApi.onFullscreenChanged(callback);
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
     //          Deployment Utils

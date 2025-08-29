@@ -116,6 +116,30 @@
           "srcs": [
             "Textures/colormap.png"
           ]
+        },
+        {
+          "name": "treasure_chest.glb",
+          "srcs": [
+            "treasure_chest.glb"
+          ]
+        },
+        {
+          "name": "treasure_chest_2.glb",
+          "srcs": [
+            "treasure_chest_2.glb"
+          ]
+        },
+        {
+          "name": "treasure_chest_textured.glb",
+          "srcs": [
+            "treasure_chest_textured.glb"
+          ]
+        },
+        {
+          "name": "_treasure_chest_textured.glb",
+          "srcs": [
+            "_treasure_chest_textured.glb"
+          ]
         }
       ]
     }

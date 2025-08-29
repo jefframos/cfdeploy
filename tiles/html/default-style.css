@@ -1,3 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reserve space above targets = header height + a little padding */
+:root {
+  --headerH: 0px;
+}
+
+/* JS will set this dynamically */
+[data-redirect-id] {
+  scroll-margin-top: calc(var(--headerH) + 12px);
+}
+
+/* If you have a fixed/sticky header, this helps too */
+/* .top-menu { position: sticky; top: 0; } */
+
 body {
   font-family: 'poppins-extralight';
   color: white;
@@ -30,6 +47,10 @@ body {
   /* fixed height for consistency */
   gap: 4px;
   overflow-x: auto;
+}
+
+.ios .top-menu {
+  display: none !important;
 }
 
 .top-menu button {

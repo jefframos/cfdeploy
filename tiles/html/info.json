@@ -91,15 +91,6 @@
         "imageHorizontalAlign": "right",
         "textHorizontalAlign": "left",
         "textVerticalAlign": "middle"
-      },
-      {
-        "text": "Gold Tile - One per board. When tapped, the Golden Tile Minigame screen is opened",
-        "image": "images/fatui_08.png",
-        "maxImageHeight": 80,
-        "imagePosition": "left",
-        "imageHorizontalAlign": "right",
-        "textHorizontalAlign": "left",
-        "textVerticalAlign": "middle"
       }
     ],
     "spaceAfter": 30
@@ -300,116 +291,6 @@
     ]
   },
   {
-    "type": "image",
-    "src": "images/fatui_19.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 200,
-    "spaceAfter": 0
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "During the game, you can tap a golden tile. Doing so will prompt a second screen where you can set a play amount for the golden tile game, or leave"
-      }
-    ]
-  },
-  {
-    "type": "image",
-    "src": "images/fatui_20.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 200,
-    "spaceAfter": 0
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "A table with three cups will appear, and shuffle around"
-      }
-    ]
-  },
-  {
-    "type": "image",
-    "src": "images/fatui_21.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 200,
-    "spaceAfter": 0
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "You must pick a cup to either reveal:"
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "entries": [
-      {
-        "text": "A Big Win (Cup with lots of gems)",
-        "image": "images/fatui_22.png",
-        "maxImageHeight": 80,
-        "imagePosition": "left",
-        "imageHorizontalAlign": "right",
-        "textHorizontalAlign": "left",
-        "textVerticalAlign": "middle"
-      },
-      {
-        "text": "A Small Win (Cup with one gem)",
-        "image": "images/fatui_23.png",
-        "maxImageHeight": 80,
-        "imagePosition": "left",
-        "imageHorizontalAlign": "right",
-        "textHorizontalAlign": "left",
-        "textVerticalAlign": "middle"
-      },
-      {
-        "text": "A loss (Empty cup)",
-        "image": "images/fatui_24.png",
-        "maxImageHeight": 80,
-        "imagePosition": "left",
-        "imageHorizontalAlign": "right",
-        "textHorizontalAlign": "left",
-        "textVerticalAlign": "middle"
-      }
-    ],
-    "spaceAfter": 30
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "After the Golden Tile game is completed, the rewards are instantly won"
-      }
-    ]
-  },
-  {
-    "type": "image",
-    "src": "images/fatui_25.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 200,
-    "spaceAfter": 0
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "The Golden Tile screen then closes, and the game continues as before"
-      }
-    ]
-  },
-  {
     "redirectId": "rewards",
     "name": "REWARDS",
     "type": "title",
@@ -447,7 +328,7 @@
     "content": [
       {
         "type": "text",
-        "value": "Each time you select a non-gold tile, you’ll either be shown a gem or a bomb"
+        "value": "Each time you select a tile, you’ll either be shown a gem or a bomb"
       }
     ]
   },
@@ -512,50 +393,6 @@
     ]
   },
   {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "During the game, you may reach the golden tile. Instead of a bomb or gem, you will unlock a minigame"
-      }
-    ]
-  },
-  {
-    "type": "image",
-    "src": "images/fatui_21.png",
-    "imagePosition": "center",
-    "imageHorizontalAlign": "center",
-    "imageHeight": 200,
-    "spaceAfter": 0
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "To play the minigame, select a new play amount"
-      }
-    ]
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "The cups will then shuffle around, before stopping and allowing you to pick one. Your cup will either reveal a pile of gems, one gem, or nothing"
-      }
-    ]
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "You then immediately receive your reward, and the minigame closes"
-      }
-    ]
-  },
-  {
     "redirectId": "paytables",
     "name": "PAYTABLES",
     "type": "title",
@@ -608,43 +445,6 @@
       },
       {
         "text": ["Round 8", "1000x", "20%", "0.073728%", "0.73728%"]
-      }
-    ]
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": " "
-      }
-    ]
-  },
-  {
-    "type": "flexContainer",
-    "content": [
-      {
-        "type": "text",
-        "value": "The Golden Tile minigame has an RTP of 94.80%"
-      }
-    ]
-  },
-  {
-    "type": "table",
-    "spaceAfter": 150,
-    "tableTitle": "",
-    "entries": [
-      {
-        "text": ["Multiplier", "Chance"]
-      },
-      {
-        "text": ["2.4x", "34.00%"]
-      },
-      {
-        "text": ["0.4x", "33.00%"]
-      },
-      {
-        "text": ["2x", "33.00%"]
       }
     ]
   },

@@ -1,3 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reserve space above targets = header height + a little padding */
+:root {
+  --headerH: 0px;
+}
+
+/* JS will set this dynamically */
+[data-redirect-id] {
+  scroll-margin-top: calc(var(--headerH) + 12px);
+}
+
+/* If you have a fixed/sticky header, this helps too */
+/* .top-menu { position: sticky; top: 0; } */
+
 body {
   font-family: 'poppins-extralight';
   color: white;
@@ -30,6 +47,10 @@ body {
   /* fixed height for consistency */
   gap: 4px;
   overflow-x: auto;
+}
+
+.ios .top-menu {
+  display: none !important;
 }
 
 .top-menu button {
@@ -222,6 +243,7 @@ h2 {
 .align-right img {
   text-align: right;
 }
+
 #table-3-row-0 {
   text-align: right;
   vertical-align: middle;
@@ -292,146 +314,74 @@ h2 {
   width: 80px;
 }
 
-#table-3-row-7 {
-  text-align: right;
-  vertical-align: middle;
+#table-41-row-0 {
 }
 
-#table-3-row-7 .image-cell img {
-  height: 80px;
-  width: 80px;
-}
-
-#table-33-row-0 {
-  text-align: right;
-  vertical-align: middle;
-}
-
-#table-33-row-0 .image-cell img {
-  height: 80px;
-  width: 80px;
-}
-
-#table-33-row-1 {
-  text-align: right;
-  vertical-align: middle;
-}
-
-#table-33-row-1 .image-cell img {
-  height: 80px;
-  width: 80px;
-}
-
-#table-33-row-2 {
-  text-align: right;
-  vertical-align: middle;
-}
-
-#table-33-row-2 .image-cell img {
-  height: 80px;
-  width: 80px;
-}
-
-#table-56-row-0 {
-}
-
-#table-56-row-0 .image-cell img {
+#table-41-row-0 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-1 {
+#table-41-row-1 {
 }
 
-#table-56-row-1 .image-cell img {
+#table-41-row-1 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-2 {
+#table-41-row-2 {
 }
 
-#table-56-row-2 .image-cell img {
+#table-41-row-2 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-3 {
+#table-41-row-3 {
 }
 
-#table-56-row-3 .image-cell img {
+#table-41-row-3 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-4 {
+#table-41-row-4 {
 }
 
-#table-56-row-4 .image-cell img {
+#table-41-row-4 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-5 {
+#table-41-row-5 {
 }
 
-#table-56-row-5 .image-cell img {
+#table-41-row-5 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-6 {
+#table-41-row-6 {
 }
 
-#table-56-row-6 .image-cell img {
+#table-41-row-6 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-7 {
+#table-41-row-7 {
 }
 
-#table-56-row-7 .image-cell img {
+#table-41-row-7 .image-cell img {
   height: 100%;
   width: 100%;
 }
 
-#table-56-row-8 {
+#table-41-row-8 {
 }
 
-#table-56-row-8 .image-cell img {
-  height: 100%;
-  width: 100%;
-}
-
-#table-59-row-0 {
-}
-
-#table-59-row-0 .image-cell img {
-  height: 100%;
-  width: 100%;
-}
-
-#table-59-row-1 {
-}
-
-#table-59-row-1 .image-cell img {
-  height: 100%;
-  width: 100%;
-}
-
-#table-59-row-2 {
-}
-
-#table-59-row-2 .image-cell img {
-  height: 100%;
-  width: 100%;
-}
-
-#table-59-row-3 {
-}
-
-#table-59-row-3 .image-cell img {
+#table-41-row-8 .image-cell img {
   height: 100%;
   width: 100%;
 }

@@ -52,18 +52,6 @@
           ]
         },
         {
-          "name": "tutorial/page3.png",
-          "srcs": [
-            "tutorial/page3.png"
-          ]
-        },
-        {
-          "name": "tutorial/page4.png",
-          "srcs": [
-            "tutorial/page4.png"
-          ]
-        },
-        {
           "name": "tutorial/prev.png",
           "srcs": [
             "tutorial/prev.png"
@@ -115,19 +103,6 @@
           }
         },
         {
-          "name": "game/prize-wheel/prize-wheel.json",
-          "srcs": [
-            "game/prize-wheel/prize-wheel@1x.json",
-            "game/prize-wheel/prize-wheel@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
-              "m": true
-            }
-          }
-        },
-        {
           "name": "game/shared/shared.json",
           "srcs": [
             "game/shared/shared@1x.json",
@@ -141,36 +116,10 @@
           }
         },
         {
-          "name": "game/textures/textures.json",
-          "srcs": [
-            "game/textures/textures@1x.json",
-            "game/textures/textures@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
-              "m": true
-            }
-          }
-        },
-        {
           "name": "game/tileset1/tileset1.json",
           "srcs": [
             "game/tileset1/tileset1@1x.json",
             "game/tileset1/tileset1@0.5x.json"
-          ],
-          "data": {
-            "tags": {
-              "tps": true,
-              "m": true
-            }
-          }
-        },
-        {
-          "name": "game/tileset2/tileset2.json",
-          "srcs": [
-            "game/tileset2/tileset2@1x.json",
-            "game/tileset2/tileset2@0.5x.json"
           ],
           "data": {
             "tags": {
