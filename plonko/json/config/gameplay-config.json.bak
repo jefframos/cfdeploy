@@ -1,0 +1,12 @@
+{
+    "targetZoom": 1,
+    "movementDuration": 500,
+    "tileSpacing": 250,
+    "multiplierTileConfigPath": "tile-states",
+    "finalTileConfigPath": "final-tile-states",
+    "playerConfigPath": "player-config",
+    "vfxConfigPath": "vfx-config",
+    "portraitCameraScrollXReference": 0.35,
+    "landscapeCameraScrollXReference": 0.25,
+    "gameCode": "tiletapper"
+}

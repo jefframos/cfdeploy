@@ -1,0 +1,20 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "trippy.glsl.js"
+          ],
+          "src": [
+            "trippy.glsl.js"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "animations": {
+        "Idle": {
+            "id": "idle",
+            "loop": -1,
+            "framerate": 2
+        },
+        "Run": {
+            "id": "walk",
+            "loop": -1,
+            "framerate": 18
+        },
+        "Death": {
+            "id": "lose",
+            "loop": 0,
+            "framerate": 10
+        },
+        "Win": {
+            "id": "win",
+            "loop": 0,
+            "framerate": 8
+        }
+    },
+    "sounds": {
+        "Run": {
+            "id": [
+                "drop"
+            ],
+            "volume": 0.5
+        }
+    }
+}

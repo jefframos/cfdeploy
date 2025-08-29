@@ -1,0 +1,22 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "particles/coin.glb"
+          ],
+          "src": [
+            "particles/coin.glb"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

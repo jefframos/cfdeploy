@@ -1,0 +1,28 @@
+{
+    "atlas": "guy",
+    "tileWidth": 120,
+    "multiplierOffsetY": -520,
+    "backgroundLayers": [
+        {
+            "frames": "mailbox"
+        }
+    ],
+    "highlightFrame": "tile-highlight",
+    "hazardHighlightFrame": "hazard-highlight",
+    "multiplierStateSkin": {
+        "atlas": "guy",
+        "frames": {
+            "next": "tile-win",
+            "active": "tile-active",
+            "conquered": "tile-conquered",
+            "hazard": "tile-lose",
+            "win": "tile-win"
+        }
+    },
+    "multiplierStateSound": {
+        "win": {
+            "id": "start_game",
+            "volume": 0.5
+        }
+    }
+}

@@ -1,0 +1,334 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "animations/animation-set.json"
+          ],
+          "src": [
+            "animations/animation-set-gf9i1g.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "background/BackgroundMap.json"
+          ],
+          "src": [
+            "background/BackgroundMap-9trOnA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "commit-hash.json"
+          ],
+          "src": [
+            "commit-hash-UoP9rA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "config/final-tile-states.json"
+          ],
+          "src": [
+            "config/final-tile-states.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/final-tile-states.json.bak"
+          ],
+          "src": [
+            "config/final-tile-states.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/font-config.json"
+          ],
+          "src": [
+            "config/font-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/font-config.json.bak"
+          ],
+          "src": [
+            "config/font-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/gameplay-config.json"
+          ],
+          "src": [
+            "config/gameplay-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/gameplay-config.json.bak"
+          ],
+          "src": [
+            "config/gameplay-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/loader-data.json"
+          ],
+          "src": [
+            "config/loader-data.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/loader-data.json.bak"
+          ],
+          "src": [
+            "config/loader-data.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/player-config.json"
+          ],
+          "src": [
+            "config/player-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/player-config.json.bak"
+          ],
+          "src": [
+            "config/player-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/tile-states.json"
+          ],
+          "src": [
+            "config/tile-states.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/tile-states.json.bak"
+          ],
+          "src": [
+            "config/tile-states.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/vfx-config.json"
+          ],
+          "src": [
+            "config/vfx-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_EN.json"
+          ],
+          "src": [
+            "localization/localization_EN-TjfnKA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_ES.json"
+          ],
+          "src": [
+            "localization/localization_ES-JXGKNw.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_JA.json"
+          ],
+          "src": [
+            "localization/localization_JA-3Kxltw.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_PT-BR.json"
+          ],
+          "src": [
+            "localization/localization_PT-BR-o9nfOA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-baked-10.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-baked-10-4boiCA.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-baked-12.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-baked-12-niYJ-w.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-baked-14.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-baked-14-b5u6.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-baked-16.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-baked-16-4C7PCQ.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-baked-18.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-baked-18-wAMqCg.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "plinko-bake/plinko-rect-10.json"
+          ],
+          "src": [
+            "plinko-bake/plinko-rect-10-mbuG.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "tutorial/tutorial-data.json"
+          ],
+          "src": [
+            "tutorial/tutorial-data.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
