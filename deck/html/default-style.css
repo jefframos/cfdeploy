@@ -1,0 +1,224 @@
+body {
+  font-family: 'poppins-extralight';
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+.top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  color: white;
+  padding: 0;
+  /* remove padding to align button height */
+  z-index: 1000;
+  display: flex;
+  justify-content: left;
+  /* center horizontally */
+  align-items: left;
+  /* vertically center buttons */
+  height: 60px;
+  /* fixed height for consistency */
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.top-menu button {
+  font-family: 'poppins-bold' !important;
+
+  background: #444;
+  color: white;
+  border: none;
+  height: 100%;
+  /* full height of nav bar */
+  padding: 0 16px;
+  /* horizontal padding only */
+  cursor: pointer;
+  /* border-radius: 4px; */
+  display: flex;
+  align-items: center;
+  /* vertically center text */
+  font-size: 16px;
+}
+
+.top-menu button:hover {
+  background: #666;
+}
+
+body {
+  padding-top: 60px;
+  /* to prevent content being hidden under fixed nav */
+}
+
+.table-title {
+  font-family: 'poppins-bold';
+  padding: 20px;
+}
+
+.close-button {
+  font-family: 'poppins-bold';
+  border: none;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  /* Position the button on the top-right corner */
+  z-index: 1000;
+  /* border-radius: 15px; */
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); */
+  transition: box-shadow 0.3s ease;
+  background: linear-gradient(#b68acd, #9a70ba);
+  border: 2px solid #b68acd;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.table-container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  border: none;
+}
+
+@media screen and (orientation: portrait) {
+  table {
+    width: 90%;
+  }
+
+  .flex-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    zoom: 0.6;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  body {
+    zoom: 0.8;
+  }
+}
+
+@media (orientation: landscape) {
+  .close-button {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+}
+
+@media (orientation: portrait) {
+  .close-button {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+}
+
+td {
+  padding: 10px;
+  /* width: 50%; */
+}
+
+h2 {
+  width: 90%;
+  text-align: center;
+}
+
+.empty-space {
+  width: 90%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.tiled-image {
+  width: 100%;
+  padding: 10px;
+  background-size: auto;
+  background-repeat: repeat;
+  animation: moveTiledBackground 5s linear infinite;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Centered text styling */
+.centered-text {
+  font-size: 48px;
+}
+
+@keyframes moveTiledBackground {
+  from {
+    background-position: 0 0;
+    /* Initial background position */
+  }
+
+  to {
+    background-position: 64px 64px;
+    /* Move background position by 1 pixel */
+  }
+}
+
+/* Flex container styling */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex item styling */
+.flex-item {
+  vertical-align: middle;
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Image styling */
+.flex-item img {
+  height: auto;
+  /* Ensure the image height adjusts based on its content */
+  max-height: 100%;
+  /* Set a maximum height to prevent the image from exceeding its container */
+  align-self: center;
+  /* Vertically center the image within its flex container */
+}
+
+.align-center img {
+  text-align: center;
+}
+
+.align-left img {
+  text-align: left;
+}
+
+.align-right img {
+  text-align: right;
+}

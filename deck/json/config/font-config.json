@@ -1,0 +1,31 @@
+{
+  "primary": {
+    "color": "orange",
+    "fontFamily": "poppins",
+    "fontSize": "60px",
+    "fontStyle": "bold",
+    "shadow.offsetX": 5,
+    "shadow.offsetY": 5,
+    "shadow.blur": 7,
+    "shadow.stroke": true,
+    "shadow.fill": true
+  },
+  "secondary": {
+    "backgroundColor": "blue",
+    "color": "orange",
+    "fontFamily": "serif",
+    "fontSize": "60px",
+    "fontStyle": "bold italic",
+    "stroke": "orange",
+    "shadow.offsetX": 5,
+    "shadow.offsetY": 5,
+    "shadow.color": "brown",
+    "shadow.blur": 7,
+    "shadow.stroke": true,
+    "shadow.fill": true
+  },
+  "hpp-active": "hpp-active",
+  "hpp-next": "hpp-next",
+  "hpp-lose": "hpp-lose",
+  "hpp-gold": "hpp-gold"
+}

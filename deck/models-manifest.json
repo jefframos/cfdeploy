@@ -1,0 +1,187 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "particles/coin.glb"
+          ],
+          "src": [
+            "particles/coin.glb"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "SKM_Card.fbx"
+          ],
+          "src": [
+            "SKM_Card.fbx"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "SM_Card.fbx"
+          ],
+          "src": [
+            "SM_Card.fbx"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Bag_Great_Ball_SV_Sprite.png"
+          ],
+          "src": [
+            "textures/Bag_Great_Ball_SV_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Bag_Master_Ball_SV_Sprite.png"
+          ],
+          "src": [
+            "textures/Bag_Master_Ball_SV_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Bag_Ultra_Ball_SV_Sprite.png"
+          ],
+          "src": [
+            "textures/Bag_Ultra_Ball_SV_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/base-card-2.jpg"
+          ],
+          "src": [
+            "textures/base-card-2.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/base-card.jpg"
+          ],
+          "src": [
+            "textures/base-card.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background-2.png"
+          ],
+          "src": [
+            "textures/card-background-2.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background.jpg"
+          ],
+          "src": [
+            "textures/card-background.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Dream_Dive_Ball_Sprite.png"
+          ],
+          "src": [
+            "textures/Dream_Dive_Ball_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Dream_Luxury_Ball_Sprite.png"
+          ],
+          "src": [
+            "textures/Dream_Luxury_Ball_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Dream_Safari_Ball_Sprite.png"
+          ],
+          "src": [
+            "textures/Dream_Safari_Ball_Sprite.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/rough-card-2.jpg"
+          ],
+          "src": [
+            "textures/rough-card-2.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/rough-card.jpg"
+          ],
+          "src": [
+            "textures/rough-card.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/T_Checker.png"
+          ],
+          "src": [
+            "textures/T_Checker.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    }
+  ]
+}

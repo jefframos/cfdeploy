@@ -1,0 +1,24 @@
+{
+  "logoKey": "logo",
+  "backgroundKey": "loader_background",
+  "loadingFrameKey": "loading_frame",
+  "loadingBarKey": "loading_bar",
+  "tutorialOptions": {
+    "tutorialPath": "json/tutorial/tutorial-data.json"
+  },
+  "tilingBackgroundSpeed": {
+    "x": -7,
+    "y": -7
+  },
+  "barSize": 555,
+  "barPading": 8,
+  "loaderHeight": 70,
+  "logoScale": 0.7,
+  "barColor": "0xcc2900",
+  "tapToPlayFontConfig": {
+    "color": "#fffbe4"
+  },
+  "progressFontConfig": {
+    "color": "#fffbe4"
+  }
+}

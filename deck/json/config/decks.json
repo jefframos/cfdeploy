@@ -1,0 +1,34 @@
+{
+    "decks": [
+        {
+            "id": "pullcard1",
+            "cardModel": "models/SKM_Card.fbx",
+            "baseTexture": "models/textures/base-card-2.jpg",
+            "cardBackground": "models/textures/card-background-2.png",
+            "roughnessTexture": "models/textures/rough-card-2.jpg",
+            "ids": [
+                "models/textures/Bag_Great_Ball_SV_Sprite.png",
+                "models/textures/Bag_Master_Ball_SV_Sprite.png",
+                "models/textures/Bag_Ultra_Ball_SV_Sprite.png",
+                "models/textures/Dream_Dive_Ball_Sprite.png",
+                "models/textures/Dream_Luxury_Ball_Sprite.png",
+                "models/textures/Dream_Safari_Ball_Sprite.png"
+            ]
+        },
+        {
+            "id": "pullcard2",
+            "cardModel": "models/SKM_Card.fbx",
+            "baseTexture": "models/textures/base-card.jpg",
+            "cardBackground": "models/textures/card-background.jpg",
+            "roughnessTexture": "models/textures/rough-card.jpg",
+            "ids": [
+                "models/textures/Bag_Great_Ball_SV_Sprite.png",
+                "models/textures/Bag_Master_Ball_SV_Sprite.png",
+                "models/textures/Bag_Ultra_Ball_SV_Sprite.png",
+                "models/textures/Dream_Dive_Ball_Sprite.png",
+                "models/textures/Dream_Luxury_Ball_Sprite.png",
+                "models/textures/Dream_Safari_Ball_Sprite.png"
+            ]
+        }
+    ]
+}

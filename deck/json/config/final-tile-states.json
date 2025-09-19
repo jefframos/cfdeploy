@@ -1,0 +1,90 @@
+{
+  "atlas": "static",
+  "tileWidth": 300,
+  "multiplierOffsetY": -180,
+  "backgroundOrigin": {
+    "x": 0.47,
+    "y": 0.68
+  },
+  "backgroundLayers": [
+    {
+      "frames": "background-slice-final"
+    }
+  ],
+  "highlightFrame": {
+    "id": "tile-highlight",
+    "loop": -1,
+    "framerate": 12,
+    "originY": 0.75,
+    "fit": false
+  },
+  "hazardHighlightFrame": {
+    "id": "fire-tornado",
+    "loop": -1,
+    "framerate": 12,
+    "originY": 0.75,
+    "fit": false
+  },
+  "hintAnimation": {
+    "minInterval": 5,
+    "maxInterval": 10,
+    "animations": [
+      {
+        "id": "fire-loop",
+        "loop": 0,
+        "framerate": 22,
+        "originX": 0.5,
+        "originY": 0.25
+      }
+    ]
+  },
+  "multiplierStateSkin": {
+    "atlas": "static",
+    "config": {
+      "next": {
+        "stateViewReference": "goldtile-next",
+        "fontDefinition": {
+          "fontReference": "hpp-gold"
+        }
+      },
+      "active": {
+        "stateViewReference": "goldtile-win",
+        "fontDefinition": {
+          "fontReference": "hpp-active"
+        }
+      },
+      "conquered": {
+        "stateViewReference": "goldtile-win",
+        "fontDefinition": {
+          "fontReference": "hpp-active"
+        }
+      },
+      "hazard": {
+        "stateViewReference": "goldtile-lose",
+        "fontDefinition": {
+          "fontReference": "hpp-lose"
+        }
+      },
+      "win": {
+        "stateViewReference": "goldtile-win",
+        "fontDefinition": {
+          "fontReference": "hpp-active"
+        }
+      }
+    }
+  },
+  "multiplierStateSound": {
+    "hazard": {
+      "id": "ICE_Bomb_Hit",
+      "volume": 0.5
+    },
+    "active": {
+      "id": "Explosion_03",
+      "volume": 0.2
+    },
+    "win": {
+      "id": "start_game",
+      "volume": 0.5
+    }
+  }
+}

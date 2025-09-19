@@ -1,0 +1,152 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "tutorial/backTileImage.png",
+            "backTileImage.png"
+          ],
+          "src": [
+            "tutorial/backTileImage.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/dot.png",
+            "dot.png"
+          ],
+          "src": [
+            "tutorial/dot.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/next.png",
+            "next.png"
+          ],
+          "src": [
+            "tutorial/next.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page1.png",
+            "page1.png"
+          ],
+          "src": [
+            "tutorial/page1.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page2.png",
+            "page2.png"
+          ],
+          "src": [
+            "tutorial/page2.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/prev.png",
+            "prev.png"
+          ],
+          "src": [
+            "tutorial/prev.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "alias": [
+            "game/animation1",
+            "animation1"
+          ],
+          "src": [
+            "game/animation1-a3w4XA.png.json",
+            "game/animation1-5CT-Rg.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "a": true,
+              "tps": true,
+              "fix": true
+            },
+            "a": true
+          }
+        },
+        {
+          "alias": [
+            "game/static",
+            "static"
+          ],
+          "src": [
+            "game/static-tmvSdw.webp.json",
+            "game/static-4zRVMg.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true,
+              "fix": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game/ui",
+            "ui"
+          ],
+          "src": [
+            "game/ui-YFz3qg.png.json",
+            "game/ui-WMDa1Q.webp.json",
+            "game/ui-V8tNEw@0.5x.webp.json",
+            "game/ui-2B7ahg@0.5x.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

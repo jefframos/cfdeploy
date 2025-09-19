@@ -1,0 +1,294 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "animations/animation-set.json"
+          ],
+          "src": [
+            "animations/animation-set-0HU7cQ.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "background/BackgroundMap.json"
+          ],
+          "src": [
+            "background/BackgroundMap-uXceEg.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "commit-hash.json"
+          ],
+          "src": [
+            "commit-hash-IVqr.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "config/decks.json"
+          ],
+          "src": [
+            "config/decks.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/final-tile-states.json"
+          ],
+          "src": [
+            "config/final-tile-states.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/final-tile-states.json.bak"
+          ],
+          "src": [
+            "config/final-tile-states.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/font-config.json"
+          ],
+          "src": [
+            "config/font-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/font-config.json.bak"
+          ],
+          "src": [
+            "config/font-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/gameplay-config.json"
+          ],
+          "src": [
+            "config/gameplay-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/gameplay-config.json.bak"
+          ],
+          "src": [
+            "config/gameplay-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/loader-data.json"
+          ],
+          "src": [
+            "config/loader-data.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/loader-data.json.bak"
+          ],
+          "src": [
+            "config/loader-data.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/player-config.json"
+          ],
+          "src": [
+            "config/player-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/player-config.json.bak"
+          ],
+          "src": [
+            "config/player-config.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/tile-states.json"
+          ],
+          "src": [
+            "config/tile-states.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/tile-states.json.bak"
+          ],
+          "src": [
+            "config/tile-states.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "config/vfx-config.json"
+          ],
+          "src": [
+            "config/vfx-config.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_EN.json"
+          ],
+          "src": [
+            "localization/localization_EN-u4mIsg.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_ES.json"
+          ],
+          "src": [
+            "localization/localization_ES-7vmWCg.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_JA.json"
+          ],
+          "src": [
+            "localization/localization_JA-vHIx0w.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "localization/localization_PT-BR.json"
+          ],
+          "src": [
+            "localization/localization_PT-BR-pZHp.json"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "tutorial/tutorial-data.json"
+          ],
+          "src": [
+            "tutorial/tutorial-data.json"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/tutorial-data.json.bak"
+          ],
+          "src": [
+            "tutorial/tutorial-data.json.bak"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
