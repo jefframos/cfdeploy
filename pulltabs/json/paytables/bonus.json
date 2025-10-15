@@ -1,0 +1,70 @@
+{
+    "id": "bonus",
+    "livePaytableId": "PULL_TAB_BONUS",
+    "name": "Default Slots Paytable (bonus)",
+    "rows": [
+        {
+            "payoutMultiplier": 20,
+            "hitrate": "0.100%",
+            "extra": {
+                "symbol": "XXX"
+            }
+        },
+        {
+            "payoutMultiplier": 10,
+            "hitrate": "0.100%",
+            "extra": {
+                "symbol": "XXA"
+            }
+        },
+        {
+            "payoutMultiplier": 8,
+            "hitrate": "0.200%",
+            "extra": {
+                "symbol": "XXB"
+            }
+        },
+        {
+            "payoutMultiplier": 5,
+            "hitrate": "0.500%",
+            "extra": {
+                "symbol": "XXC"
+            }
+        },
+        {
+            "payoutMultiplier": 4,
+            "hitrate": "1.000%",
+            "extra": {
+                "symbol": "XXD"
+            }
+        },
+        {
+            "payoutMultiplier": 3,
+            "hitrate": "2.000%",
+            "extra": {
+                "symbol": "XXE"
+            }
+        },
+        {
+            "payoutMultiplier": 2,
+            "hitrate": "3.000%",
+            "extra": {
+                "symbol": "XXF"
+            }
+        },
+        {
+            "payoutMultiplier": 1,
+            "hitrate": "20.000%",
+            "extra": {
+                "symbol": "XXG"
+            }
+        },
+        {
+            "payoutMultiplier": 0,
+            "hitrate": "73.100%",
+            "extra": {
+                "symbol": "---"
+            }
+        }
+    ]
+}

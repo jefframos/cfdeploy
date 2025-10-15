@@ -1,0 +1,134 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "tutorial/backTileImage.png",
+            "backTileImage.png"
+          ],
+          "src": [
+            "tutorial/backTileImage.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/dot.png",
+            "dot.png"
+          ],
+          "src": [
+            "tutorial/dot.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/next.png",
+            "next.png"
+          ],
+          "src": [
+            "tutorial/next.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page1.png",
+            "page1.png"
+          ],
+          "src": [
+            "tutorial/page1.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page2.png",
+            "page2.png"
+          ],
+          "src": [
+            "tutorial/page2.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/prev.png",
+            "prev.png"
+          ],
+          "src": [
+            "tutorial/prev.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "alias": [
+            "game/ui",
+            "ui"
+          ],
+          "src": [
+            "game/ui-yg50bg.png.json",
+            "game/ui-xgTRhg.webp.json",
+            "game/ui-Jx3Zaw@0.5x.png.json",
+            "game/ui-GnksCQ@0.5x.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game/vfx",
+            "vfx"
+          ],
+          "src": [
+            "game/vfx-Lm-mcw@0.5x.png.json",
+            "game/vfx-JiOt.webp.json",
+            "game/vfx-IdoxQA@0.5x.webp.json",
+            "game/vfx-cJ3BuQ.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

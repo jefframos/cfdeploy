@@ -1,0 +1,77 @@
+{
+    "id": "medium",
+    "livePaytableId": "PULL_TAB_MEDIUM",
+    "name": "Default Slots Paytable (medium)",
+    "rows": [
+        {
+            "payoutMultiplier": 250,
+            "hitrate": "0.020%",
+            "extra": {
+                "symbol": "XXX"
+            }
+        },
+        {
+            "payoutMultiplier": 100,
+            "hitrate": "0.050%",
+            "extra": {
+                "symbol": "XXA"
+            }
+        },
+        {
+            "payoutMultiplier": 50,
+            "hitrate": "0.200%",
+            "extra": {
+                "symbol": "XXB"
+            }
+        },
+        {
+            "payoutMultiplier": 25,
+            "hitrate": "0.500%",
+            "extra": {
+                "symbol": "XXC"
+            }
+        },
+        {
+            "payoutMultiplier": 10,
+            "hitrate": "1.000%",
+            "extra": {
+                "symbol": "XXD"
+            }
+        },
+        {
+            "payoutMultiplier": 4,
+            "hitrate": "2.000%",
+            "extra": {
+                "symbol": "XXE"
+            }
+        },
+        {
+            "payoutMultiplier": 2,
+            "hitrate": "2.000%",
+            "extra": {
+                "symbol": "XXF"
+            }
+        },
+        {
+            "payoutMultiplier": 1.6,
+            "hitrate": "3.000%",
+            "extra": {
+                "symbol": "XXG"
+            }
+        },
+        {
+            "payoutMultiplier": 1,
+            "hitrate": "5.000%",
+            "extra": {
+                "symbol": "XXH"
+            }
+        },
+        {
+            "payoutMultiplier": 0,
+            "hitrate": "86.230%",
+            "extra": {
+                "symbol": "---"
+            }
+        }
+    ]
+}

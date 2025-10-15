@@ -1,0 +1,98 @@
+{
+  "atlas": "static",
+  "tileWidth": 280,
+  "multiplierOffsetY": -180,
+  "backgroundCycling": 1,
+  "backgroundOrigin": {
+    "y": 0.68
+  },
+  "backgroundLayers": [
+    {
+      "frames": [
+        "background-slice1",
+        "background-slice2"
+      ]
+    }
+  ],
+  "highlightFrame": {
+    "id": "tile-highlight",
+    "loop": -1,
+    "framerate": 12,
+    "originY": 0.75,
+    "fit": false
+  },
+  "hazardHighlightFrame": {
+    "id": "fire-tornado",
+    "loop": -1,
+    "framerate": 12,
+    "originY": 0.75,
+    "fit": false
+  },
+  "hintAnimation": {
+    "minInterval": 5,
+    "maxInterval": 10,
+    "animations": [
+      {
+        "id": "fire-loop",
+        "loop": 0,
+        "framerate": 22,
+        "originX": 0.5,
+        "originY": 0.25
+      }
+    ]
+  },
+  "multiplierStateSkin": {
+    "atlas": "static",
+    "config": {
+      "next": {
+        "stateViewReference": "tile-next",
+        "fontDefinition": {
+          "fontReference": "hpp-next",
+          "scale": 1,
+          "offset": {
+            "y": 0
+          }
+        }
+      },
+      "active": {
+        "stateViewReference": "tile-active",
+        "fontDefinition": {
+          "fontReference": "hpp-active",
+          "pop": true
+        }
+      },
+      "conquered": {
+        "stateViewReference": "tile-conquered",
+        "fontDefinition": {
+          "fontReference": "hpp-active"
+        }
+      },
+      "hazard": {
+        "stateViewReference": "tile-lose",
+        "fontDefinition": {
+          "fontReference": "hpp-lose"
+        }
+      },
+      "win": {
+        "stateViewReference": "tile-win",
+        "fontDefinition": {
+          "fontReference": "hpp-active"
+        }
+      }
+    }
+  },
+  "multiplierStateSound": {
+    "hazard": {
+      "id": "ICE_Bomb_Hit",
+      "volume": 0.5
+    },
+    "active": {
+      "id": "Explosion_03",
+      "volume": 0.2
+    },
+    "win": {
+      "id": "start_game",
+      "volume": 0.5
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "id": "high",
+    "livePaytableId": "PULL_TAB_HIGH",
+    "name": "Default Slots Paytable (high)",
+    "rows": [
+        {
+            "payoutMultiplier": 500,
+            "hitrate": "0.020%",
+            "extra": {
+                "symbol": "XXX"
+            }
+        },
+        {
+            "payoutMultiplier": 250,
+            "hitrate": "0.050%",
+            "extra": {
+                "symbol": "XXA"
+            }
+        },
+        {
+            "payoutMultiplier": 100,
+            "hitrate": "0.100%",
+            "extra": {
+                "symbol": "XXB"
+            }
+        },
+        {
+            "payoutMultiplier": 50,
+            "hitrate": "0.300%",
+            "extra": {
+                "symbol": "XXC"
+            }
+        },
+        {
+            "payoutMultiplier": 25,
+            "hitrate": "0.500%",
+            "extra": {
+                "symbol": "XXD"
+            }
+        },
+        {
+            "payoutMultiplier": 10,
+            "hitrate": "1.000%",
+            "extra": {
+                "symbol": "XXE"
+            }
+        },
+        {
+            "payoutMultiplier": 5,
+            "hitrate": "1.000%",
+            "extra": {
+                "symbol": "XXF"
+            }
+        },
+        {
+            "payoutMultiplier": 2,
+            "hitrate": "3.000%",
+            "extra": {
+                "symbol": "XXG"
+            }
+        },
+        {
+            "payoutMultiplier": 1,
+            "hitrate": "6.000%",
+            "extra": {
+                "symbol": "XXH"
+            }
+        },
+        {
+            "payoutMultiplier": 0,
+            "hitrate": "88.030%",
+            "extra": {
+                "symbol": "---"
+            }
+        }
+    ]
+}

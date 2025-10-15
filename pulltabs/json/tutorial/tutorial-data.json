@@ -1,0 +1,15 @@
+{
+  "carouselPages": [
+    {
+      "image": "images/tutorial/page1.png",
+      "text": "Tap GO to push your Pastry Pal deeper \nfor a bigger and tastier REWARD!"
+    },
+    {
+      "image": "images/tutorial/page2.png",
+      "text": "Tap SETTLE to pull them out before things get toasty\n and you lose it all!"
+    }
+  ],
+  "dotTexture": "images/tutorial/dot.png",
+  "nextTexture": "images/tutorial/next.png",
+  "prevTexture": "images/tutorial/prev.png"
+}

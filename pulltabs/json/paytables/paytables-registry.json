@@ -1,0 +1,16 @@
+{
+    "paytables": [
+        {
+            "id": "default_low",
+            "path": "low"
+        },
+        {
+            "id": "default_medium",
+            "path": "medium"
+        },
+        {
+            "id": "default_high",
+            "path": "high"
+        }
+    ]
+}

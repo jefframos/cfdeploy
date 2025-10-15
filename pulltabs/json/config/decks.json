@@ -1,0 +1,112 @@
+{
+  "decks": [
+    {
+      "id": "pullcard1",
+      "paytable": "pullcard1",
+      "value": "low",
+      "viewData": {
+        "background": {
+          "colorTop": "#ff9bf9",
+          "colorBottom": "#5c7ab0"
+        },
+        "cardView": {
+          "animation": {
+            "open": {
+              "axis": "z",
+              "baseDegrees": 125
+            },
+            "preOpen": {
+              "axis": "z",
+              "baseDegrees": 5
+            }
+          },
+          "cardModel": "models/SKM_Card_Triple.fbx",
+          "baseTexture": "models/textures/base-card.jpg",
+          "cardBackground": "models/textures/card-background-2.png",
+          "roughnessTexture": "models/textures/rough-card.jpg",
+          "normalTexture": "models/textures/T_Card_NM.jpg",
+          "ids": [
+            "models/textures/Bag_Great_Ball_SV_Sprite.png",
+            "models/textures/Bag_Master_Ball_SV_Sprite.png",
+            "models/textures/Bag_Ultra_Ball_SV_Sprite.png",
+            "models/textures/Dream_Dive_Ball_Sprite.png",
+            "models/textures/Dream_Luxury_Ball_Sprite.png",
+            "models/textures/Dream_Safari_Ball_Sprite.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pullcard2",
+      "paytable": "pullcard2",
+      "value": "medium",
+      "viewData": {
+        "background": {
+          "colorTop": "#b05559",
+          "colorBottom": "#f2c266"
+        },
+        "cardView": {
+          "animation": {
+            "open": {
+              "axis": "z",
+              "baseDegrees": 125
+            },
+            "preOpen": {
+              "axis": "z",
+              "baseDegrees": 5
+            }
+          },
+          "cardModel": "models/SKM_Card_Triple.fbx",
+          "baseTexture": "models/textures/base-card-2.jpg",
+          "cardBackground": "models/textures/card-background.jpg",
+          "roughnessTexture": "models/textures/rough-card-2.jpg",
+          "normalTexture": "models/textures/T_Card_NM.jpg",
+          "ids": [
+            "models/textures/Bag_Great_Ball_SV_Sprite.png",
+            "models/textures/Bag_Master_Ball_SV_Sprite.png",
+            "models/textures/Bag_Ultra_Ball_SV_Sprite.png",
+            "models/textures/Dream_Dive_Ball_Sprite.png",
+            "models/textures/Dream_Luxury_Ball_Sprite.png",
+            "models/textures/Dream_Safari_Ball_Sprite.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pullcard3",
+      "paytable": "pullcard3",
+      "value": "high",
+      "viewData": {
+        "background": {
+          "colorTop": "#120421",
+          "colorBottom": "#66eeb6"
+        },
+        "cardView": {
+          "animation": {
+            "open": {
+              "axis": "z",
+              "baseDegrees": 125
+            },
+            "preOpen": {
+              "axis": "z",
+              "baseDegrees": 5
+            }
+          },
+          "cardModel": "models/SKM_Card_Triple.fbx",
+          "baseTexture": "models/textures/base-card-3.jpg",
+          "cardBackground": "models/textures/card-background-2.png",
+          "roughnessTexture": "models/textures/rough-card-3.jpg",
+          "normalTexture": "models/textures/T_Card_NM.jpg",
+          "ids": [
+            "models/textures/Bag_Great_Ball_SV_Sprite.png",
+            "models/textures/Bag_Master_Ball_SV_Sprite.png",
+            "models/textures/Bag_Ultra_Ball_SV_Sprite.png",
+            "models/textures/Dream_Dive_Ball_Sprite.png",
+            "models/textures/Dream_Luxury_Ball_Sprite.png",
+            "models/textures/Dream_Safari_Ball_Sprite.png"
+          ]
+        }
+      }
+    }
+  ]
+}

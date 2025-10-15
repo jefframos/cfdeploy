@@ -1,0 +1,16 @@
+{
+  "targetZoom": 1,
+  "movementDuration": 400,
+  "tileSpacing": 279,
+  "multiplierTileConfigPath": "tile-states",
+  "finalTileConfigPath": "final-tile-states",
+  "playerConfigPath": "player-config",
+  "vfxConfigPath": "vfx-config",
+  "fontListPath": "font-config",
+  "portraitCameraScrollXReference": 0.25,
+  "landscapeCameraScrollXReference": 0.25,
+  "gameCode": "tiletapper",
+  "backgroundColor": "#2e110a",
+  "loseRestartTimer": 1200,
+  "gameLevel": "hard"
+}

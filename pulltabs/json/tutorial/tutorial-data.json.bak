@@ -1,0 +1,15 @@
+{
+    "carouselPages": [
+        {
+            "image": "images/tutorial/page1.png",
+            "text": "Guy needs check his mail"
+        },
+        {
+            "image": "images/tutorial/page2.png",
+            "text": "Help him and win money"
+        }
+    ],
+    "dotTexture": "images/tutorial/dot.png",
+    "nextTexture": "images/tutorial/next.png",
+    "prevTexture": "images/tutorial/prev.png"
+}
