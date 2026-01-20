@@ -1,0 +1,18 @@
+{
+    "logoKey": "logo",
+    "backgroundKey": "loader_background",
+    "loadingFrameKey": "loading_frame",
+    "loadingBarKey": "loading_bar",
+    "tutorialOptions": {
+        "tutorialPath": "json/tutorial/tutorialData.json"
+    },
+    "tilingBackgroundSpeed": {
+        "x": 50,
+        "y": -50
+    },
+    "barSize": 555,
+    "barPading": 8,
+    "loaderHeight": 70,
+    "logoScale": 0.6,
+    "barColor": "0xaa1135"
+}

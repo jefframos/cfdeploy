@@ -1,0 +1,836 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "particles/coin.glb"
+          ],
+          "src": [
+            "particles/coin.glb"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "SKM_Card_Triple.fbx"
+          ],
+          "src": [
+            "SKM_Card_Triple.fbx"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background-2.jpg"
+          ],
+          "src": [
+            "textures/card-background-2.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background-3.jpg"
+          ],
+          "src": [
+            "textures/card-background-3.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background-bonus.jpg"
+          ],
+          "src": [
+            "textures/card-background-bonus.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-background.jpg"
+          ],
+          "src": [
+            "textures/card-background.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-bonus/base-card-bonus-displacement.jpg"
+          ],
+          "src": [
+            "textures/card-bonus/base-card-bonus-displacement.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-bonus/base-card-bonus-reflection-mask.jpg"
+          ],
+          "src": [
+            "textures/card-bonus/base-card-bonus-reflection-mask.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-bonus/base-card-bonus.jpg"
+          ],
+          "src": [
+            "textures/card-bonus/base-card-bonus.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-bonus/rough-card-bonus.jpg"
+          ],
+          "src": [
+            "textures/card-bonus/rough-card-bonus.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-high/base-card-3-displacement.jpg"
+          ],
+          "src": [
+            "textures/card-high/base-card-3-displacement.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-high/base-card-3-reflection-mask.jpg"
+          ],
+          "src": [
+            "textures/card-high/base-card-3-reflection-mask.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-high/base-card-3.jpg"
+          ],
+          "src": [
+            "textures/card-high/base-card-3.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-high/rough-card-3.jpg"
+          ],
+          "src": [
+            "textures/card-high/rough-card-3.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-low/base-card-displacement.jpg"
+          ],
+          "src": [
+            "textures/card-low/base-card-displacement.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-low/base-card-reflection-mask.jpg"
+          ],
+          "src": [
+            "textures/card-low/base-card-reflection-mask.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-low/base-card.jpg"
+          ],
+          "src": [
+            "textures/card-low/base-card.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-low/rough-card.jpg"
+          ],
+          "src": [
+            "textures/card-low/rough-card.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-medium/base-card-2-displacement.jpg"
+          ],
+          "src": [
+            "textures/card-medium/base-card-2-displacement.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-medium/base-card-2-reflection-mask.jpg"
+          ],
+          "src": [
+            "textures/card-medium/base-card-2-reflection-mask.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-medium/base-card-2.jpg"
+          ],
+          "src": [
+            "textures/card-medium/base-card-2.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/card-medium/rough-card-2.jpg"
+          ],
+          "src": [
+            "textures/card-medium/rough-card-2.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Card_Triple_UV_Layout_01.jpg"
+          ],
+          "src": [
+            "textures/Card_Triple_UV_Layout_01.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Card_Triple_UV_Layout_02.jpg"
+          ],
+          "src": [
+            "textures/Card_Triple_UV_Layout_02.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Card_UV_Layout_01.jpg"
+          ],
+          "src": [
+            "textures/Card_UV_Layout_01.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Card_UV_Layout_02.jpg"
+          ],
+          "src": [
+            "textures/Card_UV_Layout_02.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-a.png"
+          ],
+          "src": [
+            "textures/icons/icon-a.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-b.png"
+          ],
+          "src": [
+            "textures/icons/icon-b.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-c.png"
+          ],
+          "src": [
+            "textures/icons/icon-c.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-d.png"
+          ],
+          "src": [
+            "textures/icons/icon-d.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-e.png"
+          ],
+          "src": [
+            "textures/icons/icon-e.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-f.png"
+          ],
+          "src": [
+            "textures/icons/icon-f.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-freeplay.png"
+          ],
+          "src": [
+            "textures/icons/icon-freeplay.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-g.png"
+          ],
+          "src": [
+            "textures/icons/icon-g.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-h.png"
+          ],
+          "src": [
+            "textures/icons/icon-h.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-i.png"
+          ],
+          "src": [
+            "textures/icons/icon-i.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/icons/icon-x.png"
+          ],
+          "src": [
+            "textures/icons/icon-x.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_00.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_00.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_04.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_04.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_06.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_06.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_19.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_19.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_22.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_22.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_23.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_23.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_29.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_29.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_39.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_39.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_44.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_44.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_45.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_45.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_46.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_46.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_47.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_47.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_48.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_48.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_49.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_49.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_50.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_50.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_53.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_53.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_54.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_54.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_56.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_56.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_59.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_59.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_62.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_62.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_64.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_64.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Gradients/T_Random_66.png"
+          ],
+          "src": [
+            "textures/Noise_Gradients/T_Random_66.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_01.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_01.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_02.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_02.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_03.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_03.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_04.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_04.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_05.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_05.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_06.png"
+          ],
+          "src": [
+            "textures/Noise_Masks_Merged/T_NoiseMask_Merged_06.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/peel-base-progress.png"
+          ],
+          "src": [
+            "textures/peel-base-progress.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/peel-base.png"
+          ],
+          "src": [
+            "textures/peel-base.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/peel-glow-large.png"
+          ],
+          "src": [
+            "textures/peel-glow-large.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/peel-glow.png"
+          ],
+          "src": [
+            "textures/peel-glow.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/peel-swipe-glow.png"
+          ],
+          "src": [
+            "textures/peel-swipe-glow.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/round-blur.png"
+          ],
+          "src": [
+            "textures/round-blur.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/T_Card_NM.jpg"
+          ],
+          "src": [
+            "textures/T_Card_NM.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/T_Card_NM.png"
+          ],
+          "src": [
+            "textures/T_Card_NM.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/T_Card_Triple_NM.png"
+          ],
+          "src": [
+            "textures/T_Card_Triple_NM.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "textures/T_Checker.png"
+          ],
+          "src": [
+            "textures/T_Checker.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    }
+  ]
+}

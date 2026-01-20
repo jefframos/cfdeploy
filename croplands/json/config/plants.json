@@ -1,0 +1,161 @@
+{
+    "plants": {
+        "test": {
+            "stalk": {
+                "textureAtlas": "farming",
+                "frame": "plantA/stalk",
+                "tipAtlas": "farming",
+                "tipFrame": "ItemIcon_Skull",
+                "path": {
+                    "height": 220,
+                    "segments": 8,
+                    "noise": {
+                        "seed": "slot-12",
+                        "maxBend": 18,
+                        "noiseAmp": 5,
+                        "noiseFreq": 1.5
+                    }
+                }
+            },
+            "branches": {
+                "seed": "slot-12-branches",
+                "distribution": {
+                    "tMin": 0.2,
+                    "tMax": 0.75,
+                    "countMin": 2,
+                    "countMax": 5,
+                    "minGap": 0.12
+                },
+                "length": {
+                    "min": 35,
+                    "max": 80
+                },
+                "frames": [
+                    "plantA/branch"
+                ],
+                "tipFrames": [
+                    "ItemIcon_Money_Coin",
+                    "ItemIcon_Star_Gold"
+                ]
+            }
+        },
+        "hard": {
+            "stalk": {
+                "textureAtlas": "farming",
+                "frame": "plantA/stalk",
+                "tipAtlas": "farming",
+                "tipFrame": "plantA/head",
+                "path": {
+                    "height": 220,
+                    "segments": 8,
+                    "noise": {
+                        "seed": "slot-12",
+                        "maxBend": 18,
+                        "noiseAmp": 5,
+                        "noiseFreq": 1.5
+                    }
+                }
+            },
+            "branches": {
+                "seed": "slot-12-branches",
+                "distribution": {
+                    "tMin": 0.2,
+                    "tMax": 0.75,
+                    "countMin": 2,
+                    "countMax": 5,
+                    "minGap": 0.12
+                },
+                "length": {
+                    "min": 35,
+                    "max": 80
+                },
+                "frames": [
+                    "plantA/branch"
+                ],
+                "tipFrames": [
+                    "plantA/leaf1",
+                    "plantA/leaf2"
+                ]
+            }
+        },
+        "regular": {
+            "stalk": {
+                "textureAtlas": "farming",
+                "frame": "plantB/stalk2",
+                "tipAtlas": "farming",
+                "tipFrame": "plantB/head2",
+                "path": {
+                    "height": 200,
+                    "segments": 10,
+                    "noise": {
+                        "seed": "slot-12B",
+                        "maxBend": 20,
+                        "noiseAmp": 10,
+                        "noiseFreq": 1.35
+                    }
+                }
+            },
+            "branches": {
+                "seed": "slot-12B-branches",
+                "distribution": {
+                    "tMin": 0.18,
+                    "tMax": 0.78,
+                    "countMin": 3,
+                    "countMax": 6,
+                    "minGap": 0.11
+                },
+                "length": {
+                    "min": 35,
+                    "max": 70
+                },
+                "frames": [
+                    "plantB/branch"
+                ],
+                "tipFrames": [
+                    "plantB/leaf2"
+                ]
+            }
+        },
+        "bonus": {
+            "stalk": {
+                "textureAtlas": "farming",
+                "frame": "plantC/stalk2",
+                "tipAtlas": "farming",
+                "tipFrame": "plantC/head2",
+                "path": {
+                    "height": 200,
+                    "segments": 10,
+                    "noise": {
+                        "seed": "slot-12B",
+                        "maxBend": 20,
+                        "noiseAmp": 10,
+                        "noiseFreq": 1.35
+                    }
+                }
+            },
+            "branches": {
+                "seed": "slot-12B-branches",
+                "distribution": {
+                    "tMin": 0.18,
+                    "tMax": 0.78,
+                    "countMin": 3,
+                    "countMax": 6,
+                    "minGap": 0.11
+                },
+                "length": {
+                    "min": 35,
+                    "max": 70
+                },
+                "frames": [
+                    "plantC/branch"
+                ],
+                "tipScale": 0.5,
+                "tipFrames": [
+                    "plantC/leaf1",
+                    "plantC/leaf2",
+                    "plantC/leaf3"
+                ]
+            }
+        }
+    }
+}

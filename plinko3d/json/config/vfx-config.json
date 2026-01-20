@@ -1,0 +1,13 @@
+{
+  "particles": {
+    "particleBurstSound": {
+      "id": [
+        "Collect_Treasures_01_Gems",
+        "Collect_Treasures_02_Gems"
+      ],
+      "loop": 0,
+      "particleModelPath": "models/particles/coin.glb",
+      "volume": 0.5
+    }
+  }
+}

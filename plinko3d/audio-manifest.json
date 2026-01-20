@@ -1,0 +1,414 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "cannon.mp3"
+          ],
+          "src": [
+            "cannon.ogg",
+            "cannon.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Chest Appear.wav"
+          ],
+          "src": [
+            "Chest Appear.ogg",
+            "Chest Appear.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Chest Open.wav"
+          ],
+          "src": [
+            "Chest Open.ogg",
+            "Chest Open.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Collect_Treasures_01_Gems.mp3"
+          ],
+          "src": [
+            "Collect_Treasures_01_Gems.ogg",
+            "Collect_Treasures_01_Gems.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Collect_Treasures_02_Gems.mp3"
+          ],
+          "src": [
+            "Collect_Treasures_02_Gems.ogg",
+            "Collect_Treasures_02_Gems.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "drop.wav"
+          ],
+          "src": [
+            "drop.ogg",
+            "drop.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Explosion_01.mp3"
+          ],
+          "src": [
+            "Explosion_01.ogg",
+            "Explosion_01.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Explosion_02.mp3"
+          ],
+          "src": [
+            "Explosion_02.ogg",
+            "Explosion_02.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Explosion_03.mp3"
+          ],
+          "src": [
+            "Explosion_03.ogg",
+            "Explosion_03.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Fantasy_Lofi.mp3"
+          ],
+          "src": [
+            "Fantasy_Lofi.ogg",
+            "Fantasy_Lofi.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "FlipRemainingTile.wav"
+          ],
+          "src": [
+            "FlipRemainingTile.ogg",
+            "FlipRemainingTile.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "ICE_Bomb_Hit.mp3"
+          ],
+          "src": [
+            "ICE_Bomb_Hit.ogg",
+            "ICE_Bomb_Hit.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "StartFlippingRemainingTiles.wav"
+          ],
+          "src": [
+            "StartFlippingRemainingTiles.ogg",
+            "StartFlippingRemainingTiles.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "start_game.wav"
+          ],
+          "src": [
+            "start_game.ogg",
+            "start_game.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Appear.m4a"
+          ],
+          "src": [
+            "template/Appear.m4a"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Applause Cheering.mp3"
+          ],
+          "src": [
+            "template/Applause Cheering.ogg",
+            "template/Applause Cheering.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Bubbles.wav"
+          ],
+          "src": [
+            "template/Bubbles.ogg",
+            "template/Bubbles.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Coin1.wav"
+          ],
+          "src": [
+            "template/Coin1.ogg",
+            "template/Coin1.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Coin2.mp3"
+          ],
+          "src": [
+            "template/Coin2.ogg",
+            "template/Coin2.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/diamond-sparkle.mp3"
+          ],
+          "src": [
+            "template/diamond-sparkle.ogg",
+            "template/diamond-sparkle.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Game Negative SFX 3.mp3"
+          ],
+          "src": [
+            "template/Game Negative SFX 3.ogg",
+            "template/Game Negative SFX 3.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Hover.wav"
+          ],
+          "src": [
+            "template/Hover.ogg",
+            "template/Hover.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Opening Chest 1.mp3"
+          ],
+          "src": [
+            "template/Opening Chest 1.ogg",
+            "template/Opening Chest 1.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Opening Chest 2.mp3"
+          ],
+          "src": [
+            "template/Opening Chest 2.ogg",
+            "template/Opening Chest 2.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Pitched-Tapping-Glass.wav"
+          ],
+          "src": [
+            "template/Pitched-Tapping-Glass.ogg",
+            "template/Pitched-Tapping-Glass.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Positive Open.wav"
+          ],
+          "src": [
+            "template/Positive Open.ogg",
+            "template/Positive Open.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/ScoreUpdate.mp3"
+          ],
+          "src": [
+            "template/ScoreUpdate.ogg",
+            "template/ScoreUpdate.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Synth-Appear-01.m4a"
+          ],
+          "src": [
+            "template/Synth-Appear-01.m4a"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Synth-Whoosh-Small-01.m4a"
+          ],
+          "src": [
+            "template/Synth-Whoosh-Small-01.m4a"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Tap.wav"
+          ],
+          "src": [
+            "template/Tap.ogg",
+            "template/Tap.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "template/Whoosh.wav"
+          ],
+          "src": [
+            "template/Whoosh.ogg",
+            "template/Whoosh.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "Tile Tapped.wav"
+          ],
+          "src": [
+            "Tile Tapped.ogg",
+            "Tile Tapped.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "TilesDrop.wav"
+          ],
+          "src": [
+            "TilesDrop.ogg",
+            "TilesDrop.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "TileTapper Music Loop 1.wav"
+          ],
+          "src": [
+            "TileTapper Music Loop 1.ogg",
+            "TileTapper Music Loop 1.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    }
+  ]
+}

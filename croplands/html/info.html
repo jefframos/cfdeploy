@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>Info</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style/fonts.css" />
+  </head>
+
+  <body>
+    <nav class="top-menu">
+      <button onclick="window.scrollToSection('game-explanation')">
+        GAME EXPLANATION</button
+      ><button onclick="window.scrollToSection('how-to-play')">
+        HOW TO PLAY</button
+      ><button onclick="window.scrollToSection('rewards')">REWARDS</button
+      ><button onclick="window.scrollToSection('paytables')">PAYTABLES</button>
+    </nav>
+    <div
+      class="tiled-image"
+      style="
+        background-color: #000;
+        color: #f0f0f0;
+        height: 250px;
+        background-image: url('images/pattern.png');
+      "
+    >
+      <img src="./images/logo.png" alt="" style="height: 200px" />
+    </div>
+    <div data-redirect-id="game-explanation">
+      <h1 class="table-title">Game Explanation</h1>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="flex-container">
+      <div id="flex-2-item-0" class="flex-item">
+        Every game generates a new board
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="table-3">
+        <tr id="table-3-row-0" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_01.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            The board is 5x5 consisting of a variety of tiles:
+          </td>
+        </tr>
+        <tr id="table-3-row-1" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_02.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Starting Tile - Randomised point where the player begins
+          </td>
+        </tr>
+        <tr id="table-3-row-2" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_03.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Pitfall Tile - Impassible tiles, randomly around the board
+          </td>
+        </tr>
+        <tr id="table-3-row-3" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_04.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Regular Tile - Does nothing. Becomes a highlighted tile when next to
+            a Gem Tile or Starting Tile
+          </td>
+        </tr>
+        <tr id="table-3-row-4" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_05.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Highlighted Tile - Can be tapped to reveal either a Gem Tile or a
+            Bomb Tile
+          </td>
+        </tr>
+        <tr id="table-3-row-5" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_06.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Gem Tile - Shows one of three gems. When revealed, the player’s
+            payout multiplier increases by one stage
+          </td>
+        </tr>
+        <tr id="table-3-row-6" class="image-left">
+          <td class="image-cell">
+            <img src="./images/fatui_07.png" alt="Image" />
+          </td>
+          <td style="text-align: left; vertical-align: middle">
+            Bomb Tile - When revealed, the player loses the game
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_09.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-5-item-0" class="flex-item">
+        The Multiplier Track shows the currently earned multiplier, and that the
+        maximum multiplier is x1000
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_10.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-7-item-0" class="flex-item">
+        The settle button allows you to end the game with the current
+        multiplier, leaving the ‘Win Amount’ shown on the left
+      </div>
+    </div>
+    <div data-redirect-id="how-to-play">
+      <h1 class="table-title">How To Play</h1>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="flex-container">
+      <div id="flex-9-item-0" class="flex-item">
+        At the start of each game, you must choose your play amount and currency
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_11.png"
+        alt="Standalone Image"
+        style="height: 300px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-11-item-0" class="flex-item">Then press continue</div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_12.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-13-item-0" class="flex-item">
+        A random board is generated
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_13.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-15-item-0" class="flex-item">
+        You may then select a highlighted tile to reveal
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_14.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-17-item-0" class="flex-item">
+        The tile will then be revealed as a bomb, or a gem
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_15.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-19-item-0" class="flex-item">
+        If a bomb is selected, then the game ends, and you lose
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_16.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-21-item-0" class="flex-item">
+        If a gem is revealed then your multiplier increases
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_17.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-23-item-0" class="flex-item">
+        As well as your potential reward
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_18.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-25-item-0" class="flex-item">
+        The Settle button is revealed, and the game continues
+      </div>
+    </div>
+    <div class="flex-container">
+      <div id="flex-26-item-0" class="flex-item">
+        The game then continues until either a bomb is struck, a bomb is
+        reached, or you achieve the maximum multiplier
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_19.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div data-redirect-id="rewards"><h1 class="table-title">Rewards</h1></div>
+    <div style="height: 30px"></div>
+    <div class="flex-container">
+      <div id="flex-29-item-0" class="flex-item">
+        Before each game, the player selects a play amount
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_11.png"
+        alt="Standalone Image"
+        style="height: 300px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-31-item-0" class="flex-item">
+        This amount is held until the player settles or loses
+      </div>
+    </div>
+    <div class="flex-container">
+      <div id="flex-32-item-0" class="flex-item">
+        Each time you select a tile, you’ll either be shown a gem or a bomb
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_07.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-34-item-0" class="flex-item">
+        If you get a bomb, then you lose your play amount and the game ends
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_06.png"
+        alt="Standalone Image"
+        style="height: 200px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-36-item-0" class="flex-item">
+        If you get a gem, then your multiplier increases and the game continues
+      </div>
+    </div>
+    <div class="flex-container">
+      <div id="flex-37-item-0" class="flex-item">
+        After earning one gem, you gain the option to settle before selecting
+        each tile. Doing so will reward you with your play amount multiplied by
+        your multiplier
+      </div>
+    </div>
+    <div class="flex-item align-center">
+      <img
+        src="./images/fatui_18.png"
+        alt="Standalone Image"
+        style="height: 120px"
+      />
+    </div>
+    <div class="flex-container">
+      <div id="flex-39-item-0" class="flex-item">
+        This continues with increasing difficulty until you hit a bomb, settle,
+        or reach the x1000 multiplier
+      </div>
+    </div>
+    <div data-redirect-id="paytables">
+      <h1 class="table-title">Paytables</h1>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="flex-container">
+      <div id="flex-41-item-0" class="flex-item">
+        The Main game's RTP depends on the round
+      </div>
+    </div>
+    <div class="table-container">
+      <table id="table-42">
+        <tr id="table-42-row-0" class="image-left">
+          <td style="border: 2px solid white"></td>
+          <td style="border: 2px solid white">Multiplier</td>
+          <td style="border: 2px solid white">Chance Per Round</td>
+          <td style="border: 2px solid white">Cumulative Chance</td>
+          <td style="border: 2px solid white">RTP</td>
+        </tr>
+        <tr id="table-42-row-1" class="image-left">
+          <td style="border: 2px solid white">Round 1</td>
+          <td style="border: 2px solid white">1.2x</td>
+          <td style="border: 2px solid white">80%</td>
+          <td style="border: 2px solid white">80.00%</td>
+          <td style="border: 2px solid white">0.96%</td>
+        </tr>
+        <tr id="table-42-row-2" class="image-left">
+          <td style="border: 2px solid white">Round 2</td>
+          <td style="border: 2px solid white">2x</td>
+          <td style="border: 2px solid white">60%</td>
+          <td style="border: 2px solid white">48.00%</td>
+          <td style="border: 2px solid white">0.96%</td>
+        </tr>
+        <tr id="table-42-row-3" class="image-left">
+          <td style="border: 2px solid white">Round 3</td>
+          <td style="border: 2px solid white">3.2x</td>
+          <td style="border: 2px solid white">60%</td>
+          <td style="border: 2px solid white">28.80%</td>
+          <td style="border: 2px solid white">0.9216%</td>
+        </tr>
+        <tr id="table-42-row-4" class="image-left">
+          <td style="border: 2px solid white">Round 4</td>
+          <td style="border: 2px solid white">8x</td>
+          <td style="border: 2px solid white">40%</td>
+          <td style="border: 2px solid white">11.52%</td>
+          <td style="border: 2px solid white">0.9216%</td>
+        </tr>
+        <tr id="table-42-row-5" class="image-left">
+          <td style="border: 2px solid white">Round 5</td>
+          <td style="border: 2px solid white">20x</td>
+          <td style="border: 2px solid white">40%</td>
+          <td style="border: 2px solid white">4.608%</td>
+          <td style="border: 2px solid white">0.9216%</td>
+        </tr>
+        <tr id="table-42-row-6" class="image-left">
+          <td style="border: 2px solid white">Round 6</td>
+          <td style="border: 2px solid white">50x</td>
+          <td style="border: 2px solid white">40%</td>
+          <td style="border: 2px solid white">1.843%</td>
+          <td style="border: 2px solid white">0.9216%</td>
+        </tr>
+        <tr id="table-42-row-7" class="image-left">
+          <td style="border: 2px solid white">Round 7</td>
+          <td style="border: 2px solid white">250x</td>
+          <td style="border: 2px solid white">20%</td>
+          <td style="border: 2px solid white">0.36864%</td>
+          <td style="border: 2px solid white">0.9216%</td>
+        </tr>
+        <tr id="table-42-row-8" class="image-left">
+          <td style="border: 2px solid white">Round 8</td>
+          <td style="border: 2px solid white">1000x</td>
+          <td style="border: 2px solid white">20%</td>
+          <td style="border: 2px solid white">0.073728%</td>
+          <td style="border: 2px solid white">0.73728%</td>
+        </tr>
+      </table>
+    </div>
+    <div style="height: 150px"></div>
+    <div class="flex-container">
+      <div id="flex-43-item-0" class="flex-item"></div>
+    </div>
+    <script>
+      window.scrollToSection = function scrollToSection(redirectId) {
+        const target = document.querySelector(
+          '[data-redirect-id="' + redirectId + '"]'
+        );
+
+        const offset = -20; // Adjust this value as needed
+        const elementPosition =
+          target.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition + offset;
+
+        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "bitmap/BigWheel.png"
+          ],
+          "src": [
+            "bitmap/BigWheel.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/BigWheel.xml"
+          ],
+          "src": [
+            "bitmap/BigWheel.xml"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/poppins-emerald.png"
+          ],
+          "src": [
+            "bitmap/poppins-emerald.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/poppins-emerald.xml"
+          ],
+          "src": [
+            "bitmap/poppins-emerald.xml"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/poppins-gold.png"
+          ],
+          "src": [
+            "bitmap/poppins-gold.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/poppins-gold.xml"
+          ],
+          "src": [
+            "bitmap/poppins-gold.xml"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/SmallWheel.png"
+          ],
+          "src": [
+            "bitmap/SmallWheel.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/SmallWheel.xml"
+          ],
+          "src": [
+            "bitmap/SmallWheel.xml"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-Bold.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-Bold.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-Bold"
+            },
+            "family": "Poppins-Bold"
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-ExtraLight.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-ExtraLight.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-ExtraLight"
+            },
+            "family": "Poppins-ExtraLight"
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-Regular.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-Regular.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-Regular"
+            },
+            "family": "Poppins-Regular"
+          }
+        }
+      ]
+    }
+  ]
+}

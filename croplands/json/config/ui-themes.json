@@ -1,0 +1,79 @@
+{
+    "settingsColor": "#c9a26f",
+    "autobets": {
+        "autobetOpenColor": "#fbb00f",
+        "backgroundColor": "#170806"
+    },
+    "settle": {
+        "backgroundColor": "#170806",
+        "settleColor": "#fbb00f",
+        "playColor": "#d64e7f",
+        "goColor": "#d64e7f",
+        "playButtonTextColor": "#ffffff",
+        "playButtonSettleColor": "#170806",
+        "settleLabel": "SETTLE",
+        "playLabel": "PLAY",
+        "goLabel": "GO"
+    },
+    "switch": {
+        "backgroundColor": "#52dbff",
+        "markerColor": "#ee92ff",
+        "activeFontColor": "#ffffff",
+        "unactiveFontColor": "#ffffff",
+        "padding": {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10
+        },
+        "textStyle": {
+            "stroke": "#12b4cc",
+            "strokeThickness": 2,
+            "resolution": 1,
+            "shadow": {
+                "offsetY": 2,
+                "color": "#000000",
+                "fill": true,
+                "blur": 5
+            }
+        }
+    },
+    "maxPrize": {
+        "backgroundColor": "#170806",
+        "valueFontColor": "#ffffff",
+        "titleFontColor": "#d64e7f"
+    },
+    "chooseAmount": {
+        "backgroundColor": "#170806",
+        "buttonColor": "#d28621",
+        "titleColor": "#ffa236",
+        "betAmountColor": "#ffffff",
+        "buttonTextColor": "#ffffff",
+        "titleLabel": "CHOOSE PLAY AMOUNT"
+    },
+    "balance": {
+        "backgroundColor": "#43d7ff",
+        "titleColor": "#ffffff",
+        "valueColor": "#ffffff",
+        "textStyle": {
+            "stroke": "#12b4cc",
+            "strokeThickness": 2,
+            "resolution": 1,
+            "shadow": {
+                "offsetY": 2,
+                "color": "#000000",
+                "fill": true,
+                "blur": 5
+            }
+        }
+    },
+    "winPopupTheme": {
+        "backgroundColor": "#170806",
+        "titleColor": "#d28621",
+        "valueColor": "#ffffff",
+        "showPopSound": {
+            "id": "hpp-coinstart",
+            "volume": 0.5
+        }
+    }
+}

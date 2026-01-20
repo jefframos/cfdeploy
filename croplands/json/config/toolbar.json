@@ -1,0 +1,111 @@
+[
+    {
+        "type": "seed",
+        "id": "seedTest",
+        "row": 4,
+        "bgKey": "shapes-1",
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "ItemIcon_Skull",
+        "iconAtlas": "farming",
+        "labelText": "25",
+        "labelIconKey": "$CURRENCY_ICON",
+        "data": {
+            "seedType": "test",
+            "amountId": 0
+        }
+    },
+    {
+        "type": "seed",
+        "id": "seedA",
+        "row": 4,
+        "bgKey": "shapes-1",
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "seed1",
+        "iconAtlas": "farming",
+        "labelText": "25",
+        "labelIconKey": "$CURRENCY_ICON",
+        "data": {
+            "seedType": "hard",
+            "amountId": 1
+        }
+    },
+    {
+        "type": "seed",
+        "id": "seedB",
+        "row": 4,
+        "bgKey": "shapes-2",
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "seed2",
+        "iconAtlas": "farming",
+        "labelText": "25",
+        "labelIconKey": "$CURRENCY_ICON",
+        "data": {
+            "seedType": "regular",
+            "amountId": 2
+        }
+    },
+    {
+        "type": "seed",
+        "id": "seedC",
+        "row": 4,
+        "bgKey": "shapes-2",
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "seed3",
+        "iconAtlas": "farming",
+        "labelText": "25",
+        "labelIconKey": "$CURRENCY_ICON",
+        "data": {
+            "seedType": "bonus",
+            "amountId": 3
+        }
+    },
+    {
+        "type": "crop",
+        "id": "crop",
+        "row": 3,
+        "bgKey": "shapes-2",
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "collect",
+        "iconAtlas": "farming",
+        "scale": 0.8,
+        "labelText": "Collect"
+    },
+    {
+        "type": "water",
+        "id": "water",
+        "row": 2,
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "water",
+        "iconAtlas": "farming",
+        "scale": 0.8,
+        "labelText": "Rain"
+    },
+    {
+        "type": "cropAll",
+        "id": "cropAll",
+        "row": 1,
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "cropAll",
+        "iconAtlas": "farming",
+        "scale": 0.8,
+        "labelText": "Harvest"
+    },
+    {
+        "type": "potAll",
+        "id": "potAll",
+        "row": 0,
+        "bgAtlas": "farming",
+        "isNineSliced": false,
+        "iconKey": "plantall",
+        "iconAtlas": "farming",
+        "scale": 0.8,
+        "labelText": "Plant"
+    }
+]

@@ -1,0 +1,53 @@
+{
+  "atlas": "guy",
+  "tileWidth": 120,
+  "multiplierOffsetY": -520,
+  "backgroundLayers": [
+    {
+      "frames": "mailbox"
+    }
+  ],
+  "highlightFrame": "tile-highlight",
+  "hazardHighlightFrame": "hazard-highlight",
+  "multiplierStateSkin": {
+    "atlas": "guy",
+    "config": {
+      "next": {
+        "stateViewReference": "tile-next",
+        "fontDefinition": {
+          "id": "poppins-emerald"
+        }
+      },
+      "active": {
+        "stateViewReference": "tile-active",
+        "fontDefinition": {
+          "id": "poppins-emerald"
+        }
+      },
+      "conquered": {
+        "stateViewReference": "tile-conquered",
+        "fontDefinition": {
+          "id": "poppins-emerald"
+        }
+      },
+      "hazard": {
+        "stateViewReference": "tile-lose",
+        "fontDefinition": {
+          "id": "poppins-emerald"
+        }
+      },
+      "win": {
+        "stateViewReference": "tile-win",
+        "fontDefinition": {
+          "id": "poppins-emerald"
+        }
+      }
+    }
+  },
+  "multiplierStateSound": {
+    "win": {
+      "id": "start_game",
+      "volume": 0.5
+    }
+  }
+}

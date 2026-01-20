@@ -1,0 +1,164 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "tutorial/backTileImage.png",
+            "backTileImage.png"
+          ],
+          "src": [
+            "tutorial/backTileImage.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/dot.png",
+            "dot.png"
+          ],
+          "src": [
+            "tutorial/dot.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/next.png",
+            "next.png"
+          ],
+          "src": [
+            "tutorial/next.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page1.png",
+            "page1.png"
+          ],
+          "src": [
+            "tutorial/page1.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/page2.png",
+            "page2.png"
+          ],
+          "src": [
+            "tutorial/page2.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "tutorial/prev.png",
+            "prev.png"
+          ],
+          "src": [
+            "tutorial/prev.png"
+          ],
+          "data": {
+            "tags": {
+              "copy": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "game",
+      "assets": [
+        {
+          "alias": [
+            "game/animation1",
+            "animation1"
+          ],
+          "src": [
+            "game/animation1-sRcRAw.webp.json",
+            "game/animation1-lG39Pg.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "a": true,
+              "tps": true
+            },
+            "a": true
+          }
+        },
+        {
+          "alias": [
+            "game/guy",
+            "guy"
+          ],
+          "src": [
+            "game/guy-RoY4uA.webp.json",
+            "game/guy-2AQWmw.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game/plinko",
+            "plinko"
+          ],
+          "src": [
+            "game/plinko-KuxzUw.webp.json",
+            "game/plinko-e5Og.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "game/ui",
+            "ui"
+          ],
+          "src": [
+            "game/ui-Rqestw.png.json",
+            "game/ui-klSuIw.webp.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

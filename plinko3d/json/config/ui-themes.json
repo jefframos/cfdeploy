@@ -1,0 +1,57 @@
+{
+  "settingsColor": "#c9a26f",
+  "autobets": {
+    "autobetOpenColor": "#fbb00f",
+    "backgroundColor": "#170806"
+  },
+  "settle": {
+    "backgroundColor": "#170806",
+    "settleColor": "#fbb00f",
+    "playColor": "#d64e7f",
+    "goColor": "#d64e7f",
+    "playButtonTextColor": "#ffffff",
+    "playButtonSettleColor": "#170806",
+    "settleLabel": "SETTLE",
+    "playLabel": "PLAY",
+    "goLabel": "GO"
+  },
+  "switch": {
+    "backgroundColor": "#170806",
+    "markerColor": "#8e2d4e",
+    "activeFontColor": "#ffffff",
+    "unactiveFontColor": "#d28621",
+    "padding": {
+      "top": 10,
+      "bottom": 10,
+      "left": 10,
+      "right": 10
+    }
+  },
+  "maxPrize": {
+    "backgroundColor": "#170806",
+    "valueFontColor": "#ffffff",
+    "titleFontColor": "#d64e7f"
+  },
+  "chooseAmount": {
+    "backgroundColor": "#170806",
+    "buttonColor": "#d28621",
+    "titleColor": "#ffa236",
+    "betAmountColor": "#ffffff",
+    "buttonTextColor": "#ffffff",
+    "titleLabel": "CHOOSE PLAY AMOUNT"
+  },
+  "balance": {
+    "backgroundColor": "#170806",
+    "titleColor": "#d28621",
+    "valueColor": "#ffa236"
+  },
+  "winPopupTheme": {
+    "backgroundColor": "#170806",
+    "titleColor": "#d28621",
+    "valueColor": "#ffffff",
+    "showPopSound": {
+      "id": "hpp-coinstart",
+      "volume": 0.5
+    }
+  }
+}

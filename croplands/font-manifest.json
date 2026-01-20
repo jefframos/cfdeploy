@@ -1,0 +1,76 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "bitmap/TanookiFont.png"
+          ],
+          "src": [
+            "bitmap/TanookiFont.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "bitmap/TanookiFont.xml"
+          ],
+          "src": [
+            "bitmap/TanookiFont.xml"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-Bold.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-Bold.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-Bold"
+            },
+            "family": "Poppins-Bold"
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-ExtraLight.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-ExtraLight.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-ExtraLight"
+            },
+            "family": "Poppins-ExtraLight"
+          }
+        },
+        {
+          "alias": [
+            "webfonts/Poppins-Regular.ttf"
+          ],
+          "src": [
+            "webfonts/Poppins-Regular.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Poppins-Regular"
+            },
+            "family": "Poppins-Regular"
+          }
+        }
+      ]
+    }
+  ]
+}

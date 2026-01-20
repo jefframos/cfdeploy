@@ -1,0 +1,47 @@
+{
+  "atlas": "guy",
+  "tileWidth": 120,
+  "multiplierOffsetY": -450,
+  "backgroundLayers": [
+    {
+      "frames": [
+        "tile-background0001",
+        "tile-background0002",
+        "tile-background0003",
+        "tile-background0004"
+      ]
+    }
+  ],
+  "highlightFrame": "tile-highlight",
+  "hazardHighlightFrame": {
+    "id": "lose",
+    "loop": 0,
+    "framerate": 18,
+    "width": 200,
+    "fit": true
+  },
+  "multiplierStateSkin": {
+    "atlas": "guy",
+    "frames": {
+      "next": "tile-next",
+      "active": "tile-active",
+      "conquered": "tile-conquered",
+      "hazard": "tile-lose",
+      "win": "tile-win"
+    }
+  },
+  "multiplierStateSound": {
+    "hazard": {
+      "id": "ICE_Bomb_Hit",
+      "volume": 0.5
+    },
+    "active": {
+      "id": "Explosion_03",
+      "volume": 0.2
+    },
+    "win": {
+      "id": "start_game",
+      "volume": 0.5
+    }
+  }
+}
